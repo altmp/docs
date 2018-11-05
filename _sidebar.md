@@ -8,4 +8,4 @@
     * [Vehicle Colors](resources/Vehicle_Colors.md)
   * [Peds](resources/Peds.md)
   * [Blips](resources/Blips.md)
-    * [Blips Colors](resources/Blips_Color.md)
+    * [Blips Colors](resources/Blip_Color.md)
