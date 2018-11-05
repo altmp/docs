@@ -1,4 +1,5 @@
 <table>
+  <tr><td>ID:</td><td>IMAGE:</td></tr>
   <tr><td>1</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/blip/blip_id_1.jpg" alt="drawing" width="50"/></td></tr>
   <tr><td>2</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/blip/blip_id_2.jpg" alt="drawing" width="50"/></td></tr>
   <tr><td>3</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/blip/blip_id_3.jpg" alt="drawing" width="50"/></td></tr>
