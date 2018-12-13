@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700&subset=cyrillic');
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background: #222;
+}
+
+.app-nav>ul>li>a, .app-nav>ul>li>span {
+  color: #b4b4b4;
+}
+
+.app-nav>ul>li>a:hover, .app-nav>ul>li>span:hover {
+  color: #eee;
+}
+
+.app-nav>ul>li>a.active, .app-nav>ul>li>span.active {
+  color: #84ad73;
+  text-shadow: 0px 0px 20px rgba(143, 194, 112, .7);
+}
+
+.sidebar {
+  background: #272727;
+  border: none;
+}
+
+.sidebar-toggle .sidebar-toggle-button {
+  background: #333333;
+  color: #eee;
+}
+
+.sidebar>h1 img {
+    max-width: 50%;
+    margin: 30px;
+}
+
+.sidebar-nav li > a[href^="#/"]:not([href*="?id="]):only-child,
+.sidebar-nav li>a[href^="#/"]:not([href*="?id="]):not(:only-child),
+.sidebar-nav li.active>a[href^="#/"]:not([href*="?id="]):not(:only-child)  {
+  background: none;
+  padding: 6px;
+}
+
+.sidebar-nav li.active>a, .sidebar-nav li.collapse>a {
+  color: #eee;
+  font-weight: 500;
+}
+
+.sidebar .search .input-wrap {
+  border: none;
+  background: none;
+}
+
+.sidebar .search input[type="search"] {
+  padding: 25px;
+  padding-left: 60px;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #222;
+}
+
+.sidebar .search input[type="search"]:focus {
+  background-color: #222;
+}
+
+.sidebar .search .clear-button {
+  display: none !important;
+}
+
+.app-nav:not(:empty) ~ main .markdown-section {
+    padding-top: 5.5rem;
+}
+
+.markdown-section h1 {
+  font-weight: 700;
+}
+
+.markdown-section blockquote {
+  background: #272727;
+}
+
+.markdown-section pre[data-lang] code {
+  background: #272727;
+  border: 1px solid rgba(255,255,255,.05);
+}
+
+.markdown-section tbody {
+  border: 1px solid rgba(255,255,255,.1)
+}
+
+.markdown-section tbody tr:nth-child(2n+1) {
+  background: rgba(255,255,255,.03);
+}
+
+.markdown-section td {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,.1);
+}
+
+.docsify-copy-code-button, body .docsify-copy-code-button::after {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.docsify-copy-code-button.success:after {
+  background: rgba(255,255,255,.1);
+}
+
+.medium-zoom-overlay {
+  background: rgba(34, 34, 34, 0.95) !important;
+}
+
+.colors_preview {
+  width: 100%;
+  height: 95%;
+  display: inline-block;
+  border: 1px solid rgba(255,255,255,.2)
+}
