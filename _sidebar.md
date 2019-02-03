@@ -6,6 +6,7 @@
 * [Resources](Resources.md)
   * [Vehicles](resources/Vehicles.md)
     * [Vehicle Colors](resources/Vehicle_Colors.md)
+    * [Vehicle Models](resources/Vehicle_Models.md)
   * [Peds](resources/Peds.md)
   * [Blips](resources/Blips.md)
     * [Blips Colors](resources/Blip_Color.md)
