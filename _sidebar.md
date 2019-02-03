@@ -11,6 +11,8 @@
     * [Vehicle Flags](resources/Vehicle_Flags.md)
     * [Vehicle Models](resources/Vehicle_Models.md)
     * [Vehicle Mods](resources/Vehicle_Mods.md)
+    * [Vehicle Types](resources/Vehicle_Types.md)
   * [Peds](resources/Peds.md)
   * [Blips](resources/Blips.md)
     * [Blips Colors](resources/Blip_Color.md)
+  * [Weather](resources/Weather.md)
