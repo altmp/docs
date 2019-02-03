@@ -14,3 +14,4 @@
   * [Peds](resources/Peds.md)
   * [Blips](resources/Blips.md)
     * [Blips Colors](resources/Blip_Color.md)
+  * [Weather](resources/Weather.md)
