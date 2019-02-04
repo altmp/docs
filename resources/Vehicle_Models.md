@@ -80,8 +80,8 @@
 | ![](vehicle_img/models/coupes/Oracle2.png ':size=150') | **Name:** Oracle2<br />**Hash(HEX):** 0xE18195B2  |
 | ![](vehicle_img/models/coupes/Sentinel.png ':size=150') | **Name:** Sentinel<br />**Hash(HEX):** 0x50732C82  |
 | ![](vehicle_img/models/coupes/Sentinel2.png ':size=150') | **Name:** Sentinel2<br />**Hash(HEX):** 0x3412AE2D  |
-| ![](vehicle_img/models/coupes/Windsor.png ':size=150') | **Name:** Windsor<br />**Hash(HEX):** 0x5E4327C8  |
-| ![](vehicle_img/models/coupes/Windsor2.png ':size=150') | **Name:** Windsor2<br />**Hash(HEX):** 0x8CF5CAE1  |
+| ![](vehicle_img/models/coupes/Windsor.png ':size=150') | **Name:** Windsor<br />**Hash(HEX):** 0x5E4327C8<br />**DLC:** Gotten Gains Part 1 |
+| ![](vehicle_img/models/coupes/Windsor2.png ':size=150') | **Name:** Windsor2<br />**Hash(HEX):** 0x8CF5CAE1<br />**DLC:** Further Adventures in Finance and Felony |
 | ![](vehicle_img/models/coupes/Zion.png ':size=150') | **Name:** Zion<br />**Hash(HEX):** 0xBD1B39C3  |
 | ![](vehicle_img/models/coupes/Zion2.png ':size=150') | **Name:** Zion2<br />**Hash(HEX):** 0xB8E2AE18  |
 
@@ -116,7 +116,7 @@
 | ![](vehicle_img/models/emergency/Pranger.png ':size=150') | **Name:** Pranger<br />**Hash(HEX):** 0x2C33B46E  |
 | ![](vehicle_img/models/emergency/Predator.png ':size=150') | **Name:** Predator<br />**Hash(HEX):** 0xE2E7D4AB  |
 | ![](vehicle_img/models/emergency/Riot.png ':size=150') | **Name:** Riot<br />**Hash(HEX):** 0xB822A1AA  |
-| ![](vehicle_img/models/emergency/Riot2.png ':size=150') | **Name:** Riot2<br />**Hash(HEX):** 0x9B16A3B4  |
+| ![](vehicle_img/models/emergency/Riot2.png ':size=150') | **Name:** Riot2<br />**Hash(HEX):** 0x9B16A3B4<br />**DLC:** The Doomsday Heist |
 | ![](vehicle_img/models/emergency/Sheriff.png ':size=150') | **Name:** Sheriff<br />**Hash(HEX):** 0x9BAA707C  |
 | ![](vehicle_img/models/emergency/Sheriff2.png ':size=150') | **Name:** Sheriff2<br />**Hash(HEX):** 0x72935408  |
 
@@ -130,7 +130,7 @@
 | ![](vehicle_img/models/industrial/Cutter.png ':size=150') | **Name:** Cutter<br />**Hash(HEX):** 0xC3FBA120  |
 | ![](vehicle_img/models/industrial/Dump.png ':size=150') | **Name:** Dump<br />**Hash(HEX):** 0x810369E2  |
 | ![](vehicle_img/models/industrial/Flatbed.png ':size=150') | **Name:** Flatbed<br />**Hash(HEX):** 0x50B0215A  |
-| ![](vehicle_img/models/industrial/Guardian.png ':size=150') | **Name:** Guardian<br />**Hash(HEX):** 0x825A9F4C  |
+| ![](vehicle_img/models/industrial/Guardian.png ':size=150') | **Name:** Guardian<br />**Hash(HEX):** 0x825A9F4C<br />**DLC:** Heists |
 | ![](vehicle_img/models/industrial/Handler.png ':size=150') | **Name:** Handler<br />**Hash(HEX):** 0x1A7FCEFA  |
 | ![](vehicle_img/models/industrial/Mixer.png ':size=150') | **Name:** Mixer<br />**Hash(HEX):** 0xD138A6BB  |
 | ![](vehicle_img/models/industrial/Mixer2.png ':size=150') | **Name:** Mixer2<br />**Hash(HEX):** 0x1C534995  |
