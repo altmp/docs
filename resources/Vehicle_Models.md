@@ -124,7 +124,19 @@
 ..
 
 ## Industrial
-..
+| Image                                        | Description                                                  |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| ![](vehicle_img/models/industrial/Bulldozer.png ':size=150') | **Name:** Bulldozer<br />**Hash(HEX):** 0x7074F39D  |
+| ![](vehicle_img/models/industrial/Cutter.png ':size=150') | **Name:** Cutter<br />**Hash(HEX):** 0xC3FBA120  |
+| ![](vehicle_img/models/industrial/Dump.png ':size=150') | **Name:** Dump<br />**Hash(HEX):** 0x810369E2  |
+| ![](vehicle_img/models/industrial/Flatbed.png ':size=150') | **Name:** Flatbed<br />**Hash(HEX):** 0x50B0215A  |
+| ![](vehicle_img/models/industrial/Guardian.png ':size=150') | **Name:** Guardian<br />**Hash(HEX):** 0x825A9F4C  |
+| ![](vehicle_img/models/industrial/Handler.png ':size=150') | **Name:** Handler<br />**Hash(HEX):** 0x1A7FCEFA  |
+| ![](vehicle_img/models/industrial/Mixer.png ':size=150') | **Name:** Mixer<br />**Hash(HEX):** 0xD138A6BB  |
+| ![](vehicle_img/models/industrial/Mixer2.png ':size=150') | **Name:** Mixer2<br />**Hash(HEX):** 0x1C534995  |
+| ![](vehicle_img/models/industrial/Rubble.png ':size=150') | **Name:** Rubble<br />**Hash(HEX):** 0x9A5B1DCC  |
+| ![](vehicle_img/models/industrial/TipTruck.png ':size=150') | **Name:** TipTruck<br />**Hash(HEX):** 0x2E19879  |
+| ![](vehicle_img/models/industrial/TipTruck2.png ':size=150') | **Name:** TipTruck2<br />**Hash(HEX):** 0xC7824E5E  |
 
 ## Military
 ..
