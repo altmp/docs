@@ -86,7 +86,15 @@
 | ![](vehicle_img/models/coupes/Zion2.png ':size=150') | **Name:** Zion2<br />**Hash(HEX):** 0xB8E2AE18  |
 
 ## Cycles
-..
+| Image                                        | Description                                                  |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| ![](vehicle_img/models/cycles/Bmx.png ':size=150') | **Name:** Bmx<br />**Hash(HEX):** 0x43779C54  |
+| ![](vehicle_img/models/cycles/Cruiser.png ':size=150') | **Name:** Cruiser<br />**Hash(HEX):** 0x1ABA13B5  |
+| ![](vehicle_img/models/cycles/Fixter.png ':size=150') | **Name:** Fixter<br />**Hash(HEX):** 0xCE23D3BF  |
+| ![](vehicle_img/models/cycles/Scorcher.png ':size=150') | **Name:** Scorcher<br />**Hash(HEX):** 0xF4E1AA15  |
+| ![](vehicle_img/models/cycles/TriBike.png ':size=150') | **Name:** TriBike<br />**Hash(HEX):** 0x4339CD69  |
+| ![](vehicle_img/models/cycles/TriBike2.png ':size=150') | **Name:** TriBike2<br />**Hash(HEX):** 0xB67597EC  |
+| ![](vehicle_img/models/cycles/TriBike3.png ':size=150') | **Name:** TriBike3<br />**Hash(HEX):** 0xE823FB48  |
 
 ## Emergency
 ..
