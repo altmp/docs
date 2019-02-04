@@ -225,7 +225,30 @@
 ..
 
 ## Trailer
-..
+| Image                                        | Description                                                  |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| ![](vehicle_img/models/trailer/ArmyTanker.png ':size=150') | **Name:** ArmyTanker<br />**Hash(HEX):** 0xB8081009  |
+| ![](vehicle_img/models/trailer/ArmyTrailer.png ':size=150') | **Name:** ArmyTrailer<br />**Hash(HEX):** 0xA7FF33F5  |
+| ![](vehicle_img/models/trailer/ArmyTrailer2.png ':size=150') | **Name:** ArmyTrailer2<br />**Hash(HEX):** 0x9E6B14D6  |
+| ![](vehicle_img/models/trailer/BaleTrailer.png ':size=150') | **Name:** BaleTrailer<br />**Hash(HEX):** 0xE82AE656  |
+| ![](vehicle_img/models/trailer/BoatTrailer.png ':size=150') | **Name:** BoatTrailer<br />**Hash(HEX):** 0x1F3D44B5  |
+| ![](vehicle_img/models/trailer/CableCar.png ':size=150') | **Name:** CableCar<br />**Hash(HEX):** 0xC6C3242D  |
+| ![](vehicle_img/models/trailer/DockTrailer.png ':size=150') | **Name:** DockTrailer<br />**Hash(HEX):** 0x806EFBEE  |
+| ![](vehicle_img/models/trailer/GrainTrailer.png ':size=150') | **Name:** GrainTrailer<br />**Hash(HEX):** 0x3CC7F596  |
+| ![](vehicle_img/models/trailer/PropTrailer.png ':size=150') | **Name:** PropTrailer<br />**Hash(HEX):** 0x153E1B0A  |
+| ![](vehicle_img/models/trailer/RakeTrailer.png ':size=150') | **Name:** RakeTrailer<br />**Hash(HEX):** 0x174CB172  |
+| ![](vehicle_img/models/trailer/TR2.png ':size=150') | **Name:** TR2<br />**Hash(HEX):** 0x7BE032C6  |
+| ![](vehicle_img/models/trailer/TR3.png ':size=150') | **Name:** TR3<br />**Hash(HEX):** 0x6A59902D  |
+| ![](vehicle_img/models/trailer/TR4.png ':size=150') | **Name:** TR4<br />**Hash(HEX):** 0x7CAB34D0  |
+| ![](vehicle_img/models/trailer/TRFlat.png ':size=150') | **Name:** TRFlat<br />**Hash(HEX):** 0xAF62F6B2  |
+| ![](vehicle_img/models/trailer/TVTrailer.png ':size=150') | **Name:** TVTrailer<br />**Hash(HEX):** 0x967620BE  |
+| ![](vehicle_img/models/trailer/Tanker.png ':size=150') | **Name:** Tanker<br />**Hash(HEX):** 0xD46F4737  |
+| ![](vehicle_img/models/trailer/Tanker2.png ':size=150') | **Name:** Tanker2<br />**Hash(HEX):** 0x74998082<br />**DLC:** Heists |
+| ![](vehicle_img/models/trailer/TrailerLogs.png ':size=150') | **Name:** TrailerLogs<br />**Hash(HEX):** 0x782A236D  |
+| ![](vehicle_img/models/trailer/TrailerSmall.png ':size=150') | **Name:** TrailerSmall<br />**Hash(HEX):** 0x2A72BEAB  |
+| ![](vehicle_img/models/trailer/Trailers.png ':size=150') | **Name:** Trailers<br />**Hash(HEX):** 0xCBB2BE0E  |
+| ![](vehicle_img/models/trailer/Trailers2.png ':size=150') | **Name:** Trailers2<br />**Hash(HEX):** 0xA1DA3C91  |
+| ![](vehicle_img/models/trailer/Trailers3.png ':size=150') | **Name:** Trailers3<br />**Hash(HEX):** 0x8548036D  |
 
 ## Trains
 ..
