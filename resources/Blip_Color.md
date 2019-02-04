@@ -1,65 +1,89 @@
-<table>
-  <tr><td>ID:</td><td>COLOR:</td></tr>
-  <tr><td>1</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid1.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>2</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid2.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>3</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid3.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>4</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid4.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>5</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid5.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>6</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid6.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>7</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid7.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>8</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid8.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>9</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid9.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>10</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid10.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>11</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid11.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>12</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid12.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>13</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid13.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>14</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid14.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>15</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid15.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>16</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid16.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>17</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid17.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>18</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid18.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>19</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid19.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>20</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid20.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>21</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid21.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>22</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid22.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>23</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid23.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>24</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid24.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>25</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid25.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>26</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid26.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>27</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid27.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>28</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid28.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>36</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid36.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>38</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid38.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>40</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid40.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>41</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid41.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>42</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid42.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>43</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid43.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>47</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid47.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>50</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid50.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>51</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid51.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>52</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid52.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>56</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid56.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>57</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid57.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>58</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid58.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>59</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid59.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>60</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid60.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>61</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid61.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>64</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid64.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>66</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid66.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>67</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid67.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>68</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid68.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>71</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid71.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>72</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid72.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>73</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid73.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>75</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid75.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>76</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid76.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>77</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid77.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>78</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid78.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>79</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid79.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>80</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid80.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>84</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid84.png" alt="drawing" width="50"/></td></tr>
-  <tr><td>85</td><td><img src="https://github.com/altmp/docs/blob/xenusoida/resources/blip_img/color/30px-blipid85.png" alt="drawing" width="50"/></td></tr>
-</table>
+# Blip Colors
 
-
-
+| ID                                        | Color                                                  |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| 1 | ![](blip_img/color/30px-blipid1.png ':size=50') |
+| 2 | ![](blip_img/color/30px-blipid2.png ':size=50') |
+| 3 | ![](blip_img/color/30px-blipid3.png ':size=50') |
+| 4 | ![](blip_img/color/30px-blipid4.png ':size=50') |
+| 5 | ![](blip_img/color/30px-blipid5.png ':size=50') |
+| 6 | ![](blip_img/color/30px-blipid6.png ':size=50') |
+| 7 | ![](blip_img/color/30px-blipid7.png ':size=50') |
+| 8 | ![](blip_img/color/30px-blipid8.png ':size=50') |
+| 9 | ![](blip_img/color/30px-blipid9.png ':size=50') |
+| 10 | ![](blip_img/color/30px-blipid10.png ':size=50') |
+| 11 | ![](blip_img/color/30px-blipid11.png ':size=50') |
+| 12 | ![](blip_img/color/30px-blipid12.png ':size=50') |
+| 13 | ![](blip_img/color/30px-blipid13.png ':size=50') |
+| 14 | ![](blip_img/color/30px-blipid14.png ':size=50') |
+| 15 | ![](blip_img/color/30px-blipid15.png ':size=50') |
+| 16 | ![](blip_img/color/30px-blipid16.png ':size=50') |
+| 17 | ![](blip_img/color/30px-blipid17.png ':size=50') |
+| 18 | ![](blip_img/color/30px-blipid18.png ':size=50') |
+| 19 | ![](blip_img/color/30px-blipid19.png ':size=50') |
+| 20 | ![](blip_img/color/30px-blipid20.png ':size=50') |
+| 21 | ![](blip_img/color/30px-blipid21.png ':size=50') |
+| 22 | ![](blip_img/color/30px-blipid22.png ':size=50') |
+| 23 | ![](blip_img/color/30px-blipid23.png ':size=50') |
+| 24 | ![](blip_img/color/30px-blipid24.png ':size=50') |
+| 25 | ![](blip_img/color/30px-blipid25.png ':size=50') |
+| 26 | ![](blip_img/color/30px-blipid26.png ':size=50') |
+| 27 | ![](blip_img/color/30px-blipid27.png ':size=50') |
+| 28 | ![](blip_img/color/30px-blipid28.png ':size=50') |
+| 29 | ![](blip_img/color/30px-blipid29.png ':size=50') |
+| 30 | ![](blip_img/color/30px-blipid30.png ':size=50') |
+| 31 | ![](blip_img/color/30px-blipid31.png ':size=50') |
+| 32 | ![](blip_img/color/30px-blipid32.png ':size=50') |
+| 33 | ![](blip_img/color/30px-blipid33.png ':size=50') |
+| 34 | ![](blip_img/color/30px-blipid34.png ':size=50') |
+| 35 | ![](blip_img/color/30px-blipid35.png ':size=50') |
+| 36 | ![](blip_img/color/30px-blipid36.png ':size=50') |
+| 37 | ![](blip_img/color/30px-blipid37.png ':size=50') |
+| 38 | ![](blip_img/color/30px-blipid38.png ':size=50') |
+| 39 | ![](blip_img/color/30px-blipid39.png ':size=50') |
+| 40 | ![](blip_img/color/30px-blipid40.png ':size=50') |
+| 41 | ![](blip_img/color/30px-blipid41.png ':size=50') |
+| 42 | ![](blip_img/color/30px-blipid42.png ':size=50') |
+| 43 | ![](blip_img/color/30px-blipid43.png ':size=50') |
+| 44 | ![](blip_img/color/30px-blipid44.png ':size=50') |
+| 45 | ![](blip_img/color/30px-blipid45.png ':size=50') |
+| 46 | ![](blip_img/color/30px-blipid46.png ':size=50') |
+| 47 | ![](blip_img/color/30px-blipid47.png ':size=50') |
+| 48 | ![](blip_img/color/30px-blipid48.png ':size=50') |
+| 49 | ![](blip_img/color/30px-blipid49.png ':size=50') |
+| 50 | ![](blip_img/color/30px-blipid50.png ':size=50') |
+| 51 | ![](blip_img/color/30px-blipid51.png ':size=50') |
+| 52 | ![](blip_img/color/30px-blipid52.png ':size=50') |
+| 53 | ![](blip_img/color/30px-blipid53.png ':size=50') |
+| 54 | ![](blip_img/color/30px-blipid54.png ':size=50') |
+| 55 | ![](blip_img/color/30px-blipid55.png ':size=50') |
+| 56 | ![](blip_img/color/30px-blipid56.png ':size=50') |
+| 57 | ![](blip_img/color/30px-blipid57.png ':size=50') |
+| 58 | ![](blip_img/color/30px-blipid58.png ':size=50') |
+| 59 | ![](blip_img/color/30px-blipid59.png ':size=50') |
+| 60 | ![](blip_img/color/30px-blipid60.png ':size=50') |
+| 61 | ![](blip_img/color/30px-blipid61.png ':size=50') |
+| 62 | ![](blip_img/color/30px-blipid62.png ':size=50') |
+| 63 | ![](blip_img/color/30px-blipid63.png ':size=50') |
+| 64 | ![](blip_img/color/30px-blipid64.png ':size=50') |
+| 65 | ![](blip_img/color/30px-blipid65.png ':size=50') |
+| 66 | ![](blip_img/color/30px-blipid66.png ':size=50') |
+| 67 | ![](blip_img/color/30px-blipid67.png ':size=50') |
+| 68 | ![](blip_img/color/30px-blipid68.png ':size=50') |
+| 69 | ![](blip_img/color/30px-blipid69.png ':size=50') |
+| 70 | ![](blip_img/color/30px-blipid70.png ':size=50') |
+| 71 | ![](blip_img/color/30px-blipid71.png ':size=50') |
+| 72 | ![](blip_img/color/30px-blipid72.png ':size=50') |
+| 73 | ![](blip_img/color/30px-blipid73.png ':size=50') |
+| 74 | ![](blip_img/color/30px-blipid74.png ':size=50') |
+| 75 | ![](blip_img/color/30px-blipid75.png ':size=50') |
+| 76 | ![](blip_img/color/30px-blipid76.png ':size=50') |
+| 77 | ![](blip_img/color/30px-blipid77.png ':size=50') |
+| 78 | ![](blip_img/color/30px-blipid78.png ':size=50') |
+| 79 | ![](blip_img/color/30px-blipid79.png ':size=50') |
+| 80 | ![](blip_img/color/30px-blipid80.png ':size=50') |
+| 81 | ![](blip_img/color/30px-blipid81.png ':size=50') |
+| 82 | ![](blip_img/color/30px-blipid82.png ':size=50') |
+| 83 | ![](blip_img/color/30px-blipid83.png ':size=50') |
+| 84 | ![](blip_img/color/30px-blipid84.png ':size=50') |
+| 85 | ![](blip_img/color/30px-blipid85.png ':size=50') |
