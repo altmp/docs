@@ -4,6 +4,7 @@
 * [Server API](Server.md)
 * [Client API](Client.md)
 * [Resources](Resources.md)
+  * [Resource.cfg](resources/Resource.cfg.md)
   * [Vehicles](resources/Vehicles.md)
     * [Vehicle Bones](resources/Vehicle_Bones.md)
     * [Vehicle Classes](resources/Vehicle_Classes.md)

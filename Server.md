@@ -16,7 +16,7 @@ resources/
     └── ... (any .dll dependency like "AltV.Net.dll" or "mysql.dll")
 ```
 
-**resource.cfg**
+**resource.cfg** ([More Information here](Resources/Resource.cfg))
 
 ```json
 {
@@ -25,9 +25,7 @@ resources/
 }
 ```
 
-<hr/>
-
-### Client - Resource
+#### Client-Files
 
 **Folder Structure**
 
@@ -39,7 +37,7 @@ resources/
 altv-server.exe
 ```
 
-**resource.cfg**
+**resource.cfg** ([More Information here](Server_Resource.cfg))
 
 ```json
 {
@@ -70,7 +68,7 @@ resources/
 altv-server.exe
 ```
 
-**resource.cfg**
+**resource.cfg** ([More Information here](Server_Resource.cfg))
 
 ```json
 {
@@ -122,4 +120,3 @@ altv-server.exe
 ## Vehicle
 
 ## Player
-
