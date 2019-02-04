@@ -251,7 +251,15 @@
 | ![](vehicle_img/models/trailer/Trailers3.png ':size=150') | **Name:** Trailers3<br />**Hash(HEX):** 0x8548036D  |
 
 ## Trains
-..
+| Image                                        | Description                                                  |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| ![](vehicle_img/models/trains/Freight.png ':size=150') | **Name:** Freight<br />**Hash(HEX):** 0x3D6AAA9B  |
+| ![](vehicle_img/models/trains/FreightCar.png ':size=150') | **Name:** FreightCar<br />**Hash(HEX):** 0x0AFD22A6  |
+| ![](vehicle_img/models/trains/FreightCont1.png ':size=150') | **Name:** FreightCont1<br />**Hash(HEX):** 0x36DCFF98  |
+| ![](vehicle_img/models/trains/FreightCont2.png ':size=150') | **Name:** FreightCont2<br />**Hash(HEX):** 0x0E512E79  |
+| ![](vehicle_img/models/trains/FreightGrain.png ':size=150') | **Name:** FreightGrain<br />**Hash(HEX):** 0x264D9262  |
+| ![](vehicle_img/models/trains/FreightTrailer.png ':size=150') | **Name:** FreightTrailer<br />**Hash(HEX):** 0xD1ABB666  |
+| ![](vehicle_img/models/trains/TankerCar.png ':size=150') | **Name:** TankerCar<br />**Hash(HEX):** 0x22EDDC30  |
 
 ## Utility
 ..
