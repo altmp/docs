@@ -16,7 +16,7 @@ resources/
     └── ... (any .dll dependency like "AltV.Net.dll" or "mysql.dll")
 ```
 
-**resource.cfg** ([More Information here](Resources/Resource.cfg))
+**resource.cfg** ([More Information here](resources/Resource.cfg))
 
 ```json
 {
@@ -37,7 +37,7 @@ resources/
 altv-server.exe
 ```
 
-**resource.cfg** ([More Information here](Resources/Resource.cfg))
+**resource.cfg** ([More Information here](resources/Resource.cfg))
 
 ```json
 {
@@ -68,7 +68,7 @@ resources/
 altv-server.exe
 ```
 
-**resource.cfg** ([More Information here](Resources/Resource.cfg))
+**resource.cfg** ([More Information here](resources/Resource.cfg))
 
 ```json
 {
