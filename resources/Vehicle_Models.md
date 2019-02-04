@@ -68,7 +68,22 @@
 | ![](vehicle_img/models/compacts/Rhapsody.png ':size=150') | **Name:** Rhapsody<br />**Hash(HEX):** 0x322CF98F<br />**DLC:** I'm Not a Hipster |
 
 ## Coupes
-..
+| Image                                        | Description                                                  |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| ![](vehicle_img/models/coupes/CogCabrio.png ':size=150') | **Name:** CogCabrio<br />**Hash(HEX):** 0x13B57D8A  |
+| ![](vehicle_img/models/coupes/Exemplar.png ':size=150') | **Name:** Exemplar<br />**Hash(HEX):** 0xFFB15B5E  |
+| ![](vehicle_img/models/coupes/F620.png ':size=150') | **Name:** F620<br />**Hash(HEX):** 0xDCBCBE48  |
+| ![](vehicle_img/models/coupes/Felon.png ':size=150') | **Name:** Felon<br />**Hash(HEX):** 0xE8A8BDA8  |
+| ![](vehicle_img/models/coupes/Felon2.png ':size=150') | **Name:** Felon2<br />**Hash(HEX):** 0xFAAD85EE  |
+| ![](vehicle_img/models/coupes/Jackal.png ':size=150') | **Name:** Jackal<br />**Hash(HEX):** 0xDAC67112  |
+| ![](vehicle_img/models/coupes/Oracle.png ':size=150') | **Name:** Oracle<br />**Hash(HEX):** 0x506434F6  |
+| ![](vehicle_img/models/coupes/Oracle2.png ':size=150') | **Name:** Oracle2<br />**Hash(HEX):** 0xE18195B2  |
+| ![](vehicle_img/models/coupes/Sentinel.png ':size=150') | **Name:** Sentinel<br />**Hash(HEX):** 0x50732C82  |
+| ![](vehicle_img/models/coupes/Sentinel2.png ':size=150') | **Name:** Sentinel2<br />**Hash(HEX):** 0x3412AE2D  |
+| ![](vehicle_img/models/coupes/Windsor.png ':size=150') | **Name:** Windsor<br />**Hash(HEX):** 0x5E4327C8  |
+| ![](vehicle_img/models/coupes/Windsor2.png ':size=150') | **Name:** Windsor2<br />**Hash(HEX):** 0x8CF5CAE1  |
+| ![](vehicle_img/models/coupes/Zion.png ':size=150') | **Name:** Zion<br />**Hash(HEX):** 0xBD1B39C3  |
+| ![](vehicle_img/models/coupes/Zion2.png ':size=150') | **Name:** Zion2<br />**Hash(HEX):** 0xB8E2AE18  |
 
 ## Cycles
 ..
