@@ -165,21 +165,21 @@
 ## Military
 | Image                                        | Description                                                  |
 | -------------------------------------------- | ------------------------------------------------------------ |
-| ![](vehicle_img/models/military/APC.png ':size=150') | **Name:** APC<br />**Hash(HEX):** 0x2189D250  |
+| ![](vehicle_img/models/military/APC.png ':size=150') | **Name:** APC<br />**Hash(HEX):** 0x2189D250<br />**DLC:** Gunrunning |
 | ![](vehicle_img/models/military/Barracks.png ':size=150') | **Name:** Barracks<br />**Hash(HEX):** 0xCEEA3F4B  |
 | ![](vehicle_img/models/military/Barracks2.png ':size=150') | **Name:** Barracks2<br />**Hash(HEX):** 0x4008EABB  |
-| ![](vehicle_img/models/military/Barracks3.png ':size=150') | **Name:** Barracks3<br />**Hash(HEX):** 0x2592B5CF  |
-| ![](vehicle_img/models/military/Barrage.png ':size=150') | **Name:** Barrage<br />**Hash(HEX):** 0xF34DFB25  |
-| ![](vehicle_img/models/military/Chernobog.png ':size=150') | **Name:** Chernobog<br />**Hash(HEX):** 0xD6BC7523  |
+| ![](vehicle_img/models/military/Barracks3.png ':size=150') | **Name:** Barracks3<br />**Hash(HEX):** 0x2592B5CF<br />**DLC:** Heists |
+| ![](vehicle_img/models/military/Barrage.png ':size=150') | **Name:** Barrage<br />**Hash(HEX):** 0xF34DFB25<br />**DLC:** The Doomsday Heist |
+| ![](vehicle_img/models/military/Chernobog.png ':size=150') | **Name:** Chernobog<br />**Hash(HEX):** 0xD6BC7523<br />**DLC:** The Doomsday Heist |
 | ![](vehicle_img/models/military/Crusader.png ':size=150') | **Name:** Crusader<br />**Hash(HEX):** 0x132D5A1A  |
-| ![](vehicle_img/models/military/Halftrack.png ':size=150') | **Name:** Halftrack<br />**Hash(HEX):** 0xFE141DA6  |
-| ![](vehicle_img/models/military/Khanjali.png ':size=150') | **Name:** Khanjali<br />**Hash(HEX):** 0xAA6F980A  |
+| ![](vehicle_img/models/military/Halftrack.png ':size=150') | **Name:** Halftrack<br />**Hash(HEX):** 0xFE141DA6<br />**DLC:** The Doomsday Heist |
+| ![](vehicle_img/models/military/Khanjali.png ':size=150') | **Name:** Khanjali<br />**Hash(HEX):** 0xAA6F980A<br />**DLC:** The Doomsday Heist |
 | ![](vehicle_img/models/military/Rhino.png ':size=150') | **Name:** Rhino<br />**Hash(HEX):** 0x2EA68690  |
-| ![](vehicle_img/models/military/Scarab.png ':size=150') | **Name:** Scarab<br />**Hash(HEX):** 0xBBA2A2F7  |
-| ![](vehicle_img/models/military/Scarab2.png ':size=150') | **Name:** Scarab2<br />**Hash(HEX):** 0x5BEB3CE0  |
-| ![](vehicle_img/models/military/Scarab3.png ':size=150') | **Name:** Scarab3<br />**Hash(HEX):** 0xDD71BFEB  |
-| ![](vehicle_img/models/military/Thruster.png ':size=150') | **Name:** Thruster<br />**Hash(HEX):** 0x58CDAF30  |
-| ![](vehicle_img/models/military/Trailersmall2.png ':size=150') | **Name:** Trailersmall2<br />**Hash(HEX):** 0x8FD54EBB  |
+| ![](vehicle_img/models/military/Scarab.png ':size=150') | **Name:** Scarab<br />**Hash(HEX):** 0xBBA2A2F7<br />**DLC:** Arena War |
+| ![](vehicle_img/models/military/Scarab2.png ':size=150') | **Name:** Scarab2<br />**Hash(HEX):** 0x5BEB3CE0<br />**DLC:** Arena War |
+| ![](vehicle_img/models/military/Scarab3.png ':size=150') | **Name:** Scarab3<br />**Hash(HEX):** 0xDD71BFEB<br />**DLC:** Arena War |
+| ![](vehicle_img/models/military/Thruster.png ':size=150') | **Name:** Thruster<br />**Hash(HEX):** 0x58CDAF30<br />**DLC:** The Doomsday Heist |
+| ![](vehicle_img/models/military/Trailersmall2.png ':size=150') | **Name:** Trailersmall2<br />**Hash(HEX):** 0x8FD54EBB<br />**DLC:** Gunrunning |
 
 ## Motorcycles
 ..
