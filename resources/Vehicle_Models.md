@@ -200,7 +200,20 @@
 ..
 
 ## Service
-..
+| Image                                        | Description                                                  |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| ![](vehicle_img/models/service/Airbus.png ':size=150') | **Name:** Airbus<br />**Hash(HEX):** 0x4C80EB0E  |
+| ![](vehicle_img/models/service/Brickade.png ':size=150') | **Name:** Brickade<br />**Hash(HEX):** 0xEDC6F847<br />**DLC:** Further Adventures in Finance and Felony |
+| ![](vehicle_img/models/service/Bus.png ':size=150') | **Name:** Bus<br />**Hash(HEX):** 0xD577C962  |
+| ![](vehicle_img/models/service/Coach.png ':size=150') | **Name:** Coach<br />**Hash(HEX):** 0x84718D34  |
+| ![](vehicle_img/models/service/Pbus2.png ':size=150') | **Name:** Pbus2<br />**Hash(HEX):** 0x149BD32A<br />**DLC:** After Hours |
+| ![](vehicle_img/models/service/Rallytruck.png ':size=150') | **Name:** Rallytruck<br />**Hash(HEX):** 0x829A3C44<br />**DLC:** Cunning Stunts |
+| ![](vehicle_img/models/service/RentalBus.png ':size=150') | **Name:** RentalBus<br />**Hash(HEX):** 0xBE819C63  |
+| ![](vehicle_img/models/service/Taxi.png ':size=150') | **Name:** Taxi<br />**Hash(HEX):** 0xC703DB5F  |
+| ![](vehicle_img/models/service/Tourbus.png ':size=150') | **Name:** Tourbus<br />**Hash(HEX):** 0x73B1C3CB  |
+| ![](vehicle_img/models/service/Trash.png ':size=150') | **Name:** Trash<br />**Hash(HEX):** 0x72435A19  |
+| ![](vehicle_img/models/service/Trash2.png ':size=150') | **Name:** Trash2<br />**Hash(HEX):** 0xB527915C<br />**DLC:** Heists |
+| ![](vehicle_img/models/service/Wastelander.png ':size=150') | **Name:** Wastelander<br />**Hash(HEX):** 0x8E08EC82<br />**DLC:** Import / Export |
 
 ## Sports
 ..
