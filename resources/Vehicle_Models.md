@@ -50,7 +50,22 @@
 | ![](vehicle_img/models/commercials/Terbyte.png ':size=150')  | **Name:** Terbyte<br />**Hash(HEX):** 0x897AFC65<br />**DLC:** After Hours |
 
 ## Compacts
-..
+| Image                                        | Description                                                  |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| ![](vehicle_img/models/compacts/Blista.png ':size=150') | **Name:** Blista<br />**Hash(HEX):** 0xEB70965F  |
+| ![](vehicle_img/models/compacts/Blista2.png ':size=150') | **Name:** Blista2<br />**Hash(HEX):** 0x3DEE5EDA<br />**DLC:** Upgrade Console to PC |
+| ![](vehicle_img/models/compacts/Blista3.png ':size=150') | **Name:** Blista3<br />**Hash(HEX):** 0xDCBC1C3B<br />**DLC:** Upgrade Console to PC |
+| ![](vehicle_img/models/compacts/Brioso.png ':size=150') | **Name:** Brioso<br />**Hash(HEX):** 0x5C55CB39<br />**DLC:** Cunning Stunts |
+| ![](vehicle_img/models/compacts/Dilettante.png ':size=150') | **Name:** Dilettante<br />**Hash(HEX):** 0xBC993509 |
+| ![](vehicle_img/models/compacts/Dilettante2.png ':size=150') | **Name:** Dilettante2<br />**Hash(HEX):** 0x64430650 |
+| ![](vehicle_img/models/compacts/Issi2.png ':size=150') | **Name:** Issi2<br />**Hash(HEX):** 0xB9CB3B69 |
+| ![](vehicle_img/models/compacts/Issi3.png ':size=150') | **Name:** Issi3<br />**Hash(HEX):** 0x378236E1<br />**DLC:** Southern San Andreas Super Sport Series |
+| ![](vehicle_img/models/compacts/Issi4.png ':size=150') | **Name:** Issi4<br />**Hash(HEX):** 0x256E92BA<br />**DLC:** Arena War |
+| ![](vehicle_img/models/compacts/Issi5.png ':size=150') | **Name:** Issi5<br />**Hash(HEX):** 0x5BA0FF1E<br />**DLC:** Arena War |
+| ![](vehicle_img/models/compacts/Issi6.png ':size=150') | **Name:** Issi6<br />**Hash(HEX):** 0x5BA0FF1E<br />**DLC:** Arena War |
+| ![](vehicle_img/models/compacts/Panto.png ':size=150') | **Name:** Panto<br />**Hash(HEX):** 0xE644E480<br />**DLC:** I'm Not a Hipster |
+| ![](vehicle_img/models/compacts/Prairie.png ':size=150') | **Name:** Prairie<br />**Hash(HEX):** 0xA988D3A2 |
+| ![](vehicle_img/models/compacts/Rhapsody.png ':size=150') | **Name:** Rhapsody<br />**Hash(HEX):** 0x322CF98F<br />**DLC:** I'm Not a Hipster |
 
 ## Coupes
 ..
