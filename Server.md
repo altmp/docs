@@ -37,7 +37,7 @@ resources/
 altv-server.exe
 ```
 
-**resource.cfg** ([More Information here](Server_Resource.cfg))
+**resource.cfg** ([More Information here](Resources/Resource.cfg))
 
 ```json
 {
@@ -68,7 +68,7 @@ resources/
 altv-server.exe
 ```
 
-**resource.cfg** ([More Information here](Server_Resource.cfg))
+**resource.cfg** ([More Information here](Resources/Resource.cfg))
 
 ```json
 {
