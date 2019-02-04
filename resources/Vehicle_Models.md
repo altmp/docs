@@ -121,7 +121,31 @@
 | ![](vehicle_img/models/emergency/Sheriff2.png ':size=150') | **Name:** Sheriff2<br />**Hash(HEX):** 0x72935408  |
 
 ## Helicopters
-..
+| Image                                        | Description                                                  |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| ![](vehicle_img/models/helicopters/Akula.png ':size=150') | **Name:** Akula<br />**Hash(HEX):** 0x46699F47<br />**DLC:** The Doomsday Heist |
+| ![](vehicle_img/models/helicopters/Annihilator.png ':size=150') | **Name:** Annihilator<br />**Hash(HEX):** 0x31F0B376  |
+| ![](vehicle_img/models/helicopters/Buzzard.png ':size=150') | **Name:** Buzzard<br />**Hash(HEX):** 0x2F03547B  |
+| ![](vehicle_img/models/helicopters/Buzzard2.png ':size=150') | **Name:** Buzzard2<br />**Hash(HEX):** 0x2C75F0DD  |
+| ![](vehicle_img/models/helicopters/Cargobob.png ':size=150') | **Name:** Cargobob<br />**Hash(HEX):** 0xFCFCB68B  |
+| ![](vehicle_img/models/helicopters/Cargobob2.png ':size=150') | **Name:** Cargobob2<br />**Hash(HEX):** 0x60A7EA10  |
+| ![](vehicle_img/models/helicopters/Cargobob3.png ':size=150') | **Name:** Cargobob3<br />**Hash(HEX):** 0x53174EEF  |
+| ![](vehicle_img/models/helicopters/Cargobob4.png ':size=150') | **Name:** Cargobob4<br />**Hash(HEX):** 0x78BC1A3C<br />**DLC:** Executives and other Criminals |
+| ![](vehicle_img/models/helicopters/Frogger.png ':size=150') | **Name:** Frogger<br />**Hash(HEX):** 0x2C634FBD  |
+| ![](vehicle_img/models/helicopters/Frogger2.png ':size=150') | **Name:** Frogger2<br />**Hash(HEX):** 0x742E9AC0  |
+| ![](vehicle_img/models/helicopters/Havok.png ':size=150') | **Name:** Havok<br />**Hash(HEX):** 0x89BA59F5<br />**DLC:** Smuggler's Run |
+| ![](vehicle_img/models/helicopters/Hunter.png ':size=150') | **Name:** Hunter<br />**Hash(HEX):** 0xFD707EDE<br />**DLC:** Smuggler's Run |
+| ![](vehicle_img/models/helicopters/Maverick.png ':size=150') | **Name:** Maverick<br />**Hash(HEX):** 0x9D0450CA  |
+| ![](vehicle_img/models/helicopters/Savage.png ':size=150') | **Name:** Savage<br />**Hash(HEX):** 0xFB133A17  |
+| ![](vehicle_img/models/helicopters/Seasparrow.png ':size=150') | **Name:** Seasparrow<br />**Hash(HEX):** 0xD4AE63D9<br />**DLC:** Southern San Andreas Super Sport Series |
+| ![](vehicle_img/models/helicopters/Skylift.png ':size=150') | **Name:** Skylift<br />**Hash(HEX):** 0x3E48BF23  |
+| ![](vehicle_img/models/helicopters/Supervolito.png ':size=150') | **Name:** Supervolito<br />**Hash(HEX):** 0x2A54C47D<br />**DLC:** Executives and other Criminals |
+| ![](vehicle_img/models/helicopters/Supervolito2.png ':size=150') | **Name:** Supervolito2<br />**Hash(HEX):** 0x9C5E5644<br />**DLC:** Executives and other Criminals |
+| ![](vehicle_img/models/helicopters/Swift.png ':size=150') | **Name:** Swift<br />**Hash(HEX):** 0xEBC24DF2<br />**DLC:** The San Andreas Flight School |
+| ![](vehicle_img/models/helicopters/Swift2.png ':size=150') | **Name:** Swift2<br />**Hash(HEX):** 0x4019CB4C<br />**DLC:** Gotten Gains Part 1 |
+| ![](vehicle_img/models/helicopters/Valkyrie.png ':size=150') | **Name:** Valkyrie<br />**Hash(HEX):** 0xA09E15FD<br />**DLC:** Heists |
+| ![](vehicle_img/models/helicopters/Valkyrie2.png ':size=150') | **Name:** Valkyrie2<br />**Hash(HEX):** 0x5BFA5C4B<br />**DLC:** Executives and other Criminals |
+| ![](vehicle_img/models/helicopters/Volatus.png ':size=150') | **Name:** Volatus<br />**Hash(HEX):** 0x920016F1<br />**DLC:** Further Adventures in Finance and Felony |
 
 ## Industrial
 | Image                                        | Description                                                  |
