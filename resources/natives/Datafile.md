@@ -1,0 +1,408 @@
+# Datafile
+
+> 0xAD6875BBC0FC899C 0x621388FF
+
+void 0xAD6875BBC0FC899C(Any p0)
+
+
+
+> 0x6CC86E78358D5119 
+
+void 0x6CC86E78358D5119()
+
+
+
+> 0xFCCAE5B92A830878 
+
+BOOL 0xFCCAE5B92A830878(Any p0)
+
+
+
+> 0x15FF52B809DB2353 
+
+BOOL 0x15FF52B809DB2353(Any p0)
+
+
+
+> 0xF8CC1EBE0B62E29F 
+
+BOOL 0xF8CC1EBE0B62E29F(Any p0)
+
+
+
+> 0x22DA66936E0FFF37 0xB41064A4
+
+BOOL 0x22DA66936E0FFF37(Any p0)
+
+
+
+> 0x8F5EA1C01D65A100 0x9DB63CFF
+
+BOOL 0x8F5EA1C01D65A100(Any p0)
+
+
+
+> 0xC84527E235FCA219 0xF09157B0
+
+BOOL 0xC84527E235FCA219(char* p0, BOOL p1, char* p2, Any* p3, Any* p4, char* type, BOOL p6)
+
+
+
+> 0xA5EFC3E847D60507 0xD96860FC
+
+BOOL 0xA5EFC3E847D60507(char* p0, char* p1, char* p2, char* p3, BOOL p4)
+
+```
+NOTE: 'p1' might be some kind of array.
+```
+
+> 0x648E7A5434AF7969 0x459F2683
+
+BOOL 0x648E7A5434AF7969(char* p0, Any* p1, BOOL p2, Any* p3, Any* p4, Any* p5, char* type)
+
+
+
+> 0x4645DE9980999E93 0xDBB83E2B
+
+BOOL 0x4645DE9980999E93(char* p0, char* p1, char* p2, char* p3, char* type)
+
+```
+NOTE: 'p2' might be some kind of array.
+```
+
+> 0x692D808C34A82143 0xBB6321BD
+
+BOOL 0x692D808C34A82143(char* p0, float p1, char* type)
+
+
+
+> 0xA69AC4ADE82B57A4 0xE8D56DA2
+
+BOOL 0xA69AC4ADE82B57A4(int p0)
+
+
+
+> 0x9CB0BFA7A9342C3D 0xCB6A351E
+
+BOOL 0x9CB0BFA7A9342C3D(int p0, BOOL p1)
+
+
+
+> 0x52818819057F2B40 0xA4D1B30E
+
+BOOL 0x52818819057F2B40(int p0)
+
+
+
+> 0x01095C95CD46B624 0xB8515B2F
+
+BOOL 0x01095C95CD46B624(int p0)
+
+```
+if ((NETWORK::_597F8DBA9B206FC7() &gt; 0) &amp;&amp; DATAFILE::_01095C95CD46B624(0)) {
+    v_10 = DATAFILE::_GET_ROOT_OBJECT();
+    v_11 = DATAFILE::_OBJECT_VALUE_GET_INTEGER(v_10, 'pt');
+    sub_20202(2, v_11);
+    a_0 += 1;
+} else { 
+    a_0 += 1;
+}
+
+```
+
+> _LOAD_UGC_FILE - 0xC5238C011AF405E4 0x660C468E
+
+BOOL _LOAD_UGC_FILE(char* filename)
+
+```
+Loads a User-Generated Content (UGC) file. These files can be found in '[GTA5]/data/ugc' and '[GTA5]/common/patch/ugc'. They seem to follow a naming convention, most likely of '[name]_[part].ugc'. See example below for usage.
+
+Returns whether or not the file was successfully loaded.
+
+Example:
+DATAFILE::_LOAD_UGC_FILE('RockstarPlaylists') // loads 'rockstarplaylists_00.ugc'
+```
+
+> DATAFILE_CREATE - 0xD27058A1CA2B13EE 0x95F8A221
+
+void DATAFILE_CREATE()
+
+
+
+> DATAFILE_DELETE - 0x9AB9C1CFC8862DFB 0xDEF31B0A
+
+void DATAFILE_DELETE()
+
+
+
+> 0x2ED61456317B8178 0x4E03F632
+
+void 0x2ED61456317B8178()
+
+
+
+> 0xC55854C7D7274882 0xF11F956F
+
+void 0xC55854C7D7274882()
+
+
+
+> _GET_ROOT_OBJECT - 0x906B778CA1DC72B6 0x86DDF9C2
+
+Any* _GET_ROOT_OBJECT()
+
+
+
+> 0x83BCCE3224735F05 0x768CBB35
+
+BOOL 0x83BCCE3224735F05(char* filename)
+
+```
+Saves a JSON file? It might even be saving it to the Rockstar Cloud, but I have no way of verifying this
+
+'shrinkletter.c4', line ~378:
+DATAFILE::DATAFILE_CREATE();
+v_5 = DATAFILE::_GET_ROOT_OBJECT();
+DATAFILE::_OBJECT_VALUE_ADD_INTEGER(v_5, 'in', a_2);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'st', &amp;a_2._f1);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'mp', &amp;a_2._f2);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'ms', &amp;a_2._f3);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'sc', &amp;a_2._f5);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'pr', &amp;a_2._f6);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'fa', &amp;a_2._f7);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'sm', &amp;a_2._f8);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'kp', &amp;a_2._f9);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'sv', &amp;a_2._fA);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'yo', &amp;a_2._fB);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'fi', &amp;a_2._fC);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'rc', &amp;a_2._fD);
+DATAFILE::_OBJECT_VALUE_ADD_STRING(v_5, 'co', &amp;a_2._fE);
+DATAFILE::_OBJECT_VALUE_ADD_INTEGER(v_5, 'su', a_2._fF);
+DATAFILE::_83BCCE3224735F05('gta5/psych/index.json'); // saves the file?
+```
+
+> 0x4DFDD9EB705F8140 0x0B4087F7
+
+BOOL 0x4DFDD9EB705F8140(BOOL* p0)
+
+
+
+> 0xBEDB96A7584AA8CF 0x5DCD0796
+
+BOOL 0xBEDB96A7584AA8CF()
+
+```
+Example:
+if (!DATAFILE::_BEDB96A7584AA8CF())
+{
+    if (!g_109E3)
+	{
+        if (((sub_d4f() == 2) == 0) &amp;&amp; (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS()))
+		{
+            if (NETWORK::NETWORK_IS_CLOUD_AVAILABLE())
+			{
+                g_17A8B = 0;
+            }
+            if (!g_D52C)
+			{
+                sub_730();
+            }
+        }
+    }
+}
+
+
+```
+
+> _OBJECT_VALUE_ADD_BOOLEAN - 0x35124302A556A325 0x9B29D99B
+
+void _OBJECT_VALUE_ADD_BOOLEAN(Any* objectData, char* key, BOOL value)
+
+
+
+> _OBJECT_VALUE_ADD_INTEGER - 0xE7E035450A7948D5 0xEFCF554A
+
+void _OBJECT_VALUE_ADD_INTEGER(Any* objectData, char* key, int value)
+
+
+
+> _OBJECT_VALUE_ADD_FLOAT - 0xC27E1CC2D795105E 0xE972CACF
+
+void _OBJECT_VALUE_ADD_FLOAT(Any* objectData, char* key, float value)
+
+
+
+> _OBJECT_VALUE_ADD_STRING - 0x8FF3847DADD8E30C 0xD437615C
+
+void _OBJECT_VALUE_ADD_STRING(Any* objectData, char* key, char* value)
+
+
+
+> _OBJECT_VALUE_ADD_VECTOR3 - 0x4CD49B76338C7DEE 0x75FC6C3C
+
+void _OBJECT_VALUE_ADD_VECTOR3(Any* objectData, char* key, float valueX, float valueY, float valueZ)
+
+
+
+> _OBJECT_VALUE_ADD_OBJECT - 0xA358F56F10732EE1 0x96A8E05F
+
+Any* _OBJECT_VALUE_ADD_OBJECT(Any* objectData, char* key)
+
+
+
+> _OBJECT_VALUE_ADD_ARRAY - 0x5B11728527CA6E5F 0x03939B8D
+
+Any* _OBJECT_VALUE_ADD_ARRAY(Any* objectData, char* key)
+
+
+
+> _OBJECT_VALUE_GET_BOOLEAN - 0x1186940ED72FFEEC 0x8876C872
+
+BOOL _OBJECT_VALUE_GET_BOOLEAN(Any* objectData, char* key)
+
+
+
+> _OBJECT_VALUE_GET_INTEGER - 0x78F06F6B1FB5A80C 0xA6C68693
+
+int _OBJECT_VALUE_GET_INTEGER(Any* objectData, char* key)
+
+
+
+> _OBJECT_VALUE_GET_FLOAT - 0x06610343E73B9727 0xA92C1AF4
+
+float _OBJECT_VALUE_GET_FLOAT(Any* objectData, char* key)
+
+
+
+> _OBJECT_VALUE_GET_STRING - 0x3D2FD9E763B24472 0x942160EC
+
+char* _OBJECT_VALUE_GET_STRING(Any* objectData, char* key)
+
+
+
+> _OBJECT_VALUE_GET_VECTOR3 - 0x46CD3CB66E0825CC 0xE84A127A
+
+Vector3 _OBJECT_VALUE_GET_VECTOR3(Any* objectData, char* key)
+
+
+
+> _OBJECT_VALUE_GET_OBJECT - 0xB6B9DDC412FCEEE2 0xC9C13D8D
+
+Any* _OBJECT_VALUE_GET_OBJECT(Any* objectData, char* key)
+
+
+
+> _OBJECT_VALUE_GET_ARRAY - 0x7A983AA9DA2659ED 0x1F2F7D00
+
+Any* _OBJECT_VALUE_GET_ARRAY(Any* objectData, char* key)
+
+
+
+> _OBJECT_VALUE_GET_TYPE - 0x031C55ED33227371 0x2678342A
+
+int _OBJECT_VALUE_GET_TYPE(Any* objectData, char* key)
+
+```
+Types:
+1 = Boolean
+2 = Integer
+3 = Float
+4 = String
+5 = Vector3
+6 = Object
+7 = Array
+```
+
+> _ARRAY_VALUE_ADD_BOOLEAN - 0xF8B0F5A43E928C76 0x08174B90
+
+void _ARRAY_VALUE_ADD_BOOLEAN(Any* arrayData, BOOL value)
+
+
+
+> _ARRAY_VALUE_ADD_INTEGER - 0xCABDB751D86FE93B 0xF29C0B36
+
+void _ARRAY_VALUE_ADD_INTEGER(Any* arrayData, int value)
+
+
+
+> _ARRAY_VALUE_ADD_FLOAT - 0x57A995FD75D37F56 0xE4302123
+
+void _ARRAY_VALUE_ADD_FLOAT(Any* arrayData, float value)
+
+
+
+> _ARRAY_VALUE_ADD_STRING - 0x2F0661C155AEEEAA 0xF3C01350
+
+void _ARRAY_VALUE_ADD_STRING(Any* arrayData, char* value)
+
+
+
+> _ARRAY_VALUE_ADD_VECTOR3 - 0x407F8D034F70F0C2 0x16F464B6
+
+void _ARRAY_VALUE_ADD_VECTOR3(Any* arrayData, float valueX, float valueY, float valueZ)
+
+
+
+> _ARRAY_VALUE_ADD_OBJECT - 0x6889498B3E19C797 0xC174C71B
+
+Any* _ARRAY_VALUE_ADD_OBJECT(Any* arrayData)
+
+
+
+> _ARRAY_VALUE_GET_BOOLEAN - 0x50C1B2874E50C114 0xA2E5F921
+
+BOOL _ARRAY_VALUE_GET_BOOLEAN(Any* arrayData, int arrayIndex)
+
+
+
+> _ARRAY_VALUE_GET_INTEGER - 0x3E5AE19425CD74BE 0xBB120CFC
+
+int _ARRAY_VALUE_GET_INTEGER(Any* arrayData, int arrayIndex)
+
+
+
+> _ARRAY_VALUE_GET_FLOAT - 0xC0C527B525D7CFB5 0x08AD2CC2
+
+float _ARRAY_VALUE_GET_FLOAT(Any* arrayData, int arrayIndex)
+
+
+
+> _ARRAY_VALUE_GET_STRING - 0xD3F2FFEB8D836F52 0x93F985A6
+
+char* _ARRAY_VALUE_GET_STRING(Any* arrayData, int arrayIndex)
+
+
+
+> _ARRAY_VALUE_GET_VECTOR3 - 0x8D2064E5B64A628A 0x80E3DA55
+
+Vector3 _ARRAY_VALUE_GET_VECTOR3(Any* arrayData, int arrayIndex)
+
+
+
+> _ARRAY_VALUE_GET_OBJECT - 0x8B5FADCC4E3A145F 0xECE81278
+
+Any* _ARRAY_VALUE_GET_OBJECT(Any* arrayData, int arrayIndex)
+
+
+
+> _ARRAY_VALUE_GET_SIZE - 0x065DB281590CEA2D 0xA8A21766
+
+int _ARRAY_VALUE_GET_SIZE(Any* arrayData)
+
+
+
+> _ARRAY_VALUE_GET_TYPE - 0x3A0014ADB172A3C5 0xFA2402C8
+
+int _ARRAY_VALUE_GET_TYPE(Any* arrayData, int arrayIndex)
+
+```
+Types:
+1 = Boolean
+2 = Integer
+3 = Float
+4 = String
+5 = Vector3
+6 = Object
+7 = Array
+```
+

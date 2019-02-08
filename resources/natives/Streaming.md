@@ -1,0 +1,845 @@
+# Streaming
+
+> LOAD_ALL_OBJECTS_NOW - 0xBD6E84632DD4CB3F 0xC9DBDA90
+
+void LOAD_ALL_OBJECTS_NOW()
+
+
+
+> LOAD_SCENE - 0x4448EB75B4904BDB 0xB72403F5
+
+void LOAD_SCENE(float x, float y, float z)
+
+
+
+> NETWORK_UPDATE_LOAD_SCENE - 0xC4582015556D1C46 0xC76E023C
+
+Any NETWORK_UPDATE_LOAD_SCENE()
+
+
+
+> NETWORK_STOP_LOAD_SCENE - 0x64E630FAF5F60F44 0x24857907
+
+void NETWORK_STOP_LOAD_SCENE()
+
+
+
+> IS_NETWORK_LOADING_SCENE - 0x41CA5A33160EA4AB 0x6DCFC021
+
+BOOL IS_NETWORK_LOADING_SCENE()
+
+
+
+> SET_INTERIOR_ACTIVE - 0xE37B76C387BE28ED 0xE1013910
+
+void SET_INTERIOR_ACTIVE(int interiorID, BOOL toggle)
+
+
+
+> REQUEST_MODEL - 0x963D27A58DF860AC 0xFFF1B500
+
+void REQUEST_MODEL(Hash model)
+
+```
+Request a model to be loaded into memory
+
+Looking it the disassembly, it seems like it actually returns the model if it's already loaded.
+
+```
+
+> _REQUEST_MODEL_2 - 0xA0261AEF7ACFC51E 0x48CEB6B4
+
+void _REQUEST_MODEL_2(Hash model)
+
+```
+It appears that this native requests only ped models, more specifically the main characters (Michael, Franklin and Trevor). Unconfirmed!
+```
+
+> HAS_MODEL_LOADED - 0x98A4EB5D89A0C952 0x62BFDB37
+
+BOOL HAS_MODEL_LOADED(Hash model)
+
+```
+Checks if the specified model has loaded into memory.
+```
+
+> 0x8A7A40100EDFEC58 0x939243FB
+
+void 0x8A7A40100EDFEC58(int interiorID, char* roomName)
+
+```
+REQUEST_*
+
+Something to do with interiors that have been loaded.
+
+STREAMING::_8A7A40100EDFEC58(l_13BC, 'V_FIB01_cur_elev');
+STREAMING::_8A7A40100EDFEC58(l_13BC, 'limbo');
+STREAMING::_8A7A40100EDFEC58(l_13BB, 'V_Office_gnd_lifts');
+STREAMING::_8A7A40100EDFEC58(l_13BB, 'limbo');
+STREAMING::_8A7A40100EDFEC58(l_13BC, 'v_fib01_jan_elev');
+STREAMING::_8A7A40100EDFEC58(l_13BC, 'limbo');
+```
+
+> SET_MODEL_AS_NO_LONGER_NEEDED - 0xE532F5D78798DAAB 0xAE0F069E
+
+void SET_MODEL_AS_NO_LONGER_NEEDED(Hash model)
+
+```
+Unloads model from memory
+```
+
+> IS_MODEL_IN_CDIMAGE - 0x35B9E0803292B641 0x1094782F
+
+BOOL IS_MODEL_IN_CDIMAGE(Hash model)
+
+```
+Check if model is in cdimage(rpf)
+```
+
+> IS_MODEL_VALID - 0xC0296A2EDF545E92 0xAF8F8E9D
+
+BOOL IS_MODEL_VALID(Hash model)
+
+```
+Returns whether the specified model exists in the game.
+```
+
+> IS_MODEL_A_VEHICLE - 0x19AAC8F07BFEC53E 0xFFFC85D4
+
+BOOL IS_MODEL_A_VEHICLE(Hash model)
+
+```
+Returns whether the specified model represents a vehicle.
+```
+
+> REQUEST_COLLISION_AT_COORD - 0x07503F7948F491A7 0xCD9805E7
+
+Any REQUEST_COLLISION_AT_COORD(float x, float y, float z)
+
+
+
+> REQUEST_COLLISION_FOR_MODEL - 0x923CB32A3B874FCB 0x3930C042
+
+void REQUEST_COLLISION_FOR_MODEL(Hash model)
+
+
+
+> HAS_COLLISION_FOR_MODEL_LOADED - 0x22CCA434E368F03A 0x41A094F8
+
+BOOL HAS_COLLISION_FOR_MODEL_LOADED(Hash model)
+
+
+
+> REQUEST_ADDITIONAL_COLLISION_AT_COORD - 0xC9156DC11411A9EA 0xC2CC1DF2
+
+void REQUEST_ADDITIONAL_COLLISION_AT_COORD(float p0, float p1, float p2)
+
+```
+MulleDK19: Alias of REQUEST_COLLISION_AT_COORD.
+```
+
+> DOES_ANIM_DICT_EXIST - 0x2DA49C3B79856961 0xCD31C872
+
+BOOL DOES_ANIM_DICT_EXIST(char* animDict)
+
+
+
+> REQUEST_ANIM_DICT - 0xD3BD40951412FEF6 0xDCA96950
+
+void REQUEST_ANIM_DICT(char* animDict)
+
+
+
+> HAS_ANIM_DICT_LOADED - 0xD031A9162D01088C 0x05E6763C
+
+BOOL HAS_ANIM_DICT_LOADED(char* animDict)
+
+
+
+> REMOVE_ANIM_DICT - 0xF66A602F829E2A06 0x0AE050B5
+
+void REMOVE_ANIM_DICT(char* animDict)
+
+
+
+> REQUEST_ANIM_SET - 0x6EA47DAE7FAD0EED 0x2988B3FC
+
+void REQUEST_ANIM_SET(char* animSet)
+
+```
+Starts loading the specified animation set. An animation set provides movement animations for a ped. See SET_PED_MOVEMENT_CLIPSET.
+```
+
+> HAS_ANIM_SET_LOADED - 0xC4EA073D86FB29B0 0x4FFF397D
+
+BOOL HAS_ANIM_SET_LOADED(char* animSet)
+
+```
+Gets whether the specified animation set has finished loading. An animation set provides movement animations for a ped. See SET_PED_MOVEMENT_CLIPSET.
+
+Animation set and clip set are synonymous.
+```
+
+> REMOVE_ANIM_SET - 0x16350528F93024B3 0xD04A817A
+
+void REMOVE_ANIM_SET(char* animSet)
+
+```
+Unloads the specified animation set. An animation set provides movement animations for a ped. See SET_PED_MOVEMENT_CLIPSET.
+
+Animation set and clip set are synonymous.
+```
+
+> REQUEST_CLIP_SET - 0xD2A71E1A77418A49 0x546C627A
+
+void REQUEST_CLIP_SET(char* clipSet)
+
+
+
+> HAS_CLIP_SET_LOADED - 0x318234F4F3738AF3 0x230D5455
+
+BOOL HAS_CLIP_SET_LOADED(char* clipSet)
+
+```
+Alias for HAS_ANIM_SET_LOADED.
+```
+
+> REMOVE_CLIP_SET - 0x01F73A131C18CD94 0x1E21F7AA
+
+void REMOVE_CLIP_SET(char* clipSet)
+
+```
+Alias for REMOVE_ANIM_SET.
+```
+
+> REQUEST_IPL - 0x41B4893843BBDB74 0x3B70D1DB
+
+void REQUEST_IPL(char* iplName)
+
+```
+Exemple: REQUEST_IPL('TrevorsTrailerTrash');
+
+IPL + Coords: http://pastebin.com/FyV5mMma
+```
+
+> REMOVE_IPL - 0xEE6C5AD3ECE0A82D 0xDF7CBD36
+
+void REMOVE_IPL(char* iplName)
+
+```
+Removes an IPL from the map.
+IPL List: pastebin.com/pwkh0uRP 
+
+Example:
+C#:
+Function.Call(Hash.REMOVE_IPL, 'trevorstrailertidy');
+
+C++:
+STREAMING::REMOVE_IPL('trevorstrailertidy');
+
+iplName = Name of IPL you want to remove.
+```
+
+> IS_IPL_ACTIVE - 0x88A741E44A2B3495 0xB2C33714
+
+BOOL IS_IPL_ACTIVE(char* iplName)
+
+
+
+> SET_STREAMING - 0x6E0C692677008888 0x27EF6CB2
+
+void SET_STREAMING(BOOL toggle)
+
+
+
+> SET_GAME_PAUSES_FOR_STREAMING - 0x717CD6E6FAEBBEDC 0x9211A28A
+
+void SET_GAME_PAUSES_FOR_STREAMING(BOOL toggle)
+
+
+
+> SET_REDUCE_PED_MODEL_BUDGET - 0x77B5F9A36BF96710 0xAFCB2B86
+
+void SET_REDUCE_PED_MODEL_BUDGET(BOOL toggle)
+
+
+
+> SET_REDUCE_VEHICLE_MODEL_BUDGET - 0x80C527893080CCF3 0xCDB4FB7E
+
+void SET_REDUCE_VEHICLE_MODEL_BUDGET(BOOL toggle)
+
+
+
+> SET_DITCH_POLICE_MODELS - 0x42CBE54462D92634 0x3EA7FCE4
+
+void SET_DITCH_POLICE_MODELS(BOOL toggle)
+
+```
+MulleDK19: This is a NOP function. It does nothing at all.
+```
+
+> GET_NUMBER_OF_STREAMING_REQUESTS - 0x4060057271CEBC89 0xC2EE9A02
+
+int GET_NUMBER_OF_STREAMING_REQUESTS()
+
+
+
+> REQUEST_PTFX_ASSET - 0x944955FB2A3935C8 0x2C649263
+
+Any REQUEST_PTFX_ASSET()
+
+```
+maps script name (thread + 0xD0) by lookup via scriptfx.dat - does nothing when script name is empty
+```
+
+> HAS_PTFX_ASSET_LOADED - 0xCA7D9B86ECA7481B 0x3EFF96BE
+
+BOOL HAS_PTFX_ASSET_LOADED()
+
+
+
+> REMOVE_PTFX_ASSET - 0x88C6814073DD4A73 0xC10F178C
+
+void REMOVE_PTFX_ASSET()
+
+
+
+> REQUEST_NAMED_PTFX_ASSET - 0xB80D8756B4668AB6 0xCFEA19A9
+
+void REQUEST_NAMED_PTFX_ASSET(char* fxName)
+
+```
+ From the b678d decompiled scripts:
+
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('core_snow');
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('fm_mission_controler');
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('proj_xmas_firework');
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('scr_apartment_mp');
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('scr_biolab_heist');
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('scr_indep_fireworks');
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('scr_indep_parachute');
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('scr_indep_wheelsmoke');
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('scr_mp_cig_plane');
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('scr_mp_creator');
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('scr_mp_tankbattle');
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('scr_ornate_heist');
+ STREAMING::REQUEST_NAMED_PTFX_ASSET('scr_prison_break_heist_station');
+```
+
+> HAS_NAMED_PTFX_ASSET_LOADED - 0x8702416E512EC454 0x9ACC6446
+
+BOOL HAS_NAMED_PTFX_ASSET_LOADED(char* fxName)
+
+
+
+> _REMOVE_NAMED_PTFX_ASSET - 0x5F61EBBE1A00F96D 
+
+void _REMOVE_NAMED_PTFX_ASSET(char* fxName)
+
+```
+console hash: 0xC44762A1
+```
+
+> SET_VEHICLE_POPULATION_BUDGET - 0xCB9E1EB3BE2AF4E9 0x1D56993C
+
+void SET_VEHICLE_POPULATION_BUDGET(int p0)
+
+
+
+> SET_PED_POPULATION_BUDGET - 0x8C95333CFC3340F3 0xD2D026CD
+
+void SET_PED_POPULATION_BUDGET(int p0)
+
+
+
+> CLEAR_FOCUS - 0x31B73D1EA9F01DA2 0x34D91E7A
+
+void CLEAR_FOCUS()
+
+
+
+> _SET_FOCUS_AREA - 0xBB7454BAFF08FE25 0x14680A60
+
+void _SET_FOCUS_AREA(float x, float y, float z, float offsetX, float offsetY, float offsetZ)
+
+```
+Override the area where the camera will render the terrain.
+p3, p4 and p5 are usually set to 0.0
+
+```
+
+> SET_FOCUS_ENTITY - 0x198F77705FA0931D 0x18DB04AC
+
+void SET_FOCUS_ENTITY(Entity entity)
+
+```
+It seems to make the entity's coords mark the point from which LOD-distances are measured. In my testing, setting a vehicle as the focus entity and moving that vehicle more than 300 distance units away from the player will make the level of detail around the player go down drastically (shadows disappear, textures go extremely low res, etc). The player seems to be the default focus entity.
+```
+
+> IS_ENTITY_FOCUS - 0x2DDFF3FB9075D747 0xB456D707
+
+BOOL IS_ENTITY_FOCUS(Entity entity)
+
+
+
+> 0x0811381EF5062FEC 
+
+void 0x0811381EF5062FEC(Entity p0)
+
+
+
+> 0xAF12610C644A35C9 0x403CD434
+
+void 0xAF12610C644A35C9(char* p0, BOOL p1)
+
+```
+Possible p0 values:
+
+'prologue'
+'Prologue_Main'
+```
+
+> 0x4E52E752C76E7E7A 0xA07BAEB9
+
+void 0x4E52E752C76E7E7A(Any p0)
+
+
+
+> _SET_UNK_CAMERA_SETTINGS - 0x219C7B8D53E429FD 0x10B6AB36
+
+Any _SET_UNK_CAMERA_SETTINGS(float x, float y, float z, float rad, Any p4, Any p5)
+
+
+
+> 0x1F3F018BC3AFA77C 0x72344191
+
+Any 0x1F3F018BC3AFA77C(float p0, float p1, float p2, float p3, float p4, float p5, float p6, Any p7, Any p8)
+
+
+
+> 0x0AD9710CEE2F590F 0xC0157255
+
+Any 0x0AD9710CEE2F590F(float p0, float p1, float p2, float p3, float p4, float p5, Any p6)
+
+
+
+> 0x1EE7D8DF4425F053 0xE80F8ABE
+
+void 0x1EE7D8DF4425F053(Any p0)
+
+
+
+> 0x7D41E9D2D17C5B2D 0x1B3521F4
+
+Any 0x7D41E9D2D17C5B2D(Any p0)
+
+
+
+> 0x07C313F94746702C 0x42CFE9C0
+
+Any 0x07C313F94746702C(Any p0)
+
+
+
+> 0xBC9823AB80A3DCAC 0x56253356
+
+Any 0xBC9823AB80A3DCAC()
+
+
+
+> NEW_LOAD_SCENE_START - 0x212A8D0D2BABFAC2 0xDF9C38B6
+
+BOOL NEW_LOAD_SCENE_START(float p0, float p1, float p2, float p3, float p4, float p5, float p6, Any p7)
+
+
+
+> _NEW_LOAD_SCENE_START_SAFE - 0xACCFB4ACF53551B0 0xFA037FEB
+
+BOOL _NEW_LOAD_SCENE_START_SAFE(float p0, float p1, float p2, float p3, Any p4)
+
+```
+if (!sub_8f12('START LOAD SCENE SAFE')) {
+    if (CUTSCENE::GET_CUTSCENE_TIME() &gt; 4178) {
+        STREAMING::_ACCFB4ACF53551B0(1973.845458984375, 3818.447265625, 32.43629837036133, 15.0, 2);
+        sub_8e9e('START LOAD SCENE SAFE', 1);
+    }
+}
+```
+
+> NEW_LOAD_SCENE_STOP - 0xC197616D221FF4A4 0x7C05B1F6
+
+void NEW_LOAD_SCENE_STOP()
+
+
+
+> IS_NEW_LOAD_SCENE_ACTIVE - 0xA41A05B6CB741B85 0xAD234B7F
+
+BOOL IS_NEW_LOAD_SCENE_ACTIVE()
+
+
+
+> IS_NEW_LOAD_SCENE_LOADED - 0x01B8247A7A8B9AD1 0x3ECD839F
+
+BOOL IS_NEW_LOAD_SCENE_LOADED()
+
+
+
+> 0x71E7B2E657449AAD 0xEAA51103
+
+Any 0x71E7B2E657449AAD()
+
+
+
+> START_PLAYER_SWITCH - 0xFAA23F2CBA159D67 0x0829E975
+
+void START_PLAYER_SWITCH(Ped from, Ped to, int flags, int switchType)
+
+```
+// this enum comes directly from R* so don't edit this
+enum ePlayerSwitchTypes
+{
+	SWITCH_TYPE_AUTO,
+	SWITCH_TYPE_LONG,
+	SWITCH_TYPE_MEDIUM,
+	SWITCH_TYPE_SHORT
+};
+
+Use GET_IDEAL_PLAYER_SWITCH_TYPE for the best switch type.
+
+----------------------------------------------------
+
+Examples from the decompiled scripts:
+
+STREAMING::START_PLAYER_SWITCH(l_832._f3, PLAYER::PLAYER_PED_ID(), 0, 3);
+STREAMING::START_PLAYER_SWITCH(l_832._f3, PLAYER::PLAYER_PED_ID(), 2050, 3);
+STREAMING::START_PLAYER_SWITCH(PLAYER::PLAYER_PED_ID(), l_832._f3, 1024, 3);
+STREAMING::START_PLAYER_SWITCH(g_141F27, PLAYER::PLAYER_PED_ID(), 513, v_14);
+
+Note: DO NOT, use SWITCH_TYPE_LONG with flag 513. It leaves you stuck in the clouds. You'll have to call STOP_PLAYER_SWITCH() to return to your ped.
+
+Flag 8 w/ SWITCH_TYPE_LONG will zoom out 3 steps, then zoom in 2/3 steps and stop on the 3rd and just hang there.
+Flag 8 w/ SWITCH_TYPE_MEDIUM will zoom out 1 step, and just hang there.
+```
+
+> STOP_PLAYER_SWITCH - 0x95C0A5BBDC189AA1 0x2832C010
+
+void STOP_PLAYER_SWITCH()
+
+
+
+> IS_PLAYER_SWITCH_IN_PROGRESS - 0xD9D2CFFF49FAB35F 0x56135ACC
+
+BOOL IS_PLAYER_SWITCH_IN_PROGRESS()
+
+```
+Returns true if the player is currently switching, false otherwise.
+(When the camera is in the sky moving from Trevor to Franklin for example)
+```
+
+> GET_PLAYER_SWITCH_TYPE - 0xB3C94A90D9FC9E62 0x280DC015
+
+int GET_PLAYER_SWITCH_TYPE()
+
+
+
+> GET_IDEAL_PLAYER_SWITCH_TYPE - 0xB5D7B26B45720E05 0xD5A450F1
+
+int GET_IDEAL_PLAYER_SWITCH_TYPE(float x1, float y1, float z1, float x2, float y2, float z2)
+
+```
+x1, y1, z1 -- Coords of your ped model
+x2, y2, z2 -- Coords of the ped you want to switch to
+```
+
+> GET_PLAYER_SWITCH_STATE - 0x470555300D10B2A5 0x39A0E1F2
+
+int GET_PLAYER_SWITCH_STATE()
+
+
+
+> GET_PLAYER_SHORT_SWITCH_STATE - 0x20F898A5D9782800 0x9B7BA38F
+
+int GET_PLAYER_SHORT_SWITCH_STATE()
+
+
+
+> 0x5F2013F8BC24EE69 0xF0BD420D
+
+void 0x5F2013F8BC24EE69(int p0)
+
+```
+SET_PLAYERS_*
+```
+
+> 0x78C0D93253149435 0x02BA7AC2
+
+Any 0x78C0D93253149435()
+
+
+
+> _SET_PLAYER_SWITCH_LOCATION - 0xC208B673CE446B61 0x47352E14
+
+void _SET_PLAYER_SWITCH_LOCATION(float p0, float p1, float p2, float p3, float p4, float p5, float p6, float p7, Any p8)
+
+
+
+> 0x0FDE9DBFC0A6BC65 0x279077B0
+
+void 0x0FDE9DBFC0A6BC65(Any* p0)
+
+```
+SET_PLAYERS_*
+```
+
+> 0x43D1680C6D19A8E9 0x55CB21F9
+
+void 0x43D1680C6D19A8E9()
+
+
+
+> 0x74DE2E8739086740 0x1084F2F4
+
+void 0x74DE2E8739086740()
+
+
+
+> 0x8E2A065ABDAE6994 0x5B1E995D
+
+void 0x8E2A065ABDAE6994()
+
+
+
+> 0xAD5FDF34B81BFE79 0x4B4B9A13
+
+void 0xAD5FDF34B81BFE79()
+
+
+
+> 0xDFA80CB25D0A19B3 0x408F7148
+
+Any 0xDFA80CB25D0A19B3()
+
+
+
+> 0xD4793DFF3AF2ABCD 
+
+void 0xD4793DFF3AF2ABCD()
+
+
+
+> 0xBD605B8E0E18B3BB 
+
+void 0xBD605B8E0E18B3BB()
+
+
+
+> _SWITCH_OUT_PLAYER - 0xAAB3200ED59016BC 0xFB4D062D
+
+void _SWITCH_OUT_PLAYER(Ped ped, int flags, int unknown)
+
+```
+fucks up on mount chilliad
+```
+
+> 0xD8295AF639FD9CB8 0x2349373B
+
+void 0xD8295AF639FD9CB8(Any p0)
+
+
+
+> 0x933BBEEB8C61B5F4 0x74C16879
+
+Any 0x933BBEEB8C61B5F4()
+
+
+
+> SET_PLAYER_INVERTED_UP - 0x08C2D6C52A3104BB 0x569847E3
+
+Any SET_PLAYER_INVERTED_UP()
+
+```
+Hash collision
+```
+
+> 0x5B48A06DD0E792A5 0xC7A3D279
+
+Any 0x5B48A06DD0E792A5()
+
+
+
+> DESTROY_PLAYER_IN_PAUSE_MENU - 0x5B74EA8CFD5E3E7E 0x90F64284
+
+Any DESTROY_PLAYER_IN_PAUSE_MENU()
+
+```
+Hash collision
+```
+
+> 0x1E9057A74FD73E23 
+
+void 0x1E9057A74FD73E23()
+
+
+
+> 0x0C15B0E443B2349D 0x7154B6FD
+
+Any 0x0C15B0E443B2349D()
+
+
+
+> 0xA76359FC80B2438E 0xE5612C1A
+
+void 0xA76359FC80B2438E(float p0)
+
+
+
+> 0xBED8CA5FF5E04113 0x9CD6A451
+
+void 0xBED8CA5FF5E04113(float p0, float p1, float p2, float p3)
+
+
+
+> 0x472397322E92A856 0x4267DA87
+
+void 0x472397322E92A856()
+
+
+
+> 0x40AEFD1A244741F2 0x9FA4AF99
+
+void 0x40AEFD1A244741F2(BOOL p0)
+
+
+
+> 0x03F1A106BDA7DD3E 
+
+void 0x03F1A106BDA7DD3E()
+
+
+
+> 0x95A7DABDDBB78AE7 0x9EF0A9CF
+
+void 0x95A7DABDDBB78AE7(Any* p0, Any* p1)
+
+
+
+> 0x63EB2B972A218CAC 0xF2CDD6A8
+
+void 0x63EB2B972A218CAC()
+
+
+
+> 0xFB199266061F820A 0x17B0A1CD
+
+Any 0xFB199266061F820A()
+
+
+
+> 0xF4A0DADB70F57FA6 0x3DA7AA5D
+
+void 0xF4A0DADB70F57FA6()
+
+
+
+> 0x5068F488DDB54DD8 0xDAB4BAC0
+
+Any 0x5068F488DDB54DD8()
+
+
+
+> PREFETCH_SRL - 0x3D245789CE12982C 0x37BE2FBB
+
+void PREFETCH_SRL(Any* p0)
+
+
+
+> IS_SRL_LOADED - 0xD0263801A4C5B0BB 0x670FA2A6
+
+BOOL IS_SRL_LOADED()
+
+
+
+> BEGIN_SRL - 0x9BADDC94EF83B823 0x24F49427
+
+void BEGIN_SRL()
+
+
+
+> END_SRL - 0x0A41540E63C9EE17 0x1977C56A
+
+void END_SRL()
+
+
+
+> SET_SRL_TIME - 0xA74A541C6884E7B8 0x30F8A487
+
+void SET_SRL_TIME(float p0)
+
+
+
+> 0xEF39EE20C537E98C 0x814D0752
+
+void 0xEF39EE20C537E98C(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+
+
+
+> 0xBEB2D9A1D9A8F55A 0x62F02485
+
+void 0xBEB2D9A1D9A8F55A(Any p0, Any p1, Any p2, Any p3)
+
+
+
+> 0x20C6C7E4EB082A7F 0xA6459CAA
+
+void 0x20C6C7E4EB082A7F(BOOL p0)
+
+
+
+> 0xF8155A7F03DDFC8E 0xF8F515E4
+
+void 0xF8155A7F03DDFC8E(Any p0)
+
+
+
+> SET_HD_AREA - 0xB85F26619073E775 0x80BAA035
+
+void SET_HD_AREA(float x, float y, float z, float ground)
+
+
+
+> CLEAR_HD_AREA - 0xCE58B1CFB9290813 0x7CAC6FA0
+
+void CLEAR_HD_AREA()
+
+
+
+> 0xB5A4DB34FE89B88A 0xE243B2AF
+
+void 0xB5A4DB34FE89B88A()
+
+
+
+> SHUTDOWN_CREATOR_BUDGET - 0xCCE26000E9A6FAD7 0x897A510F
+
+void SHUTDOWN_CREATOR_BUDGET()
+
+
+
+> 0x0BC3144DEB678666 0xC0E83320
+
+BOOL 0x0BC3144DEB678666(Any p0)
+
+
+
+> 0xF086AD9354FAC3A3 0x1C576388
+
+void 0xF086AD9354FAC3A3(Any p0)
+
+
+
+> 0x3D3D8B3BE5A83D35 0x3E9C4CBE
+
+Any 0x3D3D8B3BE5A83D35()
+
+
+
