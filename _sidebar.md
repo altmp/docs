@@ -16,3 +16,6 @@
   * [Blips](resources/Blips.md)
     * [Blips Colors](resources/Blip_Color.md)
   * [Weather](resources/Weather.md)
+  * [Audio](resources/Audio.md)
+    * [Ambient Zones](resources/Audio_Ambient_Zones)
+    * [Static Emitters](resources/Audio_Static_Emitters.md)
