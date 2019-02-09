@@ -333,7 +333,7 @@ None
 ### GetAllPlayers
 
 ```csharp
-ReadOnlyCollection<IPlayer> Alt.GetAllPlayers()
+IEntityFactory<IPlayer> Alt.GetAllPlayers()
 ```
 
 #### Parameters
@@ -342,7 +342,7 @@ None
 
 #### Return
 
-**Type**: `ReadOnlyCollection<IPlayer>`
+**Type**: `IEntityFactory<IPlayer>`
 
 **Description**: -
 
