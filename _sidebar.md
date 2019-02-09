@@ -5,6 +5,8 @@
   * [C#](csharp/Server_CSharp.md)
     * [Blip](csharp/Blip.md)
     * [Checkpoint](csharp/Checkpoint.md)
+    * [Player](csharp/Player.md)
+    * [Vehicle](csharp/Vehicle.md)
 * [Client API](Client.md)
 * [Resources](Resources.md)
   * [Blips](resources/Blips.md)
