@@ -63,7 +63,14 @@ MValue GetMetaData(string key)
 **Description**:
 
 
+
 ### Remove
+
+```csharp
+bool Remove()
+```
+
+
 
 #### Parameters
 
