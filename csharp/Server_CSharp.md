@@ -4,6 +4,22 @@
 
 ### On (Custom Events)
 
+
+
+#### Supported Argument Types
+
+`null`, `bool`, `int`, `uint,` `long`, `ulong`, `double`, `string`, `object`
+
+All types above as an array, eg. `int []` or `string[]`
+
+
+
+Furthermore Dictionaries with `string`-Type as Key, eg. `Dictionary<string, object>`
+
+But also all interfaces of the API or extend these, eg. `IEntity`, `IVehicle`, `IBlip`, `ICheckpoint`, ...
+
+
+
 #### Examples
 
 ```csharp
