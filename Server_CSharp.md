@@ -152,11 +152,17 @@ Alt.Emit("test", "bla");
 | Position      | `Position`   |             |
 | Rotation      | `Rotation`   |             |
 
-
+<hr/>
 
 ### Methods
 
 #### GetData
+
+```csharp
+bool GetData(string key, out T result)
+```
+
+
 
 ##### Parameters
 
@@ -171,9 +177,15 @@ Alt.Emit("test", "bla");
 
 **Description**: -
 
-
+<hr/>
 
 #### GetMetaData
+
+```csharp
+MValue GetMetaData(string key)
+```
+
+
 
 ##### Parameters
 
@@ -187,7 +199,7 @@ Alt.Emit("test", "bla");
 
 **Description**:
 
-
+<hr/>
 
 #### Remove
 
@@ -201,9 +213,15 @@ None
 
 **Description**:
 
-
+<hr/>
 
 #### SetData
+
+```csharp
+void SetData(string key, object value)
+```
+
+
 
 ##### Parameters
 
@@ -216,9 +234,15 @@ None
 
 None
 
-
+<hr/>
 
 #### SetMetaData
+
+```csharp
+void SetMetaData(string key, MValue value)
+```
+
+
 
 ##### Parameters
 
@@ -231,9 +255,15 @@ None
 
 None
 
-
+<hr/>
 
 #### SetPosition
+
+```csharp
+void SetPosition(float x, float y, float z)
+```
+
+
 
 ##### Parameters
 
@@ -249,9 +279,15 @@ None
 
 None
 
-
+<hr/>
 
 #### SetRotation
+
+```csharp
+void SetRotation(float roll, float pitch, float yaw)
+```
+
+
 
 ##### Parameters
 
