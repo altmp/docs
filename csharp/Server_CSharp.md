@@ -40,9 +40,13 @@ Alt.Emit("test", "bla");
 
 
 
+[View more Examples](csharp/Event_Examples?id=complete-example)
+
 
 
 ### OnCheckpoint
+
+[View Example](csharp/Event_Examples?id=oncheckpoint)
 
 | Parameter Name | Type          | Description                         |
 | -------------- | ------------- | ----------------------------------- |
@@ -54,6 +58,8 @@ Alt.Emit("test", "bla");
 
 ### OnEntityRemove
 
+[View Example](csharp/Event_Examples?id=onentityremove)
+
 | Parameter Name | Type      | Description |
 | -------------- | --------- | ----------- |
 | entity         | `IEntity` |             |
@@ -61,6 +67,8 @@ Alt.Emit("test", "bla");
 
 
 ### OnPlayerConnect
+
+[View Example](csharp/Event_Examples?id=onplayerconnect)
 
 | Parameter Name | Type      | Description |
 | -------------- | --------- | ----------- |
@@ -70,6 +78,8 @@ Alt.Emit("test", "bla");
 
 
 ### OnPlayerDamage
+
+[View Example](csharp/Event_Examples?id=onplayerdamage)
 
 | Parameter Name | Type      | Description |
 | -------------- | --------- | ----------- |
@@ -82,6 +92,8 @@ Alt.Emit("test", "bla");
 
 ### OnPlayerDead
 
+[View Example](csharp/Event_Examples?id=onplayerdead)
+
 | Parameter Name | Type      | Description |
 | -------------- | --------- | ----------- |
 | player         | `IPlayer` |             |
@@ -92,6 +104,8 @@ Alt.Emit("test", "bla");
 
 ### OnPlayerDisconnect
 
+[View Example](csharp/Event_Examples?id=onplayerdisconnect)
+
 | Parameter Name | Type      | Description |
 | -------------- | --------- | ----------- |
 | player         | `IPlayer` |             |
@@ -100,6 +114,8 @@ Alt.Emit("test", "bla");
 
 
 ### OnVehicleChangeSeat
+
+[View Example](csharp/Event_Examples?id=onvehiclechangeseat)
 
 | Parameter Name | Type       | Description |
 | -------------- | ---------- | ----------- |
@@ -112,6 +128,8 @@ Alt.Emit("test", "bla");
 
 ### OnVehicleEnter
 
+[View Example](csharp/Event_Examples?id=onvehicleenter)
+
 | Parameter Name | Type       | Description |
 | -------------- | ---------- | ----------- |
 | vehicle        | `IVehicle` |             |
@@ -121,6 +139,8 @@ Alt.Emit("test", "bla");
 
 
 ### OnVehicleLeave
+
+[View Example](csharp/Event_Examples?id=onvehicleleave)
 
 | Parameter Name | Type       | Description |
 | -------------- | ---------- | ----------- |
