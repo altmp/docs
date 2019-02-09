@@ -23,7 +23,7 @@ Alt.Emit("test", "bla");
 
 
 ```csharp
-Alt.On<string>("test", delegate(string str){ Alt.Log("str=" + str); });
+Alt.On("test", delegate(string str){ Alt.Log("str=" + str); });
             
 Alt.Emit("test", "bla");
 ```
