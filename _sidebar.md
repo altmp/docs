@@ -2,6 +2,7 @@
 
 * [Home](/)
 * [Server API](Server.md)
+  * [C#](Server_CSharp.md)
 * [Client API](Client.md)
 * [Resources](Resources.md)
   * [Blips](resources/Blips.md)
