@@ -56,6 +56,23 @@ Alt.Emit("test", "bla");
 
 
 
+##### Advanced Example
+
+The first Generics (in our example below `int` and `string`) are the Types for the parameters, the last generic (`bool`) is the return-type.
+
+**Note**: Return types are optional at events
+
+```csharp
+Alt.On<int, string, bool>("test", (number, str) => {
+    Alt.Log("str=" + str + " - " + number);
+	return true;
+});
+```
+
+
+
+
+
 [View more Examples](csharp/Event_Examples?id=complete-example)
 
 
