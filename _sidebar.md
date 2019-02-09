@@ -2,7 +2,9 @@
 
 * [Home](/)
 * [Server API](Server.md)
-  * [C#](Server_CSharp.md)
+  * [C#](csharp/Server_CSharp.md)
+    * [Blip](csharp/Blip.md)
+    * [Checkpoint](csharp/Checkpoint.md)
 * [Client API](Client.md)
 * [Resources](Resources.md)
   * [Blips](resources/Blips.md)

@@ -128,17 +128,3 @@ Alt.Emit("test", "bla");
 | player         | `IPlayer`  |             |
 | seat           | `sbyte`    |             |
 
-
-
-
-
-## Checkpoint
-
-
-
-## Player
-
-
-
-## Vehicle
-
