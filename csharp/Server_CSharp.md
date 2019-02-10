@@ -297,7 +297,7 @@ None
 ### GetAllBlips
 
 ```csharp
-ReadOnlyCollection<IBlip> Alt.GetAllBlips()
+Dictionary<IntPtr,IBlip>.ValueCollection Alt.GetAllBlips()
 ```
 
 #### Parameters
@@ -306,7 +306,7 @@ None
 
 #### Return
 
-**Type**: `ReadonlyCollection<IBlip>`
+**Type**: `Dictionary<IntPtr,IBlip>.ValueCollection`
 
 **Description**: -
 
@@ -315,7 +315,7 @@ None
 ### GetAllCheckpoints
 
 ```csharp
-RadOnlyCollection<ICheckpoint> Alt.GetAllCheckpoints()
+Dictionary<IntPtr,ICheckpoint>.ValueCollection Alt.GetAllCheckpoints()
 ```
 
 #### Parameters
@@ -324,7 +324,7 @@ None
 
 #### Return
 
-**Type**: `ReadOnlyCollection<ICheckpoint>`
+**Type**: `Dictionary<IntPtr,ICheckpoint>.ValueCollection`
 
 **Description**: -
 
@@ -333,7 +333,7 @@ None
 ### GetAllPlayers
 
 ```csharp
-IEntityFactory<IPlayer> Alt.GetAllPlayers()
+Dictionary<IntPtr,IPlayer>.ValueCollection Alt.GetAllPlayers()
 ```
 
 #### Parameters
@@ -342,7 +342,7 @@ None
 
 #### Return
 
-**Type**: `IEntityFactory<IPlayer>`
+**Type**: `Dictionary<IntPtr,IPlayer>.ValueCollection`
 
 **Description**: -
 
@@ -351,7 +351,7 @@ None
 ### GetAllVehicles
 
 ```csharp
-ReadOnlyCollection<IVehicle> Alt.GetAllVehicles()
+Dictionary<IntPtr,IVehicle>.ValueCollection Alt.GetAllVehicles()
 ```
 
 #### Parameters
@@ -360,7 +360,7 @@ None
 
 #### Return
 
-**Type**: `ReadOnlyCollection<IVehicle>`
+**Type**: `Dictionary<IntPtr,IVehicle>.ValueCollection`
 
 **Description**: -
 
