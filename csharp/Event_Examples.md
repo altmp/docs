@@ -230,22 +230,22 @@ namespace CSharp_Examples
             Alt.Server.LogInfo("Resource \"CSharp_Examples\" has been stopped.");
         }
 
-        public IPlayerFactory GetPlayerFactory()
+        public IEntityFactory<IPlayer> GetPlayerFactory()
         {
             return new PlayerFactory();
         }
 
-        public IVehicleFactory GetVehicleFactory()
+        public IEntityFactory<IVehicle> GetVehicleFactory()
         {
             return new VehicleFactory();
         }
 
-        public IBlipFactory GetBlipFactory()
+        public IEntityFactory<IBlip> GetBlipFactory()
         {
             return new BlipFactory();
         }
 
-        public ICheckpointFactory GetCheckpointFactory()
+        public IEntityFactory<ICheckpoint> GetCheckpointFactory()
         {
             return new CheckpointFactory();
         }
