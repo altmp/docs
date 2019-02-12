@@ -5,6 +5,19 @@ body {
   background: #222;
 }
 
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 4px;
+}
+
+*:hover::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
 .app-nav>ul>li>a, .app-nav>ul>li>span {
   color: #b4b4b4;
 }

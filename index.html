@@ -15,10 +15,15 @@
     window.$docsify = {
       name: 'alt:V API Documentation',
       repo: '',
+      basePath: '/',
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md'
+      },
       loadSidebar: true,
       loadNavbar: true,
       auto2top: true,
-      subMaxLevel: 3,
+      subMaxLevel: 0,
       themeColor: '#4e753e',
       mergeNavbar: true,
       logo: 'logo.svg',

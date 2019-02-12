@@ -6,40 +6,43 @@
 
 ```csharp
 private void OnCheckpoint(ICheckpoint checkpoint, IEntity entity, bool state)
+{
+    if (state)
+    {
+        //Executed if entity enters checkpoint
+        switch (entity.Type)
         {
-            if (state)
-            {
-                //Executed if entity enters checkpoint
-                switch (entity.Type)
-                {
-                    case EntityType.Player:
-                        Alt.Server.LogDebug("A player has entered the checkpoint: player-position " + entity.Position + " - checkpoint-position " + checkpoint.Position);
-                        break;
-                    case EntityType.Vehicle:
-                        Alt.Server.LogDebug("A vehicle has entered the checkpoint: vehicle-position " + entity.Position + " - checkpoint-position " + checkpoint.Position);
-                        break;
-                    default:
-                        Alt.Server.LogDebug("A entity has entered the checkpoint: entity-position " + entity.Position + " - checkpoint-position " + checkpoint.Position);
-                        break;
-                }
-            }
-            else
-            {
-                //Executed if entity leaves checkpoint
-                switch (entity.Type)
-                {
-                    case EntityType.Player:
-                        Alt.Server.LogDebug("A player has left the checkpoint: player-position " + entity.Position + " - checkpoint-position " + checkpoint.Position);
-                        break;
-                    case EntityType.Vehicle:
-                        Alt.Server.LogDebug("A vehicle has left the checkpoint: vehicle-position " + entity.Position + " - checkpoint-position " + checkpoint.Position);
-                        break;
-                    default:
-                        Alt.Server.LogDebug("A entity has left the checkpoint: entity-position " + entity.Position + " - checkpoint-position " + checkpoint.Position);
-                        break;
-                }
-            }
+            case EntityType.Player:
+                Alt.Server.LogDebug("A player has entered the checkpoint: player-position "
+                    + entity.Position + " - checkpoint-position " + checkpoint.Position);
+                break;
+            case EntityType.Vehicle:
+                Alt.Server.LogDebug("A vehicle has entered the checkpoint: vehicle-position "
+                    + entity.Position + " - checkpoint-position " + checkpoint.Position);
+                break;
+            default:
+                Alt.Server.LogDebug("A entity has entered the checkpoint: entity-position "
+                    + entity.Position + " - checkpoint-position " + checkpoint.Position);
+                break;
         }
+    }
+    else
+    {
+        //Executed if entity leaves checkpoint
+        switch (entity.Type)
+        {
+            case EntityType.Player:
+                Alt.Server.LogDebug("A player has left the checkpoint: player-position " + entity.Position + " - checkpoint-position " + checkpoint.Position);
+                break;
+            case EntityType.Vehicle:
+                Alt.Server.LogDebug("A vehicle has left the checkpoint: vehicle-position " + entity.Position + " - checkpoint-position " + checkpoint.Position);
+                break;
+            default:
+                Alt.Server.LogDebug("A entity has left the checkpoint: entity-position " + entity.Position + " - checkpoint-position " + checkpoint.Position);
+                break;
+        }
+    }
+}
 ```
 
 

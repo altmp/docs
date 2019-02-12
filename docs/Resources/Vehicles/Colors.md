@@ -1,7 +1,7 @@
 # Vehicle Colors
 
-|ID|Color|Hex code|Color preview|
-|--- |--- |--- |--- |
+|ID  |Color|Hex code|Color preview|
+|--- |---- |------- |------------ |
 |0|Black|#080808|<div class="colors_preview" style="background: #080808">&nbsp;</div>|
 |1|Graphite|#0F0F0F|<div class="colors_preview" style="background: #0F0F0F">&nbsp;</div>|
 |2|Black Steel|#1C1E21|<div class="colors_preview" style="background: #1C1E21">&nbsp;</div>|
