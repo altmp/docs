@@ -11,6 +11,7 @@
     * [Rotation](csharp/Rotation.md)
     * [Vehicle](csharp/Vehicle.md)
 * [Client API](Client.md)
+* [Enums](Enum.md)
 * [Resources](Resources.md)
   * [Blips](resources/Blips.md)
     * [Blips Colors](resources/Blip_Color.md)
