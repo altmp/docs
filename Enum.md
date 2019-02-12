@@ -4,7 +4,7 @@
 
 ### Number Plate Style
 
-Datatype: unsigned int
+**Datatype:** unsigned int
 
 ```csharp
 enum NumberPlateStyle {
@@ -20,7 +20,7 @@ enum NumberPlateStyle {
 
 ### Window Tints
 
-Datatype: byte
+**Datatype:** byte
 
 ```csharp
 enum WindowTints
