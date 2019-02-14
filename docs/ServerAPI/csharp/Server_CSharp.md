@@ -1,4 +1,4 @@
-# C# - Server API
+# C# - Events & Methods
 
 ## Events
 
@@ -387,7 +387,7 @@ None
 ### RemoveEntity
 
 ```csharp
-bool Alt.RemoveEntity(Entity entity)
+void Alt.RemoveEntity(Entity entity)
 ```
 
 #### Parameters
@@ -398,6 +398,4 @@ bool Alt.RemoveEntity(Entity entity)
 
 #### Return
 
-**Type**: `bool`
-
-**Description**: -
+None
