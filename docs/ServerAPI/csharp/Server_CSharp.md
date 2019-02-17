@@ -1,6 +1,6 @@
-# C# - Events & Methods
+## C# - Events & Methods
 
-## Events
+### Events
 
 ### On (Custom Events)
 
@@ -24,7 +24,7 @@ But also all interfaces of the API or extend these, eg. `IEntity`, `IVehicle`, `
 
 ```csharp
 Alt.On("test", args => { Alt.Log("args=" + args[0]); });
-            
+
 Alt.Emit("test", "bla");
 ```
 
@@ -32,7 +32,7 @@ Alt.Emit("test", "bla");
 
 ```csharp
 Alt.On<string>("test", str => { Alt.Log("str=" + str); });
-            
+
 Alt.Emit("test", "bla");
 ```
 
@@ -40,7 +40,7 @@ Alt.Emit("test", "bla");
 
 ```csharp
 Alt.On("test", delegate(string str){ Alt.Log("str=" + str); });
-            
+
 Alt.Emit("test", "bla");
 ```
 

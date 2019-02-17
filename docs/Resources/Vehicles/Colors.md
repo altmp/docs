@@ -1,4 +1,4 @@
-# Vehicle Colors
+## Vehicle Colors
 
 |ID  |Color|Hex code|Color preview|
 |--- |---- |------- |------------ |

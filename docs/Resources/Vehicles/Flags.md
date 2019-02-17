@@ -1,4 +1,4 @@
-# Vehicle Flags
+## Vehicle Flags
 
 | VehicleDataFlags | Flag ID |
 | ---------------- | ------- |
@@ -12,4 +12,3 @@
 | BurnOut          | 128     |
 | ExitingVehicle   | 256     |
 | PlayerDead       | 512     |
-

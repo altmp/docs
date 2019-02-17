@@ -1,4 +1,4 @@
-# Vehicle Mod Types
+## Vehicle Mod Types
 
 | Name                               | ID   | Value Range |
 | ---------------------------------- | ---- | ----------- |
@@ -38,4 +38,3 @@
 | Window Tint                        | 69   | 0 to 5      |
 | Dashboard Color                    | 74   | -           |
 | Trim Color                         | 75   | -           |
-

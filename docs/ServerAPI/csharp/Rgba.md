@@ -1,4 +1,4 @@
-# Rgba
+## Rgba
 
 ```csharp
 Rgba()
@@ -15,4 +15,3 @@ Rgba(byte r, byte, g, byte, b, byte a)
 | b             | `byte` | Blue        |
 | g             | `byte` | Green       |
 | r             | `byte` | Red         |
-

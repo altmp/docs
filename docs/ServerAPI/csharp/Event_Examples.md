@@ -1,4 +1,4 @@
-# Event Examples
+## Event Examples
 
 
 
@@ -392,7 +392,7 @@ namespace CSharp_Examples
                                 + vehicle.Driver.Name + ") from " + oldSeat 
                                 + " to " + newSeat + ".");
         }
-        
+
         private void OnVehicleEnter(IVehicle vehicle, IPlayer player, sbyte seat)
         {
             Alt.Log(player.Name + " entered vehicle (Driver: " + vehicle.Driver.Name 
@@ -422,4 +422,3 @@ namespace CSharp_Examples
 }
 
 ```
-

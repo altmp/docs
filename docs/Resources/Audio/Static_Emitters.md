@@ -1,8 +1,8 @@
-# Static Emitters
+## Static Emitters
 
 Static Emitters are music sources, there are a lot more than listed below, but these are the one which can be found in decompiled scripts.
 
-## Static Emitters List
+### Static Emitters List
 
 | Name |
 | ---- |

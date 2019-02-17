@@ -1,4 +1,4 @@
-# Vehicle Classes
+## Vehicle Classes
 
 | ID   | Class Name      |
 | ---- | --------------- |
@@ -24,4 +24,3 @@
 | 19   | Military        |
 | 20   | Commercial      |
 | 21   | Trains          |
-

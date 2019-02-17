@@ -1,4 +1,4 @@
-# Position
+## Position
 
 ```csharp
 Position()
@@ -14,6 +14,3 @@ Position(float x, float y, float z)
 | x             | `float` |             |
 | y             | `float` |             |
 | z             | `float` |             |
-
-
-

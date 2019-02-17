@@ -1,4 +1,4 @@
-# Rotation
+## Rotation
 
 ```csharp
 Rotation()
@@ -14,6 +14,3 @@ Rotation(float roll, float pitch, float yaw)
 | roll          | `float` |             |
 | pitch         | `float` |             |
 | yaw           | `float` |             |
-
-
-

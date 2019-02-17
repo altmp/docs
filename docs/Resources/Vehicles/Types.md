@@ -1,4 +1,4 @@
-# Vehicle Types
+## Vehicle Types
 
 | ID   | Type Name             |
 | ---- | --------------------- |
@@ -17,4 +17,3 @@
 | 12   | BOAT                  |
 | 13   | TRAIN                 |
 | 14   | SUBMARINE             |
-
