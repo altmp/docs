@@ -84,6 +84,7 @@ body {
 
 .markdown-section h1 {
   font-weight: 700;
+  color: #6b9c56;
 }
 
 .markdown-section blockquote {
@@ -95,8 +96,14 @@ body {
   border: 1px solid rgba(255,255,255,.05);
 }
 
+.markdown-section table {
+  display: table;
+  width: 100%;
+}
+
 .markdown-section tbody {
-  border: 1px solid rgba(255,255,255,.1)
+  border: 1px solid rgba(255,255,255,.1);
+  width: 100%;
 }
 
 .markdown-section tbody tr:nth-child(2n+1) {
@@ -106,6 +113,11 @@ body {
 .markdown-section td {
   border: none;
   border-top: 1px solid rgba(255,255,255,.1);
+  white-space: nowrap;
+}
+
+.markdown-section code:not([class*="lang-"]):not([class*="language-"]) {
+  background-color: #3c3c3c
 }
 
 .docsify-copy-code-button, body .docsify-copy-code-button::after {

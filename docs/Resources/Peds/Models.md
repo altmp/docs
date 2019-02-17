@@ -1,6 +1,6 @@
-# Ped Models
+## Ped Models
 
-## Animals
+### Animals
 
 | Image                                        | Description                                                  |
 | -------------------------------------------- | ------------------------------------------------------------ |
@@ -37,7 +37,7 @@
 | ![](img/models/TigerShark.png ':size=75') | **Name:** TigerShark<br />**Model:** a_c_sharktiger<br />**Hash(HEX):** 0x6C3F072 |
 | ![](img/models/Westy.png ':size=75') | **Name:** Westy<br />**Model:** a_c_westy<br />**Hash(HEX):** 0xAD7844BB |
 
-## Humans
+### Humans
 
 | Image                                        | Description                                                  |
 | -------------------------------------------- | ------------------------------------------------------------ |
@@ -799,7 +799,7 @@
 | ![](img/models/ZimborCutscene.png ':size=75') | **Name:** ZimborCutscene<br />**Model:** cs_zimbor<br />**Hash(HEX):** 0xEAACAAF0 |
 | ![](img/models/Zombie01.png ':size=75') | **Name:** Zombie01<br />**Model:** u_m_y_zombie_01<br />**Hash(HEX):** 0xAC4B4506 |
 
-## Non-Humans
+### Non-Humans
 
 | Image                                        | Description                                                  |
 | -------------------------------------------- | ------------------------------------------------------------ |

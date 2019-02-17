@@ -1,4 +1,4 @@
-# Event Examples
+## Event Examples
 
 
 
@@ -362,7 +362,7 @@ namespace CSharp_Examples
         {
             Alt.Server.LogDebug(player.Name + " has changed seat in vehicle (Driver: " + vehicle.Driver.Name + ") from " + oldSeat + " to " + newSeat + ".");
         }
-        
+
         private void OnVehicleEnter(IVehicle vehicle, IPlayer player, sbyte seat)
         {
             Alt.Server.LogDebug(player.Name + " entered vehicle (Driver: " + vehicle.Driver.Name + ") on seat " + seat +  ".");
@@ -389,4 +389,3 @@ namespace CSharp_Examples
     }
 }
 ```
-

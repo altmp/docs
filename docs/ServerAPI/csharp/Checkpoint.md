@@ -1,6 +1,6 @@
-# Checkpoint
+## Checkpoint
 
-## Properties
+### Properties
 
 | Property Name  | Type         | Description |
 | -------------- | ------------ | ----------- |
@@ -165,4 +165,3 @@ void SetRotation(float roll, float pitch, float yaw)
 #### Return
 
 None
-
