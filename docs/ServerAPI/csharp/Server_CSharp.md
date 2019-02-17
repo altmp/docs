@@ -73,13 +73,13 @@ Alt.On<int, string, bool>("test", (number, str) => {
 
 
 
-[View more Examples](csharp/Event_Examples?id=complete-example)
+[View more Examples](docs/ServerAPI/csharp/Event_Examples?id=complete-example)
 
 
 
 ### OnCheckpoint
 
-[View Example](csharp/Event_Examples?id=oncheckpoint)
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=oncheckpoint)
 
 | Parameter Name | Type          | Description                         |
 | -------------- | ------------- | ----------------------------------- |
@@ -91,7 +91,7 @@ Alt.On<int, string, bool>("test", (number, str) => {
 
 ### OnEntityRemove
 
-[View Example](csharp/Event_Examples?id=onentityremove)
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=onentityremove)
 
 | Parameter Name | Type      | Description |
 | -------------- | --------- | ----------- |
@@ -101,7 +101,7 @@ Alt.On<int, string, bool>("test", (number, str) => {
 
 ### OnPlayerConnect
 
-[View Example](csharp/Event_Examples?id=onplayerconnect)
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=onplayerconnect)
 
 | Parameter Name | Type      | Description |
 | -------------- | --------- | ----------- |
@@ -112,7 +112,7 @@ Alt.On<int, string, bool>("test", (number, str) => {
 
 ### OnPlayerDamage
 
-[View Example](csharp/Event_Examples?id=onplayerdamage)
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=onplayerdamage)
 
 | Parameter Name | Type      | Description |
 | -------------- | --------- | ----------- |
@@ -125,7 +125,7 @@ Alt.On<int, string, bool>("test", (number, str) => {
 
 ### OnPlayerDead
 
-[View Example](csharp/Event_Examples?id=onplayerdead)
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=onplayerdead)
 
 | Parameter Name | Type      | Description |
 | -------------- | --------- | ----------- |
@@ -137,7 +137,7 @@ Alt.On<int, string, bool>("test", (number, str) => {
 
 ### OnPlayerDisconnect
 
-[View Example](csharp/Event_Examples?id=onplayerdisconnect)
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=onplayerdisconnect)
 
 | Parameter Name | Type      | Description |
 | -------------- | --------- | ----------- |
@@ -148,7 +148,7 @@ Alt.On<int, string, bool>("test", (number, str) => {
 
 ### OnVehicleChangeSeat
 
-[View Example](csharp/Event_Examples?id=onvehiclechangeseat)
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=onvehiclechangeseat)
 
 | Parameter Name | Type       | Description |
 | -------------- | ---------- | ----------- |
@@ -161,7 +161,7 @@ Alt.On<int, string, bool>("test", (number, str) => {
 
 ### OnVehicleEnter
 
-[View Example](csharp/Event_Examples?id=onvehicleenter)
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=onvehicleenter)
 
 | Parameter Name | Type       | Description |
 | -------------- | ---------- | ----------- |
@@ -173,7 +173,7 @@ Alt.On<int, string, bool>("test", (number, str) => {
 
 ### OnVehicleLeave
 
-[View Example](csharp/Event_Examples?id=onvehicleleave)
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=onvehicleleave)
 
 | Parameter Name | Type       | Description |
 | -------------- | ---------- | ----------- |
