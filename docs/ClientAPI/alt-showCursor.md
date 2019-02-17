@@ -1,5 +1,5 @@
 ```js
-alt.showCursor(state)
+alt.showCursor(bool state)
 ```
 
 Toggles a cursor visibility

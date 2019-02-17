@@ -1,5 +1,5 @@
 ```js
-alt.toggleGameControls(state)
+alt.toggleGameControls(bool state)
 ```
 
 Toggles a game controls

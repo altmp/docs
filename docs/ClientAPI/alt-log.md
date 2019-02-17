@@ -1,5 +1,5 @@
 ```js
-alt.log(...args)
+alt.log(object ...args)
 ```
 
 Log a error message

@@ -1,5 +1,5 @@
 ```js
-alt.onServer(eventName, callback)
+alt.onServer(string eventName, function callback)
 ```
 
 Event handler function for events sent by server

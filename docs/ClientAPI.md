@@ -1,8 +1,8 @@
 # Client API
 
-This documentation has been automatically generated based on source code from branch `vadzz/dev` at Sat, 16 Feb 2019 23:09:18 GMT
+This documentation has been automatically generated based on source code from branch `vadzz/dev` at `Sat, 16 Feb 2019 23:09:18 GMT`
 
-**DISCLAIMER**: Current Client API and documentation is in heavy Work In Progress! Documentation doesn't contains all available functions and can contains a misleading information
+**DISCLAIMER**: Current Client API and documentation is in heavy Work In Progress! Documentation doesn't contains all available features and it can contains a misleading information
 
 ## Utils
 

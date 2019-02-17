@@ -1,5 +1,5 @@
 ```js
-alt.emitServer(eventName, ...args)
+alt.emitServer(string eventName, object ...args)
 ```
 
 Emit event to server

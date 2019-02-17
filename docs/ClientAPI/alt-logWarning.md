@@ -1,5 +1,5 @@
 ```js
-alt.logWarning(...args)
+alt.logWarning(object ...args)
 ```
 
 Log a warning message

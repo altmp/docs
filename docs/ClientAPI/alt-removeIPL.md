@@ -1,5 +1,5 @@
 ```js
-alt.removeIPL(iplName)
+alt.removeIPL(string iplName)
 ```
 
 Removes the IPL file

@@ -1,5 +1,5 @@
 ```js
-alt.loadModel(model)
+alt.loadModel(int model)
 ```
 
 Loads the model

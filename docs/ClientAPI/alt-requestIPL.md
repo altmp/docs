@@ -1,5 +1,5 @@
 ```js
-alt.requestIPL(iplName)
+alt.requestIPL(string iplName)
 ```
 
 Requests the IPL file

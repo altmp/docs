@@ -1,5 +1,5 @@
 ```js
-alt.drawRect2D(x, y, width, height, color)
+alt.drawRect2D(int x, int y, int width, int height, int color)
 ```
 
 Renders 2D Rectangle on screen
