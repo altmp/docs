@@ -187,22 +187,46 @@ bool GetData(string key, out T result)
 ### GetMetaData
 
 ```csharp
-MValue GetMetaData(string key)
+bool GetMetaData<T>(string key, out T result)
 ```
 
 
 
 #### Parameters
 
-| Parameter Name | Type     | Description |
-| -------------- | -------- | ----------- |
-| key            | `string` |             |
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| key            | `string`    |             |
+| result         | **out** `T` |             |
 
 #### Return
 
-**Type**: `MValue`
+**Type**: `bool`
 
 **Description**:
+
+
+### GetSyncedMetaData
+
+```csharp
+bool GetSyncedMetaData<T>(string key, out T result)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| key            | `string`    |             |
+| result         | **out** `T` |             |
+
+#### Return
+
+**Type**: `bool`
+
+**Description**:
+
 
 
 
@@ -220,9 +244,7 @@ None
 
 #### Return
 
-**Type**: `bool`
-
-**Description**:
+None
 
 
 ### SetData
@@ -258,7 +280,27 @@ void SetMetaData(string key, MValue value)
 | Parameter Name | Type     | Description |
 | -------------- | -------- | ----------- |
 | key            | string   |             |
-| value          | `MValue` |             |
+| value          | `object` |             |
+
+#### Return
+
+None
+
+
+### SetSyncedMetaData
+
+```csharp
+void SetSyncedMetaData(string key, object value)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type     | Description |
+| -------------- | -------- | ----------- |
+| key            | string   |             |
+| value          | `object` |             |
 
 #### Return
 
