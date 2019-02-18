@@ -206,6 +206,7 @@ private void OnVehicleLeave(IVehicle vehicle, IPlayer player, sbyte seat)
 ## Complete Example
 
 ```csharp
+using System.Collections;
 using AltV.Net;
 using AltV.Net.Elements.Entities;
 
@@ -225,6 +226,11 @@ namespace CSharp_Examples
             Alt.OnVehicleChangeSeat += OnVehicleChangeSeat;
             Alt.OnVehicleEnter += OnVehicleEnter;
             Alt.OnVehicleLeave += OnVehicleLeave;
+
+            Alt.OnPlayerCustomEvent += OnPlayerCustomEvent;
+            Alt.OnPlayerEvent += OnPlayerEvent;
+            Alt.OnServerCustomEvent += OnServerCustomEvent;
+            Alt.OnServerEvent += OnServerEvent;
 
             // Custom Event Triggers can be found at the bottom
             // Custom Event Type 01
@@ -419,8 +425,121 @@ namespace CSharp_Examples
         {
             Alt.Log("customEvent04 triggered with following argument: " + str);
         }
+
+        //Can been triggered from a Server Event
+        private void OnServerEvent(string eventName, object[] args)
+        {
+            switch (eventName)
+            {
+                case "eventA":
+                {
+                    Alt.Log("Server Event A has been triggered, with following Args:");
+                    foreach (var arg in args)
+                    {
+                        Alt.Log(arg + " - Type: " + arg.GetType());
+                    }
+                    break;
+                }
+                case "eventB":
+                {
+                    Alt.Log("Server Event B has been triggered, with following Args:");
+                    foreach (var arg in args)
+                    {
+                        Alt.Log(arg + " - Type: " + arg.GetType());
+                    }
+                        break;
+                }
+            }
+        }
+
+        // Can been triggered from a custom Server Event, if you want to parse the
+        // MValueList on your own
+        private void OnServerCustomEvent(string eventName, 
+            ref AltV.Net.Native.MValueArray mValueArray)
+        {
+            switch (eventName)
+            {
+                case "eventCustomA":
+                {
+                    Alt.Log("Custom Server Event A has been triggered, " +
+                            "with following Args:");
+                    foreach (var arg in mValueArray.ToArray())
+                    {
+                        Alt.Log(arg + " - Type: " + arg.GetType());
+                    }
+                    break;
+                }
+                case "eventCustomB":
+                {
+                    Alt.Log("Custom Server Event B has been triggered, " + 
+                            "with following Args:");
+                    foreach (var arg in mValueArray.ToArray())
+                    {
+                        Alt.Log(arg + " - Type: " + arg.GetType());
+                    }
+                    break;
+                }
+            }
+        }
+
+        // Can been triggered from a Client Event
+        private void OnPlayerEvent(IPlayer player, string eventName, object[] args)
+        {
+            switch (eventName)
+            {
+                case "playerEventA":
+                {
+                    Alt.Log(player.Name + " has triggered Event A, "
+                                        + "with following Args:");
+                    foreach (var arg in args)
+                    {
+                        Alt.Log(arg + " - Type: " + arg.GetType());
+                    }
+                    break;
+                }
+                case "playerEventB":
+                {
+                    Alt.Log(player.Name + " has triggered Event B, "
+                                        + "with following Args:");
+                    foreach (var arg in args)
+                    {
+                        Alt.Log(arg + " - Type: " + arg.GetType());
+                    }
+                    break;
+                }
+            }
+        }
+
+        // Can been triggered from a custom Client Event, if you want to parse the
+        // MValueList on your own
+        private void OnPlayerCustomEvent(IPlayer player, string eventName, 
+            ref AltV.Net.Native.MValueArray mValueArray)
+        {
+            switch (eventName)
+            {
+                case "playerEventA":
+                {
+                    Alt.Log(player.Name + " has triggered Custom Event A, "
+                                        + "with following Args:");
+                    foreach (var arg in mValueArray.ToArray())
+                    {
+                        Alt.Log(arg + " - Type: " + arg.GetType());
+                    }
+                    break;
+                }
+                case "playerEventB":
+                {
+                    Alt.Log(player.Name + " has triggered Custom Event B, "
+                                        + "with following Args:");
+                    foreach (var arg in mValueArray.ToArray())
+                    {
+                        Alt.Log(arg + " - Type: " + arg.GetType());
+                    }
+                    break;
+                }
+            }
+        }
+
     }
 }
-
-
 ```
