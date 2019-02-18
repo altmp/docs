@@ -8,3 +8,4 @@ TODO: What is blip + screenshot
 
 * [Sprites](docs/Resources/Blips/Sprites.md)
 * [Colors](docs/Resources/Blips/Colors.md)
+* [Types](docs/Resources/Blips/Types.md)
