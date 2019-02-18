@@ -75,6 +75,50 @@ Alt.On<int, string, bool>("test", (number, str) => {
 
 [View more Examples](docs/ServerAPI/csharp/Event_Examples?id=complete-example)
 
+### OnServerEvent
+
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=complete-example)
+
+| Parameter Name | Type          | Description                         |
+| -------------- | ------------- | ----------------------------------- |
+| eventName      | `string`      |                                     |
+| args           | `object[]`    |                                     |
+
+
+
+### OnServerCustomEvent
+
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=complete-example)
+
+| Parameter Name | Type          				 | Description                         |
+| -------------- | ----------------------------- | ----------------------------------- |
+| eventName      | `string`      				 |                                     |
+| mValueArray    | `AltV.Net.Native.MValueArray` |                                     |
+
+
+
+### OnPlayerEvent
+
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=complete-example)
+
+| Parameter Name | Type          | Description                         |
+| -------------- | ------------- | ----------------------------------- |
+| player	 	 | `IPlayer`     |								       |
+| eventName      | `string`      |                                     |
+| args           | `object[]`    |                                     |
+
+
+
+### OnPlayerCustomEvent
+
+[View Example](docs/ServerAPI/csharp/Event_Examples?id=complete-example)
+
+| Parameter Name | Type          				 | Description                         |
+| -------------- | ----------------------------- | ----------------------------------- |
+| player	 	 | `IPlayer`     				 |								       |
+| eventName      | `string`      				 |                                     |
+| mValueArray    | `AltV.Net.Native.MValueArray` |                                     |
+
 
 
 ### OnCheckpoint
