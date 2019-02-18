@@ -208,7 +208,6 @@ private void OnVehicleLeave(IVehicle vehicle, IPlayer player, sbyte seat)
 ```csharp
 using AltV.Net;
 using AltV.Net.Elements.Entities;
-using AltV.Net.Elements.Factories;
 
 namespace CSharp_Examples
 {
@@ -338,14 +337,16 @@ namespace CSharp_Examples
             Alt.Log(player.Name + "has joined the server. (" + reason + ")");
         }
 
-        private void OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon, byte damage)
+        private void OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon, 
+            byte damage)
         {
             switch (attacker.Type)
             {
                 case EntityType.Player:
                     var playerAttacker = (IPlayer) attacker;
                     Alt.Log(player.Name + " has been damaged by " + playerAttacker.Name 
-                            + " with weapon " + weapon + " and suffered " + damage + " HP.");
+                            + " with weapon " + weapon + " and suffered " + damage +
+                            " HP.");
                     break;
                 case EntityType.Vehicle:
                     var vehicleAttacker = (IVehicle)attacker;
@@ -392,7 +393,7 @@ namespace CSharp_Examples
                                 + vehicle.Driver.Name + ") from " + oldSeat 
                                 + " to " + newSeat + ".");
         }
-
+        
         private void OnVehicleEnter(IVehicle vehicle, IPlayer player, sbyte seat)
         {
             Alt.Log(player.Name + " entered vehicle (Driver: " + vehicle.Driver.Name 
@@ -420,5 +421,6 @@ namespace CSharp_Examples
         }
     }
 }
+
 
 ```
