@@ -276,20 +276,23 @@ namespace CSharp_Examples
 
             // Custom Event Triggers can be found at the bottom
             // Custom Event Type 01
-            AltAsync.On("customEvent01", args =>
+            AltAsync.On("customEvent01", async args =>
             {
+                await Task.Delay(1000);
                 AltAsync.Log("customEvent01 triggered with following arguments: " + args[0]);
             });
 
             // Custom Event Type 02 - Fixed Argument Type
-            AltAsync.On<string>("customEvent02", str =>
+            AltAsync.On<string>("customEvent02", async str =>
             {
+                await Task.Delay(1000);
                 AltAsync.Log("customEvent01 triggered with following argument: " + str);
             });
 
             // Custom Event Type 03 - Delegate Type
-            AltAsync.On("customEvent03", delegate (string str)
+            AltAsync.On("customEvent03", async delegate (string str)
             {
+                await Task.Delay(1000);
                 AltAsync.Log("customEvent03 triggered with following argument: " + str);
             });
 

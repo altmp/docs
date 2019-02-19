@@ -23,7 +23,7 @@ But also all interfaces of the API or extend these, eg. `IEntity`, `IVehicle`, `
 #### Examples
 
 ```csharp
-AltAsync.On("test", args => { AltAsync.Log("args=" + args[0]); });
+AltAsync.On("test", async args => { await Task.Delay(1000); AltAsync.Log("args=" + args[0]); });
 
 Alt.Emit("test", "bla");
 ```
@@ -31,7 +31,7 @@ Alt.Emit("test", "bla");
 
 
 ```csharp
-AltAsync.On<string>("test", str => { AltAsync.Log("str=" + str); });
+AltAsync.On<string>("test", async str => { await Task.Delay(1000); AltAsync.Log("str=" + str); });
 
 Alt.Emit("test", "bla");
 ```
@@ -39,7 +39,7 @@ Alt.Emit("test", "bla");
 
 
 ```csharp
-AltAsync.On("test", delegate(string str){ AltAsync.Log("str=" + str); });
+AltAsync.On("test", async delegate(string str){ await Task.Delay(1000); AltAsync.Log("str=" + str); });
 
 Alt.Emit("test", "bla");
 ```
