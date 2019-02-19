@@ -5,8 +5,11 @@
 ## OnCheckpoint
 
 ```csharp
-private Task OnCheckpoint(ICheckpoint checkpoint, IEntity entity, bool state)
+private async Task OnCheckpoint(ICheckpoint checkpoint, IEntity entity, bool state)
 {
+	Position entityPosition = await entity.GetPositionAsync();
+	Position checkPosition = await checkpoint.GetPositionAsync();
+
 	if (state)
 	{
 		//Executed if entity enters checkpoint
@@ -14,18 +17,18 @@ private Task OnCheckpoint(ICheckpoint checkpoint, IEntity entity, bool state)
 		{
 			case EntityType.Player:
 				AltAsync.Log("A player has entered the checkpoint: player-position "
-						+ entity.Position + " - checkpoint-position "
-						+ checkpoint.Position);
+						+ entityPosition + " - checkpoint-position "
+						+ checkPosition);
 				break;
 			case EntityType.Vehicle:
 				AltAsync.Log("A vehicle has entered the checkpoint: vehicle-position "
-						+ entity.Position + " - checkpoint-position "
-						+ checkpoint.Position);
+						+ entityPosition + " - checkpoint-position "
+						+ checkPosition);
 				break;
 			default:
 				AltAsync.Log("A entity has entered the checkpoint: entity-position "
-						+ entity.Position + " - checkpoint-position "
-						+ checkpoint.Position);
+						+ entityPosition + " - checkpoint-position "
+						+ checkPosition);
 				break;
 		}
 	}
@@ -36,23 +39,21 @@ private Task OnCheckpoint(ICheckpoint checkpoint, IEntity entity, bool state)
 		{
 			case EntityType.Player:
 				AltAsync.Log("A player has left the checkpoint: player-position "
-						+ entity.Position + " - checkpoint-position "
-						+ checkpoint.Position);
+						+ entityPosition + " - checkpoint-position "
+						+ checkPosition);
 				break;
 			case EntityType.Vehicle:
 				AltAsync.Log("A vehicle has left the checkpoint: vehicle-position "
-						+ entity.Position + " - checkpoint-position "
-						+ checkpoint.Position);
+						+ entityPosition + " - checkpoint-position "
+						+ checkPosition);
 				break;
 			default:
 				AltAsync.Log("A entity has left the checkpoint: entity-position "
-						+ entity.Position + " - checkpoint-position "
-						+ checkpoint.Position);
+						+ entityPosition + " - checkpoint-position "
+						+ checkPosition);
 				break;
 		}
 	}
-
-	return Task.CompletedTask;
 }
 ```
 
@@ -61,33 +62,33 @@ private Task OnCheckpoint(ICheckpoint checkpoint, IEntity entity, bool state)
 ## OnEntityRemove
 
 ```csharp
-private Task OnEntityRemove(IEntity entity)
+private async Task OnEntityRemove(IEntity entity)
 {
+	Position entityPosition = await entity.GetPositionAsync();
+	
 	switch (entity.Type)
 	{
 		case EntityType.Player:
 			AltAsync.Log("A player has been removed, at position "
-					+ entity.Position + ".");
+					+ entityPosition + ".");
 			break;
 		case EntityType.Vehicle:
 			AltAsync.Log("A vehicle has been removed, at position "
-					+ entity.Position + ".");
+					+ entityPosition + ".");
 			break;
 		case EntityType.Blip:
 			AltAsync.Log("A blip has been removed, at position "
-					+ entity.Position + ".");
+					+ entityPosition + ".");
 			break;
 		case EntityType.Checkpoint:
 			AltAsync.Log("A checkpoint has been removed, at position "
-					+ entity.Position + ".");
+					+ entityPosition + ".");
 			break;
 		default:
 			AltAsync.Log("A entity has been removed, at position "
-					+ entity.Position + ".");
+					+ entityPosition + ".");
 			break;
 	}
-
-	return Task.CompletedTask;
 }
 ```
 
@@ -96,10 +97,11 @@ private Task OnEntityRemove(IEntity entity)
 ## OnPlayerConnect
 
 ```csharp
+private async Task OnPlayerConnect(IPlayer player, string reason)
 {
-	AltAsync.Log(player.Name + "has joined the server. (" + reason + ")");
+	string playerName = await player.GetNameAsync();
 
-	return Task.CompletedTask;
+	AltAsync.Log(playerName + "has joined the server. (" + reason + ")");
 }
 ```
 
@@ -108,30 +110,35 @@ private Task OnEntityRemove(IEntity entity)
 ## OnPlayerDamage
 
 ```csharp
-private Task OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon,
-    byte damage)
+private async Task OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon,
+	byte damage)
 {
+	string playerName = await player.GetNameAsync();
+
 	switch (attacker.Type)
 	{
 		case EntityType.Player:
 			var playerAttacker = (IPlayer)attacker;
-			AltAsync.Log(player.Name + " has been damaged by " + playerAttacker.Name
+			string playerAttackerName = await playerAttacker.GetNameAsync();
+
+			AltAsync.Log(playerName + " has been damaged by " + playerAttackerName
 					+ " with weapon " + weapon + " and suffered " + damage +
 					" HP.");
 			break;
 		case EntityType.Vehicle:
 			var vehicleAttacker = (IVehicle)attacker;
-			AltAsync.Log(player.Name + " has been damaged by a vehicle (Driver: "
-								+ vehicleAttacker.Driver + ") and suffered "
+			IPlayer driver = await vehicleAttacker.GetDriverAsync();
+			string driverName = await driver.GetNameAsync();
+
+			AltAsync.Log(playerName + " has been damaged by a vehicle (Driver: "
+								+ driverName + ") and suffered "
 								+ damage + " HP.");
 			break;
 		default:
-			AltAsync.Log(player.Name + " has been damaged by an Entity and suffered "
+			AltAsync.Log(playerName + " has been damaged by an Entity and suffered "
 								+ damage + ".");
 			break;
 	}
-
-	return Task.CompletedTask;
 }
 ```
 
@@ -140,26 +147,34 @@ private Task OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon,
 ## OnPlayerDead
 
 ```csharp
-private Task OnPlayerDead(IPlayer player, IEntity killer, uint weapon)
+private async Task OnPlayerDead(IPlayer player, IEntity killer, uint weapon)
 {
+	
+	string playerName = await player.GetNameAsync();
+
 	switch (killer.Type)
 	{
 		case EntityType.Player:
-			var playerKiller = (IPlayer)killer;
-			AltAsync.Log(player.Name + " has been killed by " + playerKiller.Name
+			IPlayer playerKiller = (IPlayer)killer;
+			string playerKillerName = await playerKiller.GetNameAsync();
+
+			AltAsync.Log(playerName + " has been killed by " + playerKillerName
 								+ " with weapon " + weapon + ".");
 			break;
 		case EntityType.Vehicle:
-			var vehicleAttacker = (IVehicle)killer;
-			AltAsync.Log(player.Name + " has been killed by a vehicle (Driver: "
-								+ vehicleAttacker.Driver.Name + ").");
+			IVehicle vehicleKiller = (IVehicle)killer;
+			IPlayer driver = await vehicleKiller.GetDriverAsync();
+			string driverName = await driver.GetNameAsync();
+
+			AltAsync.Log(playerName + " has been killed by a vehicle (Driver: "
+								+ driverName + ").");
 			break;
 		default:
-			AltAsync.Log(player.Name + " has been killed by an Entity.");
+
+			AltAsync.Log(playerName + " has been killed by an Entity.");
 			break;
 	}
-
-	return Task.CompletedTask;
+	
 }
 ```
 
@@ -168,11 +183,11 @@ private Task OnPlayerDead(IPlayer player, IEntity killer, uint weapon)
 ## OnPlayerDisconnect
 
 ```csharp
-private Task OnPlayerDisconnect(IPlayer player, string reason)
+private async Task OnPlayerDisconnect(IPlayer player, string reason)
 {
-	AltAsync.Log(player.Name + "has left the server. (" + reason + ")");
+	string playerName = await player.GetNameAsync();
 
-	return Task.CompletedTask;
+	AltAsync.Log(playerName + "has left the server. (" + reason + ")");
 }
 ```
 
@@ -181,14 +196,17 @@ private Task OnPlayerDisconnect(IPlayer player, string reason)
 ## OnVehicleChangeSeat
 
 ```csharp
-private Task OnVehicleChangeSeat(IVehicle vehicle, IPlayer player, sbyte oldSeat,
-	sbyte newSeat)
+private async Task OnVehicleChangeSeat(IVehicle vehicle, IPlayer player, sbyte oldSeat,
+            sbyte newSeat)
 {
-	AltAsync.Log(player.Name + " has changed seat in vehicle (Driver: "
-						+ vehicle.Driver.Name + ") from " + oldSeat
+	IPlayer driver = await vehicle.GetDriverAsync();
+	string driverName = await driver.GetNameAsync();
+	string playerName = await player.GetNameAsync();
+
+	AltAsync.Log(playerName + " has changed seat in vehicle (Driver: "
+						+ driverName + ") from " + oldSeat
 						+ " to " + newSeat + ".");
 
-	return Task.CompletedTask;
 }
 ```
 
@@ -197,12 +215,18 @@ private Task OnVehicleChangeSeat(IVehicle vehicle, IPlayer player, sbyte oldSeat
 ## OnVehicleEnter
 
 ```csharp
-private Task OnVehicleEnter(IVehicle vehicle, IPlayer player, sbyte seat)
+private async Task OnVehicleEnter(IVehicle vehicle, IPlayer player, sbyte seat)
 {
-	AltAsync.Log(player.Name + " entered vehicle (Driver: " + vehicle.Driver.Name
+	IPlayer driver = await vehicle.GetDriverAsync();
+	string driverName = await driver.GetNameAsync();
+	string playerName = await player.GetNameAsync();
+
+	AltAsync.Log(playerName + " entered vehicle (Driver: " + driverName 
 						+ ") on seat " + seat + ".");
 
-	return Task.CompletedTask;
+	await Task.Delay(5000);
+
+	AltAsync.Log(playerName + " entered vehicle 5 seconds ago.");
 }
 ```
 
@@ -211,12 +235,14 @@ private Task OnVehicleEnter(IVehicle vehicle, IPlayer player, sbyte seat)
 ## OnVehicleLeave
 
 ```csharp
-private Task OnVehicleLeave(IVehicle vehicle, IPlayer player, sbyte seat)
+private async Task OnVehicleLeave(IVehicle vehicle, IPlayer player, sbyte seat)
 {
-	AltAsync.Log(player.Name + " left vehicle (Driver: " + vehicle.Driver.Name
-						+ ") from seat " + seat + ".");
+	IPlayer driver = await vehicle.GetDriverAsync();
+	string driverName = await driver.GetNameAsync();
+	string playerName = await player.GetNameAsync();
 
-	return Task.CompletedTask;
+	AltAsync.Log(playerName + " left vehicle (Driver: " + driverName
+						+ ") from seat " + seat + ".");
 }
 ```
 
@@ -228,6 +254,7 @@ private Task OnVehicleLeave(IVehicle vehicle, IPlayer player, sbyte seat)
 using System.Threading.Tasks;
 using AltV.Net;
 using AltV.Net.Async;
+using AltV.Net.Data;
 using AltV.Net.Elements.Entities;
 
 namespace CSharp_Examples
@@ -272,8 +299,11 @@ namespace CSharp_Examples
             AltAsync.Log("Resource \"CSharp_Examples\" has been started.");
         }
 
-        private Task OnCheckpoint(ICheckpoint checkpoint, IEntity entity, bool state)
+        private async Task OnCheckpoint(ICheckpoint checkpoint, IEntity entity, bool state)
         {
+            Position entityPosition = await entity.GetPositionAsync();
+            Position checkPosition = await checkpoint.GetPositionAsync();
+
             if (state)
             {
                 //Executed if entity enters checkpoint
@@ -281,18 +311,18 @@ namespace CSharp_Examples
                 {
                     case EntityType.Player:
                         AltAsync.Log("A player has entered the checkpoint: player-position "
-                                + entity.Position + " - checkpoint-position "
-                                + checkpoint.Position);
+                                + entityPosition + " - checkpoint-position "
+                                + checkPosition);
                         break;
                     case EntityType.Vehicle:
                         AltAsync.Log("A vehicle has entered the checkpoint: vehicle-position "
-                                + entity.Position + " - checkpoint-position "
-                                + checkpoint.Position);
+                                + entityPosition + " - checkpoint-position "
+                                + checkPosition);
                         break;
                     default:
                         AltAsync.Log("A entity has entered the checkpoint: entity-position "
-                                + entity.Position + " - checkpoint-position "
-                                + checkpoint.Position);
+                                + entityPosition + " - checkpoint-position "
+                                + checkPosition);
                         break;
                 }
             }
@@ -303,142 +333,165 @@ namespace CSharp_Examples
                 {
                     case EntityType.Player:
                         AltAsync.Log("A player has left the checkpoint: player-position "
-                                + entity.Position + " - checkpoint-position "
-                                + checkpoint.Position);
+                                + entityPosition + " - checkpoint-position "
+                                + checkPosition);
                         break;
                     case EntityType.Vehicle:
                         AltAsync.Log("A vehicle has left the checkpoint: vehicle-position "
-                                + entity.Position + " - checkpoint-position "
-                                + checkpoint.Position);
+                                + entityPosition + " - checkpoint-position "
+                                + checkPosition);
                         break;
                     default:
                         AltAsync.Log("A entity has left the checkpoint: entity-position "
-                                + entity.Position + " - checkpoint-position "
-                                + checkpoint.Position);
+                                + entityPosition + " - checkpoint-position "
+                                + checkPosition);
                         break;
                 }
             }
-
-            return Task.CompletedTask;
         }
 
-        private Task OnEntityRemove(IEntity entity)
+        private async Task OnEntityRemove(IEntity entity)
         {
+            Position entityPosition = await entity.GetPositionAsync();
+
             switch (entity.Type)
             {
                 case EntityType.Player:
                     AltAsync.Log("A player has been removed, at position "
-                            + entity.Position + ".");
+                            + entityPosition + ".");
                     break;
                 case EntityType.Vehicle:
                     AltAsync.Log("A vehicle has been removed, at position "
-                            + entity.Position + ".");
+                            + entityPosition + ".");
                     break;
                 case EntityType.Blip:
                     AltAsync.Log("A blip has been removed, at position "
-                            + entity.Position + ".");
+                            + entityPosition + ".");
                     break;
                 case EntityType.Checkpoint:
                     AltAsync.Log("A checkpoint has been removed, at position "
-                            + entity.Position + ".");
+                            + entityPosition + ".");
                     break;
                 default:
                     AltAsync.Log("A entity has been removed, at position "
-                            + entity.Position + ".");
+                            + entityPosition + ".");
                     break;
             }
-
-            return Task.CompletedTask;
         }
 
 
-        private Task OnPlayerConnect(IPlayer player, string reason)
+        private async Task OnPlayerConnect(IPlayer player, string reason)
         {
-            AltAsync.Log(player.Name + "has joined the server. (" + reason + ")");
+            string playerName = await player.GetNameAsync();
 
-            return Task.CompletedTask;
+            AltAsync.Log(playerName + "has joined the server. (" + reason + ")");
         }
 
-        private Task OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon,
+        private async Task OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon,
             byte damage)
         {
+            string playerName = await player.GetNameAsync();
+
             switch (attacker.Type)
             {
                 case EntityType.Player:
                     var playerAttacker = (IPlayer)attacker;
-                    AltAsync.Log(player.Name + " has been damaged by " + playerAttacker.Name
+                    string playerAttackerName = await playerAttacker.GetNameAsync();
+
+                    AltAsync.Log(playerName + " has been damaged by " + playerAttackerName
                             + " with weapon " + weapon + " and suffered " + damage +
                             " HP.");
                     break;
                 case EntityType.Vehicle:
                     var vehicleAttacker = (IVehicle)attacker;
-                    AltAsync.Log(player.Name + " has been damaged by a vehicle (Driver: "
-                                        + vehicleAttacker.Driver + ") and suffered "
+                    IPlayer driver = await vehicleAttacker.GetDriverAsync();
+                    string driverName = await driver.GetNameAsync();
+
+                    AltAsync.Log(playerName + " has been damaged by a vehicle (Driver: "
+                                        + driverName + ") and suffered "
                                         + damage + " HP.");
                     break;
                 default:
-                    AltAsync.Log(player.Name + " has been damaged by an Entity and suffered "
+                    AltAsync.Log(playerName + " has been damaged by an Entity and suffered "
                                         + damage + ".");
                     break;
             }
-
-            return Task.CompletedTask;
         }
 
-        private Task OnPlayerDead(IPlayer player, IEntity killer, uint weapon)
+        private async Task OnPlayerDead(IPlayer player, IEntity killer, uint weapon)
         {
+            
+            string playerName = await player.GetNameAsync();
+
             switch (killer.Type)
             {
                 case EntityType.Player:
-                    var playerKiller = (IPlayer)killer;
-                    AltAsync.Log(player.Name + " has been killed by " + playerKiller.Name
+                    IPlayer playerKiller = (IPlayer)killer;
+                    string playerKillerName = await playerKiller.GetNameAsync();
+
+                    AltAsync.Log(playerName + " has been killed by " + playerKillerName
                                         + " with weapon " + weapon + ".");
                     break;
                 case EntityType.Vehicle:
-                    var vehicleAttacker = (IVehicle)killer;
-                    AltAsync.Log(player.Name + " has been killed by a vehicle (Driver: "
-                                        + vehicleAttacker.Driver.Name + ").");
+                    IVehicle vehicleKiller = (IVehicle)killer;
+                    IPlayer driver = await vehicleKiller.GetDriverAsync();
+                    string driverName = await driver.GetNameAsync();
+
+                    AltAsync.Log(playerName + " has been killed by a vehicle (Driver: "
+                                        + driverName + ").");
                     break;
                 default:
-                    AltAsync.Log(player.Name + " has been killed by an Entity.");
+
+                    AltAsync.Log(playerName + " has been killed by an Entity.");
                     break;
             }
-
-            return Task.CompletedTask;
+            
         }
 
-        private Task OnPlayerDisconnect(IPlayer player, string reason)
+        private async Task OnPlayerDisconnect(IPlayer player, string reason)
         {
-            AltAsync.Log(player.Name + "has left the server. (" + reason + ")");
+            string playerName = await player.GetNameAsync();
 
-            return Task.CompletedTask;
+            AltAsync.Log(playerName + "has left the server. (" + reason + ")");
         }
 
-        private Task OnVehicleChangeSeat(IVehicle vehicle, IPlayer player, sbyte oldSeat,
+        private async Task OnVehicleChangeSeat(IVehicle vehicle, IPlayer player, sbyte oldSeat,
             sbyte newSeat)
         {
-            AltAsync.Log(player.Name + " has changed seat in vehicle (Driver: "
-                                + vehicle.Driver.Name + ") from " + oldSeat
+            IPlayer driver = await vehicle.GetDriverAsync();
+            string driverName = await driver.GetNameAsync();
+            string playerName = await player.GetNameAsync();
+
+            AltAsync.Log(playerName + " has changed seat in vehicle (Driver: "
+                                + driverName + ") from " + oldSeat
                                 + " to " + newSeat + ".");
 
-            return Task.CompletedTask;
         }
 
-        private Task OnVehicleEnter(IVehicle vehicle, IPlayer player, sbyte seat)
+        private async Task OnVehicleEnter(IVehicle vehicle, IPlayer player, sbyte seat)
         {
-            AltAsync.Log(player.Name + " entered vehicle (Driver: " + vehicle.Driver.Name
+            IPlayer driver = await vehicle.GetDriverAsync();
+            string driverName = await driver.GetNameAsync();
+            string playerName = await player.GetNameAsync();
+
+            AltAsync.Log(playerName + " entered vehicle (Driver: " + driverName 
                                 + ") on seat " + seat + ".");
 
-            return Task.CompletedTask;
+            await Task.Delay(5000);
+
+            AltAsync.Log(playerName + " entered vehicle 5 seconds ago.");
         }
 
-        private Task OnVehicleLeave(IVehicle vehicle, IPlayer player, sbyte seat)
+        private async Task OnVehicleLeave(IVehicle vehicle, IPlayer player, sbyte seat)
         {
-            AltAsync.Log(player.Name + " left vehicle (Driver: " + vehicle.Driver.Name
-                                + ") from seat " + seat + ".");
+            IPlayer driver = await vehicle.GetDriverAsync();
+            string driverName = await driver.GetNameAsync();
+            string playerName = await player.GetNameAsync();
 
-            return Task.CompletedTask;
+            AltAsync.Log(playerName + " left vehicle (Driver: " + driverName
+                                + ") from seat " + seat + ".");
         }
+
         public override void OnStop()
         {
             AltAsync.Log("Resource \"CSharp_Examples\" has been stopped.");
@@ -459,13 +512,15 @@ namespace CSharp_Examples
         }
 
         // Can been triggered from a Client Event
-        private Task OnPlayerEvent(IPlayer player, string eventName, object[] args)
+        private async Task OnPlayerEvent(IPlayer player, string eventName, object[] args)
         {
+            string playerName = await player.GetNameAsync();
+
             switch (eventName)
             {
                 case "playerEventA":
                 {
-                    AltAsync.Log(player.Name + " has triggered Event A, "
+                    AltAsync.Log(playerName + " has triggered Event A, "
                                         + "with following Args:");
                     foreach (var arg in args)
                     {
@@ -475,7 +530,7 @@ namespace CSharp_Examples
                 }
                 case "playerEventB":
                 {
-                    AltAsync.Log(player.Name + " has triggered Event B, "
+                    AltAsync.Log(playerName + " has triggered Event B, "
                                         + "with following Args:");
                     foreach (var arg in args)
                     {
@@ -485,9 +540,7 @@ namespace CSharp_Examples
                 }
             }
 
-            return Task.CompletedTask;
         }
     }
 }
-
 ```

@@ -4,7 +4,6 @@
 | --------------------------- | ---- |
 | Vehicle                     | 1    |
 | Ped		                  | 2    |
-| Enemy                       | 2    |
 | Object                      | 3    |
 | Destination                 | 4    |
 | Cont                        | 5    |
