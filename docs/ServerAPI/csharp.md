@@ -28,7 +28,7 @@ resources/
     └── ... (any .dll dependency like "AltV.Net.dll" or "mysql.dll")
 ```
 
-**resource.cfg** ([More Information here](resources/Resource.cfg))
+**resource.cfg**
 
 ```json
 {
