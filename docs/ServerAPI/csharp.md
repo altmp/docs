@@ -2,6 +2,7 @@
 
 ## Navigation
 
+* [Getting Started](docs/ServerAPI/csharp/Getting_Started.md)
 * [Events & Methods](docs/ServerAPI/csharp/Server_CSharp.md)
 * [Events & Methods (Async)](docs/ServerAPI/csharp/Server_CSharp_Async.md)
 * [Blip](docs/ServerAPI/csharp/Blip.md)
