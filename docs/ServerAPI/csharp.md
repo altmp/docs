@@ -11,3 +11,28 @@
 * [Rgba](docs/ServerAPI/csharp/Rgba.md)
 * [Rotation](docs/ServerAPI/csharp/Rotation.md)
 * [Vehicle](docs/ServerAPI/csharp/Vehicle.md)
+
+
+
+## Server Structure
+
+**Folder Structure**
+
+```
+modules/
+└── csharp-module.dll
+resources/
+└── my-example-csharp-resource/
+    ├── Alt.Net.Example.dll
+    ├── resource.cfg
+    └── ... (any .dll dependency like "AltV.Net.dll" or "mysql.dll")
+```
+
+**resource.cfg** ([More Information here](resources/Resource.cfg))
+
+```json
+{
+    "type": "csharp",
+	"main": "AltV.Net.Example.dll"
+}
+```
