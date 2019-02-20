@@ -14,7 +14,7 @@
 | language     |  any string						 | language shown in the masterlist	     	        |
 | description  |  any string						 | description shown in the masterlist              |
 | modules      |  "node-module", "csharp-module"     | modules that are started with the server         |
-| resources    |  string list						 | list of resources wich staring with the server   |
+| resources    |  string list						 | list of resources which starting with the server   |
 
 
 
