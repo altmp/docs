@@ -1,5 +1,7 @@
+[//]: # (version=662b03a8040a90fbb1e894f5e1df33fda0d19cca6fa11e729d480aa265c88a24)
+
 ```js
-alt.showCursor(bool state)
+showCursor.showCursor(bool state)
 ```
 
 Toggles a cursor visibility

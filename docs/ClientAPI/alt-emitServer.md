@@ -1,5 +1,7 @@
+[//]: # (version=e08396757d144135ddcc2accddae6e3709e5fa37efcd50f91141cf6745bc18b2)
+
 ```js
-alt.emitServer(string eventName, object ...args)
+emitServer.emitServer(string eventName, object ...args)
 ```
 
 Emit event to server

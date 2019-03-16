@@ -1,10 +1,10 @@
-[//]: # (version=4858999de0864801b9f8ca70dee863d503701c7e24ff90af267308fc0613b6b6)
+[//]: # (version=32c46719ab6bdbc4c102fccdfdd7eaf3ee893c2a6e3b24d6aac89c4d19f19bbc)
 
 ```js
-logWarning.logWarning(object ...args)
+logError.logError(object ...args)
 ```
 
-Log a warning message
+Log a error message
 
 #### Parameters
 | Parameter Name | Type | Description |

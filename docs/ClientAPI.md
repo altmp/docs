@@ -1,8 +1,8 @@
 # Client API
 
-This documentation has been automatically generated based on source code from branch `vadzz/dev` at `Sat, 16 Feb 2019 23:09:18 GMT`
+This documentation has been automatically generated based on source code from branch `HEAD` at `Sat, 16 Mar 2019 23:30:37 GMT`
 
-**DISCLAIMER**: Current Client API and documentation is in heavy Work In Progress! Documentation doesn't contains all available features and it can contains a misleading information
+**DISCLAIMER**: Current Client API and documentation is in heavy Work In Progress! Documentation doesn't contain all available features and it can contain some misleading information
 
 ## Utils
 
@@ -11,14 +11,36 @@ This documentation has been automatically generated based on source code from br
 * [alt.emitServer](docs/ClientAPI/alt-emitServer.md)
 * [alt.log](docs/ClientAPI/alt-log.md)
 * [alt.logWarning](docs/ClientAPI/alt-logWarning.md)
-* [alt.log](docs/ClientAPI/alt-log.md)
+* [alt.logError](docs/ClientAPI/alt-logError.md)
 * [alt.getLocalPlayer](docs/ClientAPI/alt-getLocalPlayer.md)
-* [alt.toggleGameControls](docs/ClientAPI/alt-toggleGameControls.md)
+* [alt.players](docs/ClientAPI/alt-players.md)
 * [alt.gameControlsEnabled](docs/ClientAPI/alt-gameControlsEnabled.md)
+* [alt.toggleGameControls](docs/ClientAPI/alt-toggleGameControls.md)
 * [alt.showCursor](docs/ClientAPI/alt-showCursor.md)
-* [alt.drawRect2D](docs/ClientAPI/alt-drawRect2D.md)
 * [alt.loadModel](docs/ClientAPI/alt-loadModel.md)
 * [alt.requestIPL](docs/ClientAPI/alt-requestIPL.md)
 * [alt.removeIPL](docs/ClientAPI/alt-removeIPL.md)
 * [alt.getDiscordInfo](docs/ClientAPI/alt-getDiscordInfo.md)
 * [alt.getLicenseHash](docs/ClientAPI/alt-getLicenseHash.md)
+* [alt.setModel](docs/ClientAPI/alt-setModel.md)
+* [alt.wait](docs/ClientAPI/alt-wait.md)
+* [alt.setCamFrozen](docs/ClientAPI/alt-setCamFrozen.md)
+* [alt.isInSandbox](docs/ClientAPI/alt-isInSandbox.md)
+* [alt.initVoice](docs/ClientAPI/alt-initVoice.md)
+* [alt.enableVoiceInput](docs/ClientAPI/alt-enableVoiceInput.md)
+* [alt.disableVoiceInput](docs/ClientAPI/alt-disableVoiceInput.md)
+* [alt.enableVoiceTest](docs/ClientAPI/alt-enableVoiceTest.md)
+* [alt.disableVoiceTest](docs/ClientAPI/alt-disableVoiceTest.md)
+* [alt.enableVoiceActivation](docs/ClientAPI/alt-enableVoiceActivation.md)
+* [alt.disableVoiceActivation](docs/ClientAPI/alt-disableVoiceActivation.md)
+* [alt.getMicLevel](docs/ClientAPI/alt-getMicLevel.md)
+* [alt.setMicGain](docs/ClientAPI/alt-setMicGain.md)
+* [alt.setTimeout](docs/ClientAPI/alt-setTimeout.md)
+* [alt.setInterval](docs/ClientAPI/alt-setInterval.md)
+* [alt.clearInterval](docs/ClientAPI/alt-clearInterval.md)
+* [alt.clearTimeout](docs/ClientAPI/alt-clearTimeout.md)
+* [alt.nextTick](docs/ClientAPI/alt-nextTick.md)
+* [alt.addGxtText](docs/ClientAPI/alt-addGxtText.md)
+* [alt.removeGxtText](docs/ClientAPI/alt-removeGxtText.md)
+* [alt.getGxtText](docs/ClientAPI/alt-getGxtText.md)
+* [alt.setMsCountInGameMinute](docs/ClientAPI/alt-setMsCountInGameMinute.md)

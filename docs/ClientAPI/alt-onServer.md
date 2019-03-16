@@ -1,5 +1,7 @@
+[//]: # (version=f4c527bf2906ed18218bb3caf8dcf75f7fc7953a8bd41009f5ac703bcf25eddc)
+
 ```js
-alt.onServer(string eventName, function callback)
+onServer.onServer(string eventName, function callback)
 ```
 
 Event handler function for events sent by server
