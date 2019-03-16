@@ -6,3 +6,7 @@ string getLicenseHash.getLicenseHash()
 
 Returns license hash
 
+#### Return
+
+**Type**: `string`
+**Description**: License hash

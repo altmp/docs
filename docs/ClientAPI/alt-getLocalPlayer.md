@@ -6,3 +6,7 @@ Player getLocalPlayer.getLocalPlayer()
 
 Returns a local player
 
+#### Return
+
+**Type**: `Player`
+**Description**: Local Player object

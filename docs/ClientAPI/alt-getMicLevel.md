@@ -6,3 +6,7 @@ double getMicLevel.getMicLevel()
 
 Returns microphone level
 
+#### Return
+
+**Type**: `double`
+**Description**: Microphone Level

@@ -10,4 +10,7 @@ Repeatedly calls a function, with a fixed time delay between each call (MDN)
 | Parameter Name | Type | Description |
 | -------------- | ----------- | ----------- |
 | function | `function` | A function to be executed every delay milliseconds |
-| delay | `int` | The time, in milliseconds, the timer should delay in between executions of the specified function or code |
+| delay | `int` | The time, in milliseconds, the timer should delay in between executions of the specified function or code |#### Return
+
+**Type**: `int`
+**Description**: Non-zero value which identifies the timer created by the call to setInterval this value can be passed to clearInterval to cancel the timeout

@@ -6,3 +6,7 @@ undefined isInSandbox.isInSandbox()
 
 Toggles camera freeze state
 
+#### Return
+
+**Type**: `undefined`
+**Description**: undefined

@@ -10,4 +10,7 @@ Sets a timer which executes a function once the timer expires (MDN)
 | Parameter Name | Type | Description |
 | -------------- | ----------- | ----------- |
 | function | `function` | A function to be executed after the timer expires |
-| delay | `int` | The time, in milliseconds, the timer should wait before the specified function is executed |
+| delay | `int` | The time, in milliseconds, the timer should wait before the specified function is executed |#### Return
+
+**Type**: `int`
+**Description**: Positive integer value which identifies the timer created by the call to setTimeout this value can be passed to clearTimeout to cancel the timeout

@@ -9,4 +9,7 @@ Gets a GXT text
 #### Parameters
 | Parameter Name | Type | Description |
 | -------------- | ----------- | ----------- |
-| key | `string` | Key of the GXT text |
+| key | `string` | Key of the GXT text |#### Return
+
+**Type**: `string`
+**Description**: Text of GTX text
