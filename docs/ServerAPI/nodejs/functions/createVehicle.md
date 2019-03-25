@@ -1,4 +1,4 @@
-### createVehicle
+## createVehicle
 
 **Description**: Creates a new vehicle entity
 
@@ -10,7 +10,7 @@ createVehicle(model, posX, posY, posZ, heading)
 
 | Parameter Name | Type   | Description |
 | -------------- | ------ | ----------- |
-| model        | `number` or `string` |             |
+| model        | `number` or `string` |     [Vehicle Models](docs/Resources/Vehicles/Models.md)          |
 | posX        | `number` |             |
 | posY        | `number` |             |
 | posZ        | `number` |             |
