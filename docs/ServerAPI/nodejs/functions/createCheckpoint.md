@@ -3,7 +3,7 @@
 **Description**: Creates a checkpoint
 
 ```javascript
-createCheckpoint(type: number, x: number, y: number, z: number, radius: number, height: number, r: number, g: number, b: number, a: number)
+createCheckpoint(type, x, y, z, radius, height, r, g, b, a)
 ```
 
 #### Parameters
