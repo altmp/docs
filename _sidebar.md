@@ -3,6 +3,7 @@
 * [Home](/)
 * [Server API](docs/ServerAPI.md)
   * [C#](docs/ServerAPI/csharp.md)
+  * [NodeJS](docs/ServerAPI/nodejs.md)
 * [Client API](docs/ClientAPI.md)
 * [Module SDK](docs/SDK.md)
 * [Resources](docs/Resources.md)
