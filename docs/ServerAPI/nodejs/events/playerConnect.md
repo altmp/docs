@@ -3,7 +3,7 @@
 **Description**: This event is called when a player connects to the server.
 
 ```javascript
-alt.on('playerDead', (player) => {
+alt.on('playerConnect', (player) => {
 
 });
 ```
