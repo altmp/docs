@@ -1,7 +1,9 @@
-[//]: # (version=c6e4c159b2952266ec6ba1561a0f602ecfee4784ae827621ed429e493a04dea9)
+[//]: # (version=bb5215f1a616d7e0974c3bad695cce80b29a4c28e5f440272dc71dc9415327fc)
+
+## alt.removeIpl
 
 ```js
-removeIpl.removeIipl(string iplName)
+alt.removeIpl(string iplName)
 ```
 
 Removes the IPL file
@@ -10,3 +12,13 @@ Removes the IPL file
 | Parameter Name | Type | Description |
 | -------------- | ----------- | ----------- |
 | iplName | `string` | Name of IPL |
+
+## Example
+
+```js
+alt.removeIpl(string iplName)
+```
+
+## References
+
+*TODO*

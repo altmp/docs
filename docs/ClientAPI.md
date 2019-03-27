@@ -1,6 +1,6 @@
 # Client API
 
-This documentation has been automatically generated based on source code from branch `HEAD` at `Sat, 16 Mar 2019 23:30:37 GMT`
+This documentation has been automatically generated based on source code from branch `master` at `Wed, 27 Mar 2019 09:32:00 GMT`
 
 **DISCLAIMER**: Current Client API and documentation is in heavy Work In Progress! Documentation doesn't contain all available features and it can contain some misleading information
 
@@ -43,4 +43,4 @@ This documentation has been automatically generated based on source code from br
 * [alt.addGxtText](docs/ClientAPI/alt-addGxtText.md)
 * [alt.removeGxtText](docs/ClientAPI/alt-removeGxtText.md)
 * [alt.getGxtText](docs/ClientAPI/alt-getGxtText.md)
-* [alt.setMsCountInGameMinute](docs/ClientAPI/alt-setMsCountInGameMinute.md)
+* [alt.setMsPerGameMinute](docs/ClientAPI/alt-setMsPerGameMinute.md)

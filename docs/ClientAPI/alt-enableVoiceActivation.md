@@ -1,7 +1,9 @@
 [//]: # (version=e86e77f63c210a112489b6547cb25b5af3eadb3e21cd41987b673fa26b6292b9)
 
+## alt.enableVoiceActivation
+
 ```js
-enableVoiceActivation.enableVoiceActivation(double activateOn, int activationTime)
+alt.enableVoiceActivation(double activateOn, int activationTime)
 ```
 
 Enables Voice Activation
@@ -11,3 +13,13 @@ Enables Voice Activation
 | -------------- | ----------- | ----------- |
 | activateOn | `double` |  |
 | activationTime | `int` |  |
+
+## Example
+
+```js
+alt.enableVoiceActivation(double activateOn, int activationTime)
+```
+
+## References
+
+*TODO*

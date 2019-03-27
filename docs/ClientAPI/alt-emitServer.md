@@ -1,7 +1,9 @@
 [//]: # (version=e08396757d144135ddcc2accddae6e3709e5fa37efcd50f91141cf6745bc18b2)
 
+## alt.emitServer
+
 ```js
-emitServer.emitServer(string eventName, object ...args)
+alt.emitServer(string eventName, object ...args)
 ```
 
 Emit event to server
@@ -11,3 +13,13 @@ Emit event to server
 | -------------- | ----------- | ----------- |
 | eventName | `string` | Name of the event |
 | ...args | `object` | undefined |
+
+## Example
+
+```js
+alt.emitServer(string eventName, object ...args)
+```
+
+## References
+
+*TODO*

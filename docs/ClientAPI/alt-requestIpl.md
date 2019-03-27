@@ -1,7 +1,9 @@
-[//]: # (version=81f4ea0700d51f3c0eab90abdec6a03e4234b17c460373c2b8af1dd6908285da)
+[//]: # (version=6ef39846332f1d2744254ad3b25d92e0a8972ffb9a64f87e6803c548fc17f32a)
+
+## alt.requestIpl
 
 ```js
-requestIpl.requestIpl(string iplName)
+alt.requestIpl(string iplName)
 ```
 
 Requests the IPL file
@@ -10,3 +12,13 @@ Requests the IPL file
 | Parameter Name | Type | Description |
 | -------------- | ----------- | ----------- |
 | iplName | `string` | Name of IPL |
+
+## Example
+
+```js
+alt.requestIpl(string iplName)
+```
+
+## References
+
+*TODO*

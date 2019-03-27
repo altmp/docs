@@ -1,7 +1,9 @@
 [//]: # (version=7075c8c7c70403f9255efc6bf8996f0e0f100e89f44451f7c5f5c41bb7bd1437)
 
+## alt.log
+
 ```js
-log.log(object ...args)
+alt.log(object ...args)
 ```
 
 Log a message
@@ -10,3 +12,13 @@ Log a message
 | Parameter Name | Type | Description |
 | -------------- | ----------- | ----------- |
 | ...args | `object` | undefined |
+
+## Example
+
+```js
+alt.log(object ...args)
+```
+
+## References
+
+*TODO*

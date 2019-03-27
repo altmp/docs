@@ -1,7 +1,9 @@
 [//]: # (version=35bc339c7b760eb6b58116d9e18988adb5513f799d6e1b402ca1f11b1e1cb17a)
 
+## alt.loadModel
+
 ```js
-loadModel.loadModel(int model)
+alt.loadModel(int model)
 ```
 
 Loads the model
@@ -10,3 +12,13 @@ Loads the model
 | Parameter Name | Type | Description |
 | -------------- | ----------- | ----------- |
 | model | `int` | Model Hash |
+
+## Example
+
+```js
+alt.loadModel(int model)
+```
+
+## References
+
+*TODO*

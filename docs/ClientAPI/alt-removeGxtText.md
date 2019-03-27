@@ -1,7 +1,9 @@
 [//]: # (version=446ffa9c398202fcb1db53fddf71e8de4c23ed9fe82f7b78fd898f93bc9b9e37)
 
+## alt.removeGxtText
+
 ```js
-removeGxtText.removeGxtText(string key)
+alt.removeGxtText(string key)
 ```
 
 Removes a GXT text
@@ -10,3 +12,13 @@ Removes a GXT text
 | Parameter Name | Type | Description |
 | -------------- | ----------- | ----------- |
 | key | `string` | Key of the GXT text |
+
+## Example
+
+```js
+alt.removeGxtText(string key)
+```
+
+## References
+
+*TODO*
