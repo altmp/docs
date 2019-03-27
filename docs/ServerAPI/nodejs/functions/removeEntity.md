@@ -3,7 +3,7 @@
 **Description**: -
 
 ```javascript
-removeEntity(entity)
+alt.removeEntity(entity)
 ```
 
 #### Parameters

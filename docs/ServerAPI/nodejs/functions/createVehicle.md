@@ -3,7 +3,7 @@
 **Description**: Creates a new vehicle entity
 
 ```javascript
-createVehicle(model, posX, posY, posZ, heading)
+alt.createVehicle(model, posX, posY, posZ, heading)
 ```
 
 #### Parameters
@@ -24,5 +24,5 @@ createVehicle(model, posX, posY, posZ, heading)
 #### Example Usage
 
 ```javascript
-//todo
+ alt.createVehicle("faction", 414.20746, -972.52386, 29.44237, 0);
 ```
