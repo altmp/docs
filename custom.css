@@ -18,6 +18,10 @@ body {
   background: #555;
 }
 
+body:not([data-platform^="Mac"]) .sidebar:hover>*:not(.sidebar-nav) {
+    margin-right: 0;
+}
+
 .app-nav>ul>li>a, .app-nav>ul>li>span {
   color: #b4b4b4;
 }
