@@ -1,3 +1,3 @@
-* [Home](https://v.alt-mp.com)
-* [Forums](https://v.alt-mp.com/forums)
+* [Home](https://altv.mp)
+* [Forums](https://forum.altv.mp)
 * <a href="#" class="active">Wiki</a>
