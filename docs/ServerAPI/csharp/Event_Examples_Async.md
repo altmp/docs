@@ -15,12 +15,12 @@ private async Task OnCheckpoint(ICheckpoint checkpoint, IEntity entity, bool sta
 		//Executed if entity enters checkpoint
 		switch (entity.Type)
 		{
-			case EntityType.Player:
+			case BaseObjectType.Player:
 				AltAsync.Log("A player has entered the checkpoint: player-position "
 						+ entityPosition + " - checkpoint-position "
 						+ checkPosition);
 				break;
-			case EntityType.Vehicle:
+			case BaseObjectType.Vehicle:
 				AltAsync.Log("A vehicle has entered the checkpoint: vehicle-position "
 						+ entityPosition + " - checkpoint-position "
 						+ checkPosition);
@@ -37,12 +37,12 @@ private async Task OnCheckpoint(ICheckpoint checkpoint, IEntity entity, bool sta
 		//Executed if entity leaves checkpoint
 		switch (entity.Type)
 		{
-			case EntityType.Player:
+			case BaseObjectType.Player:
 				AltAsync.Log("A player has left the checkpoint: player-position "
 						+ entityPosition + " - checkpoint-position "
 						+ checkPosition);
 				break;
-			case EntityType.Vehicle:
+			case BaseObjectType.Vehicle:
 				AltAsync.Log("A vehicle has left the checkpoint: vehicle-position "
 						+ entityPosition + " - checkpoint-position "
 						+ checkPosition);
@@ -68,19 +68,19 @@ private async Task OnEntityRemove(IEntity entity)
 	
 	switch (entity.Type)
 	{
-		case EntityType.Player:
+		case BaseObjectType.Player:
 			AltAsync.Log("A player has been removed, at position "
 					+ entityPosition + ".");
 			break;
-		case EntityType.Vehicle:
+		case BaseObjectType.Vehicle:
 			AltAsync.Log("A vehicle has been removed, at position "
 					+ entityPosition + ".");
 			break;
-		case EntityType.Blip:
+		case BaseObjectType.Blip:
 			AltAsync.Log("A blip has been removed, at position "
 					+ entityPosition + ".");
 			break;
-		case EntityType.Checkpoint:
+		case BaseObjectType.Checkpoint:
 			AltAsync.Log("A checkpoint has been removed, at position "
 					+ entityPosition + ".");
 			break;
@@ -117,7 +117,7 @@ private async Task OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon,
 
 	switch (attacker.Type)
 	{
-		case EntityType.Player:
+		case BaseObjectType.Player:
 			var playerAttacker = (IPlayer)attacker;
 			string playerAttackerName = await playerAttacker.GetNameAsync();
 
@@ -125,7 +125,7 @@ private async Task OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon,
 					+ " with weapon " + weapon + " and suffered " + damage +
 					" HP.");
 			break;
-		case EntityType.Vehicle:
+		case BaseObjectType.Vehicle:
 			var vehicleAttacker = (IVehicle)attacker;
 			IPlayer driver = await vehicleAttacker.GetDriverAsync();
 			string driverName = await driver.GetNameAsync();
@@ -154,14 +154,14 @@ private async Task OnPlayerDead(IPlayer player, IEntity killer, uint weapon)
 
 	switch (killer.Type)
 	{
-		case EntityType.Player:
+		case BaseObjectType.Player:
 			IPlayer playerKiller = (IPlayer)killer;
 			string playerKillerName = await playerKiller.GetNameAsync();
 
 			AltAsync.Log(playerName + " has been killed by " + playerKillerName
 								+ " with weapon " + weapon + ".");
 			break;
-		case EntityType.Vehicle:
+		case BaseObjectType.Vehicle:
 			IVehicle vehicleKiller = (IVehicle)killer;
 			IPlayer driver = await vehicleKiller.GetDriverAsync();
 			string driverName = await driver.GetNameAsync();
@@ -312,12 +312,12 @@ namespace CSharp_Examples
                 //Executed if entity enters checkpoint
                 switch (entity.Type)
                 {
-                    case EntityType.Player:
+                    case BaseObjectType.Player:
                         AltAsync.Log("A player has entered the checkpoint: player-position "
                                 + entityPosition + " - checkpoint-position "
                                 + checkPosition);
                         break;
-                    case EntityType.Vehicle:
+                    case BaseObjectType.Vehicle:
                         AltAsync.Log("A vehicle has entered the checkpoint: vehicle-position "
                                 + entityPosition + " - checkpoint-position "
                                 + checkPosition);
@@ -334,12 +334,12 @@ namespace CSharp_Examples
                 //Executed if entity leaves checkpoint
                 switch (entity.Type)
                 {
-                    case EntityType.Player:
+                    case BaseObjectType.Player:
                         AltAsync.Log("A player has left the checkpoint: player-position "
                                 + entityPosition + " - checkpoint-position "
                                 + checkPosition);
                         break;
-                    case EntityType.Vehicle:
+                    case BaseObjectType.Vehicle:
                         AltAsync.Log("A vehicle has left the checkpoint: vehicle-position "
                                 + entityPosition + " - checkpoint-position "
                                 + checkPosition);
@@ -359,19 +359,19 @@ namespace CSharp_Examples
 
             switch (entity.Type)
             {
-                case EntityType.Player:
+                case BaseObjectType.Player:
                     AltAsync.Log("A player has been removed, at position "
                             + entityPosition + ".");
                     break;
-                case EntityType.Vehicle:
+                case BaseObjectType.Vehicle:
                     AltAsync.Log("A vehicle has been removed, at position "
                             + entityPosition + ".");
                     break;
-                case EntityType.Blip:
+                case BaseObjectType.Blip:
                     AltAsync.Log("A blip has been removed, at position "
                             + entityPosition + ".");
                     break;
-                case EntityType.Checkpoint:
+                case BaseObjectType.Checkpoint:
                     AltAsync.Log("A checkpoint has been removed, at position "
                             + entityPosition + ".");
                     break;
@@ -397,7 +397,7 @@ namespace CSharp_Examples
 
             switch (attacker.Type)
             {
-                case EntityType.Player:
+                case BaseObjectType.Player:
                     var playerAttacker = (IPlayer)attacker;
                     string playerAttackerName = await playerAttacker.GetNameAsync();
 
@@ -405,7 +405,7 @@ namespace CSharp_Examples
                             + " with weapon " + weapon + " and suffered " + damage +
                             " HP.");
                     break;
-                case EntityType.Vehicle:
+                case BaseObjectType.Vehicle:
                     var vehicleAttacker = (IVehicle)attacker;
                     IPlayer driver = await vehicleAttacker.GetDriverAsync();
                     string driverName = await driver.GetNameAsync();
@@ -428,14 +428,14 @@ namespace CSharp_Examples
 
             switch (killer.Type)
             {
-                case EntityType.Player:
+                case BaseObjectType.Player:
                     IPlayer playerKiller = (IPlayer)killer;
                     string playerKillerName = await playerKiller.GetNameAsync();
 
                     AltAsync.Log(playerName + " has been killed by " + playerKillerName
                                         + " with weapon " + weapon + ".");
                     break;
-                case EntityType.Vehicle:
+                case BaseObjectType.Vehicle:
                     IVehicle vehicleKiller = (IVehicle)killer;
                     IPlayer driver = await vehicleKiller.GetDriverAsync();
                     string driverName = await driver.GetNameAsync();
