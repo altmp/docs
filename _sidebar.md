@@ -1,6 +1,10 @@
 <!-- docs/_sidebar.md -->
 
 * [Home](/)
+* [Configuration](docs/Configuration.md)
+  * [Server Config](docs/Configuration/ServerConfig.md)
+  * [Resource Config](docs/Configuration/ResourceConfig.md)
+  * [Command-line Args](docs/Configuration/CmdArgs.md)
 * [Server API](docs/ServerAPI.md)
   * [C#](docs/ServerAPI/csharp.md)
   * [NodeJS](docs/ServerAPI/nodejs.md)

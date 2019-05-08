@@ -83,7 +83,11 @@ body:not([data-platform^="Mac"]) .sidebar:hover>*:not(.sidebar-nav) {
 }
 
 .app-nav:not(:empty) ~ main .markdown-section {
-    padding-top: 5.5rem;
+  padding-top: 5.5rem;
+}
+
+.markdown-section {
+  max-width: 95%;
 }
 
 .markdown-section h1 {
