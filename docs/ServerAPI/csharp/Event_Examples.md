@@ -34,12 +34,12 @@ private void OnCheckpoint(ICheckpoint checkpoint, IEntity entity, bool state)
 		//Executed if entity leaves checkpoint
 		switch (entity.Type)
 		{
-			case EntityType.Player:
+			case BaseObjectType.Player:
 				Alt.Log("A player has left the checkpoint: player-position "
 						+ entity.Position + " - checkpoint-position "
 						+ checkpoint.Position);
 				break;
-			case EntityType.Vehicle:
+			case BaseObjectType.Vehicle:
 				Alt.Log("A vehicle has left the checkpoint: vehicle-position "
 						+ entity.Position + " - checkpoint-position "
 						+ checkpoint.Position);
@@ -63,19 +63,19 @@ private void OnEntityRemove(IEntity entity)
 {
 	switch (entity.Type)
 	{
-		case EntityType.Player:
+		case BaseObjectType.Player:
 			Alt.Log("A player has been removed, at position " 
 					+ entity.Position + ".");
 			break;
-		case EntityType.Vehicle:
+		case BaseObjectType.Vehicle:
 			Alt.Log("A vehicle has been removed, at position "
 					+ entity.Position + ".");
 			break;
-		case EntityType.Blip:
+		case BaseObjectType.Blip:
 			Alt.Log("A blip has been removed, at position "
 					+ entity.Position + ".");
 			break;
-		case EntityType.Checkpoint:
+		case BaseObjectType.Checkpoint:
 			Alt.Log("A checkpoint has been removed, at position "
 					+ entity.Position + ".");
 			break;
@@ -107,12 +107,12 @@ private void OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon, byte 
 {
 	switch (attacker.Type)
 	{
-		case EntityType.Player:
+		case BaseObjectType.Player:
 			var playerAttacker = (IPlayer) attacker;
 			Alt.Log(player.Name + " has been damaged by " + playerAttacker.Name 
 					+ " with weapon " + weapon + " and suffered " + damage + " HP.");
 			break;
-		case EntityType.Vehicle:
+		case BaseObjectType.Vehicle:
 			var vehicleAttacker = (IVehicle)attacker;
 			Alt.Log(player.Name + " has been damaged by a vehicle (Driver: " 
 								+ vehicleAttacker.Driver + ") and suffered " 
@@ -135,12 +135,12 @@ private void OnPlayerDead(IPlayer player, IEntity killer, uint weapon)
 {
 	switch (killer.Type)
 	{
-		case EntityType.Player:
+		case BaseObjectType.Player:
 			var playerKiller = (IPlayer)killer;
 			Alt.Log(player.Name + " has been killed by " + playerKiller.Name
 								+ " with weapon " + weapon + ".");
 			break;
-		case EntityType.Vehicle:
+		case BaseObjectType.Vehicle:
 			var vehicleAttacker = (IVehicle)killer;
 			Alt.Log(player.Name + " has been killed by a vehicle (Driver: " 
 								+ vehicleAttacker.Driver.Name + ").");
@@ -269,12 +269,12 @@ namespace CSharp_Examples
                 //Executed if entity enters checkpoint
                 switch (entity.Type)
                 {
-                    case EntityType.Player:
+                    case BaseObjectType.Player:
                         Alt.Log("A player has entered the checkpoint: player-position "
                                 + entity.Position + " - checkpoint-position "
                                 + checkpoint.Position);
                         break;
-                    case EntityType.Vehicle:
+                    case BaseObjectType.Vehicle:
                         Alt.Log("A vehicle has entered the checkpoint: vehicle-position "
                                 + entity.Position + " - checkpoint-position "
                                 + checkpoint.Position);
@@ -291,12 +291,12 @@ namespace CSharp_Examples
                 //Executed if entity leaves checkpoint
                 switch (entity.Type)
                 {
-                    case EntityType.Player:
+                    case BaseObjectType.Player:
                         Alt.Log("A player has left the checkpoint: player-position "
                                 + entity.Position + " - checkpoint-position "
                                 + checkpoint.Position);
                         break;
-                    case EntityType.Vehicle:
+                    case BaseObjectType.Vehicle:
                         Alt.Log("A vehicle has left the checkpoint: vehicle-position "
                                 + entity.Position + " - checkpoint-position "
                                 + checkpoint.Position);
@@ -314,19 +314,19 @@ namespace CSharp_Examples
         {
             switch (entity.Type)
             {
-                case EntityType.Player:
+                case BaseObjectType.Player:
                     Alt.Log("A player has been removed, at position " 
                             + entity.Position + ".");
                     break;
-                case EntityType.Vehicle:
+                case BaseObjectType.Vehicle:
                     Alt.Log("A vehicle has been removed, at position "
                             + entity.Position + ".");
                     break;
-                case EntityType.Blip:
+                case BaseObjectType.Blip:
                     Alt.Log("A blip has been removed, at position "
                             + entity.Position + ".");
                     break;
-                case EntityType.Checkpoint:
+                case BaseObjectType.Checkpoint:
                     Alt.Log("A checkpoint has been removed, at position "
                             + entity.Position + ".");
                     break;
@@ -348,13 +348,13 @@ namespace CSharp_Examples
         {
             switch (attacker.Type)
             {
-                case EntityType.Player:
+                case BaseObjectType.Player:
                     var playerAttacker = (IPlayer) attacker;
                     Alt.Log(player.Name + " has been damaged by " + playerAttacker.Name 
                             + " with weapon " + weapon + " and suffered " + damage +
                             " HP.");
                     break;
-                case EntityType.Vehicle:
+                case BaseObjectType.Vehicle:
                     var vehicleAttacker = (IVehicle)attacker;
                     Alt.Log(player.Name + " has been damaged by a vehicle (Driver: " 
                                         + vehicleAttacker.Driver + ") and suffered " 
@@ -371,12 +371,12 @@ namespace CSharp_Examples
         {
             switch (killer.Type)
             {
-                case EntityType.Player:
+                case BaseObjectType.Player:
                     var playerKiller = (IPlayer)killer;
                     Alt.Log(player.Name + " has been killed by " + playerKiller.Name
                                         + " with weapon " + weapon + ".");
                     break;
-                case EntityType.Vehicle:
+                case BaseObjectType.Vehicle:
                     var vehicleAttacker = (IVehicle)killer;
                     Alt.Log(player.Name + " has been killed by a vehicle (Driver: " 
                                         + vehicleAttacker.Driver.Name + ").");
