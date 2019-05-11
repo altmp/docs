@@ -32,8 +32,6 @@ resources/
 **resource.cfg**
 
 ```json
-{
-    "type": "csharp",
-	"main": "AltV.Net.Example.dll"
-}
+"type": "csharp",
+"main": "AltV.Net.Example.dll"
 ```
