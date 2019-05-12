@@ -1,9 +1,9 @@
 [//]: # (version=90146c4e742ce71e8d915edaabb7e65bb1302f2906b419014330f87d436e9f75)
 
-## alt.getDiscordInfo
+## alt.discordInfo
 
 ```js
-object alt.getDiscordInfo()
+object alt.discordInfo()
 ```
 
 Returns information about user from Discord
@@ -21,7 +21,7 @@ Returns information about user from Discord
 ## Example
 
 ```js
-object alt.getDiscordInfo()
+object alt.discordInfo()
 ```
 
 ## References
