@@ -4,6 +4,7 @@
 
 .NET Core SDK can be found [here](https://dotnet.microsoft.com/download). You have to install the sdk, the runtime isn't needed.
 
+Check the [community made module](https://github.com/FabianTerhorst/coreclr-module) for more information.
 
 ### Create a project with Visual Studio 17 (Windows)
 
