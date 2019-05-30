@@ -1,7 +1,7 @@
 # networkGetNumFoundGamers (Category network)
 
 ```js
-function networkGetNumFoundGamers(): int
+function networkGetNumFoundGamers(): number
 ```
 
 [filename](networkGetNumFoundGamers_m.md ':include')

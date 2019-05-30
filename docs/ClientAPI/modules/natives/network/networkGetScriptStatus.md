@@ -1,7 +1,7 @@
 # networkGetScriptStatus (Category network)
 
 ```js
-function networkGetScriptStatus(): int
+function networkGetScriptStatus(): number
 ```
 
 [filename](networkGetScriptStatus_m.md ':include')

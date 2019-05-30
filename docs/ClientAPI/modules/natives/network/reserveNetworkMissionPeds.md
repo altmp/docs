@@ -1,7 +1,7 @@
 # reserveNetworkMissionPeds (Category network)
 
 ```js
-function reserveNetworkMissionPeds(amount: int): void
+function reserveNetworkMissionPeds(amount: number): void
 ```
 
 [filename](reserveNetworkMissionPeds_m.md ':include')

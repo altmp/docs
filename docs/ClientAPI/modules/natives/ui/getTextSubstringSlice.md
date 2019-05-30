@@ -1,7 +1,7 @@
 # getTextSubstringSlice (Category ui)
 
 ```js
-function getTextSubstringSlice(text: string, startPosition: int, endPosition: int): string
+function getTextSubstringSlice(text: string, startPosition: number, endPosition: number): string
 ```
 
 [filename](getTextSubstringSlice_m.md ':include')

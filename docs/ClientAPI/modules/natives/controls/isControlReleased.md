@@ -1,7 +1,7 @@
 # isControlReleased (Category controls)
 
 ```js
-function isControlReleased(inputGroup: int, control: int): boolean
+function isControlReleased(inputGroup: number, control: number): boolean
 ```
 
 [filename](isControlReleased_m.md ':include')

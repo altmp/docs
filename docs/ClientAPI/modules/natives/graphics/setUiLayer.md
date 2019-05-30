@@ -1,7 +1,7 @@
 # setUiLayer (Category graphics)
 
 ```js
-function setUiLayer(layer: int): void
+function setUiLayer(layer: number): void
 ```
 
 [filename](setUiLayer_m.md ':include')

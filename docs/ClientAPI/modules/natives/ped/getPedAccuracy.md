@@ -1,7 +1,7 @@
 # getPedAccuracy (Category ped)
 
 ```js
-function getPedAccuracy(ped: number): int
+function getPedAccuracy(ped: number): number
 ```
 
 [filename](getPedAccuracy_m.md ':include')

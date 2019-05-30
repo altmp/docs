@@ -1,7 +1,7 @@
 # getNumDlcWeapons (Category dlc1)
 
 ```js
-function getNumDlcWeapons(): int
+function getNumDlcWeapons(): number
 ```
 
 [filename](getNumDlcWeapons_m.md ':include')

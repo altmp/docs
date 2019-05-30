@@ -1,7 +1,7 @@
 # setMaxWantedLevel (Category player)
 
 ```js
-function setMaxWantedLevel(maxWantedLevel: int): void
+function setMaxWantedLevel(maxWantedLevel: number): void
 ```
 
 [filename](setMaxWantedLevel_m.md ':include')

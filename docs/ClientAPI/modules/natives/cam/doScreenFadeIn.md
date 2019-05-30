@@ -1,7 +1,7 @@
 # doScreenFadeIn (Category cam)
 
 ```js
-function doScreenFadeIn(duration: int): void
+function doScreenFadeIn(duration: number): void
 ```
 
 [filename](doScreenFadeIn_m.md ':include')

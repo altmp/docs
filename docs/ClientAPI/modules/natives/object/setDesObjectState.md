@@ -1,7 +1,7 @@
 # setDesObjectState (Category object)
 
 ```js
-function setDesObjectState(handle: int, state: int): void
+function setDesObjectState(handle: number, state: number): void
 ```
 
 [filename](setDesObjectState_m.md ':include')

@@ -1,7 +1,7 @@
 # getPlayerShortSwitchState (Category streaming)
 
 ```js
-function getPlayerShortSwitchState(): int
+function getPlayerShortSwitchState(): number
 ```
 
 [filename](getPlayerShortSwitchState_m.md ':include')

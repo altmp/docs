@@ -1,7 +1,7 @@
 # networkGetDestroyerOfNetworkId (Category network)
 
 ```js
-function networkGetDestroyerOfNetworkId(netId: int, weaponHash: intPtr): Array
+function networkGetDestroyerOfNetworkId(netId: number, weaponHash: intPtr): Array
 ```
 
 [filename](networkGetDestroyerOfNetworkId_m.md ':include')

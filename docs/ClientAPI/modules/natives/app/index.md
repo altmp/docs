@@ -1,10 +1,10 @@
 ## APP Natives
 
-* [`appDataValid(): int`](docs/ClientAPI/modules/natives/APP/appDataValid.md)
+* [`appDataValid(): number`](docs/ClientAPI/modules/natives/APP/appDataValid.md)
 * [`appGetInt(property: number): intPtr`](docs/ClientAPI/modules/natives/APP/appGetInt.md)
 * [`appGetFloat(property: string): number`](docs/ClientAPI/modules/natives/APP/appGetFloat.md)
 * [`appGetString(property: string): string`](docs/ClientAPI/modules/natives/APP/appGetString.md)
-* [`appSetInt(property: string, value: int): void`](docs/ClientAPI/modules/natives/APP/appSetInt.md)
+* [`appSetInt(property: string, value: number): void`](docs/ClientAPI/modules/natives/APP/appSetInt.md)
 * [`appSetFloat(property: string, value: number): void`](docs/ClientAPI/modules/natives/APP/appSetFloat.md)
 * [`appSetString(property: string, value: string): void`](docs/ClientAPI/modules/natives/APP/appSetString.md)
 * [`appSetApp(appName: string): void`](docs/ClientAPI/modules/natives/APP/appSetApp.md)

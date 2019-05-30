@@ -1,7 +1,7 @@
 # objToNet (Category network)
 
 ```js
-function objToNet(object: number): int
+function objToNet(object: number): number
 ```
 
 [filename](objToNet_m.md ':include')

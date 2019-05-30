@@ -1,7 +1,7 @@
 # setFakeWantedLevel (Category gameplay)
 
 ```js
-function setFakeWantedLevel(fakeWantedLevel: int): void
+function setFakeWantedLevel(fakeWantedLevel: number): void
 ```
 
 [filename](setFakeWantedLevel_m.md ':include')

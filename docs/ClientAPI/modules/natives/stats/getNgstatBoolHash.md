@@ -1,7 +1,7 @@
 # getNgstatBoolHash (Category stats)
 
 ```js
-function getNgstatBoolHash(index: int, spStat: boolean, charStat: boolean, character: int, section: string): number
+function getNgstatBoolHash(index: number, spStat: boolean, charStat: boolean, character: number, section: string): number
 ```
 
 [filename](getNgstatBoolHash_m.md ':include')

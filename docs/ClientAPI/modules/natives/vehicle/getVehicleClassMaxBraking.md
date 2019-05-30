@@ -1,7 +1,7 @@
 # getVehicleClassMaxBraking (Category vehicle)
 
 ```js
-function getVehicleClassMaxBraking(vehicleClass: int): number
+function getVehicleClassMaxBraking(vehicleClass: number): number
 ```
 
 [filename](getVehicleClassMaxBraking_m.md ':include')

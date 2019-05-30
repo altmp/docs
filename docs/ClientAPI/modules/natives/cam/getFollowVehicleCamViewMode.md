@@ -1,7 +1,7 @@
 # getFollowVehicleCamViewMode (Category cam)
 
 ```js
-function getFollowVehicleCamViewMode(): int
+function getFollowVehicleCamViewMode(): number
 ```
 
 [filename](getFollowVehicleCamViewMode_m.md ':include')

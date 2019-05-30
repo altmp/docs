@@ -1,7 +1,7 @@
 # createTrackedPoint (Category graphics)
 
 ```js
-function createTrackedPoint(): int
+function createTrackedPoint(): number
 ```
 
 [filename](createTrackedPoint_m.md ':include')

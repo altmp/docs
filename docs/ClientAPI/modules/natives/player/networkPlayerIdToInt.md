@@ -1,7 +1,7 @@
 # networkPlayerIdToInt (Category player)
 
 ```js
-function networkPlayerIdToInt(): int
+function networkPlayerIdToInt(): number
 ```
 
 [filename](networkPlayerIdToInt_m.md ':include')

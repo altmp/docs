@@ -1,7 +1,7 @@
 # setCamSplineDuration (Category cam)
 
 ```js
-function setCamSplineDuration(cam: int, timeDuration: int): void
+function setCamSplineDuration(cam: number, timeDuration: number): void
 ```
 
 [filename](setCamSplineDuration_m.md ':include')

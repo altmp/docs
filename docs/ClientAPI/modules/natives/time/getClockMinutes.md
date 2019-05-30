@@ -1,7 +1,7 @@
 # getClockMinutes (Category time)
 
 ```js
-function getClockMinutes(): int
+function getClockMinutes(): number
 ```
 
 [filename](getClockMinutes_m.md ':include')

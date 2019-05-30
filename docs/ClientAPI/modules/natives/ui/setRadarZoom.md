@@ -1,7 +1,7 @@
 # setRadarZoom (Category ui)
 
 ```js
-function setRadarZoom(zoomLevel: int): void
+function setRadarZoom(zoomLevel: number): void
 ```
 
 [filename](setRadarZoom_m.md ':include')

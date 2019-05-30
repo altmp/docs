@@ -1,7 +1,7 @@
 # netToObj (Category network)
 
 ```js
-function netToObj(netHandle: int): number
+function netToObj(netHandle: number): number
 ```
 
 [filename](netToObj_m.md ':include')

@@ -1,7 +1,7 @@
 # getPosixTime (Category network)
 
 ```js
-function getPosixTime(): int
+function getPosixTime(): number
 ```
 
 [filename](getPosixTime_m.md ':include')

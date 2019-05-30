@@ -1,7 +1,7 @@
 # getTunablesContentModifierId (Category network)
 
 ```js
-function getTunablesContentModifierId(contentHash: number): int
+function getTunablesContentModifierId(contentHash: number): number
 ```
 
 [filename](getTunablesContentModifierId_m.md ':include')

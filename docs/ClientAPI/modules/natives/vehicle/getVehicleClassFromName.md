@@ -1,7 +1,7 @@
 # getVehicleClassFromName (Category vehicle)
 
 ```js
-function getVehicleClassFromName(modelHash: number): int
+function getVehicleClassFromName(modelHash: number): number
 ```
 
 [filename](getVehicleClassFromName_m.md ':include')

@@ -1,7 +1,7 @@
 # getPlayerRadioStationIndex (Category audio)
 
 ```js
-function getPlayerRadioStationIndex(): int
+function getPlayerRadioStationIndex(): number
 ```
 
 [filename](getPlayerRadioStationIndex_m.md ':include')

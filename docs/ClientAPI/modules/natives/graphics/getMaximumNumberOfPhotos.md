@@ -1,7 +1,7 @@
 # getMaximumNumberOfPhotos (Category graphics)
 
 ```js
-function getMaximumNumberOfPhotos(): int
+function getMaximumNumberOfPhotos(): number
 ```
 
 [filename](getMaximumNumberOfPhotos_m.md ':include')

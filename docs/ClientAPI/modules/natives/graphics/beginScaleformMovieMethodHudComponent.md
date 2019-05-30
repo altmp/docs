@@ -1,7 +1,7 @@
 # beginScaleformMovieMethodHudComponent (Category graphics)
 
 ```js
-function beginScaleformMovieMethodHudComponent(hudComponent: int, functionName: string): boolean
+function beginScaleformMovieMethodHudComponent(hudComponent: number, functionName: string): boolean
 ```
 
 [filename](beginScaleformMovieMethodHudComponent_m.md ':include')

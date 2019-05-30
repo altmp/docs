@@ -1,7 +1,7 @@
 # addToClockTime (Category time)
 
 ```js
-function addToClockTime(hours: int, minutes: int, seconds: int): void
+function addToClockTime(hours: number, minutes: number, seconds: number): void
 ```
 
 [filename](addToClockTime_m.md ':include')

@@ -1,7 +1,7 @@
 # getClockYear (Category time)
 
 ```js
-function getClockYear(): int
+function getClockYear(): number
 ```
 
 [filename](getClockYear_m.md ':include')

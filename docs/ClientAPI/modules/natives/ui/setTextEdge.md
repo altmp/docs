@@ -1,7 +1,7 @@
 # setTextEdge (Category ui)
 
 ```js
-function setTextEdge(p0: int, r: int, g: int, b: int, a: int): void
+function setTextEdge(p0: number, r: number, g: number, b: number, a: number): void
 ```
 
 [filename](setTextEdge_m.md ':include')

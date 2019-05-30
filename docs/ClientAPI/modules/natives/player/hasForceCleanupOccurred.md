@@ -1,7 +1,7 @@
 # hasForceCleanupOccurred (Category player)
 
 ```js
-function hasForceCleanupOccurred(cleanupFlags: int): boolean
+function hasForceCleanupOccurred(cleanupFlags: number): boolean
 ```
 
 [filename](hasForceCleanupOccurred_m.md ':include')

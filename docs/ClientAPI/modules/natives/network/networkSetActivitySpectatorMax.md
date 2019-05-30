@@ -1,7 +1,7 @@
 # networkSetActivitySpectatorMax (Category network)
 
 ```js
-function networkSetActivitySpectatorMax(maxSpectators: int): void
+function networkSetActivitySpectatorMax(maxSpectators: number): void
 ```
 
 [filename](networkSetActivitySpectatorMax_m.md ':include')

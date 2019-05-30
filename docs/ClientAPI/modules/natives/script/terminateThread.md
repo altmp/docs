@@ -1,7 +1,7 @@
 # terminateThread (Category script)
 
 ```js
-function terminateThread(threadId: int): void
+function terminateThread(threadId: number): void
 ```
 
 [filename](terminateThread_m.md ':include')

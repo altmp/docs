@@ -1,7 +1,7 @@
 # settimera (Category system)
 
 ```js
-function settimera(value: int): void
+function settimera(value: number): void
 ```
 
 [filename](settimera_m.md ':include')

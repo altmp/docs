@@ -1,7 +1,7 @@
 # netToVeh (Category network)
 
 ```js
-function netToVeh(netHandle: int): number
+function netToVeh(netHandle: number): number
 ```
 
 [filename](netToVeh_m.md ':include')

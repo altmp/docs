@@ -1,7 +1,7 @@
 # canRegisterMissionPeds (Category network)
 
 ```js
-function canRegisterMissionPeds(amount: int): boolean
+function canRegisterMissionPeds(amount: number): boolean
 ```
 
 [filename](canRegisterMissionPeds_m.md ':include')

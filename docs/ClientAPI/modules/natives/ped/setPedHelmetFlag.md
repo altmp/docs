@@ -1,7 +1,7 @@
 # setPedHelmetFlag (Category ped)
 
 ```js
-function setPedHelmetFlag(ped: number, helmetFlag: int): void
+function setPedHelmetFlag(ped: number, helmetFlag: number): void
 ```
 
 [filename](setPedHelmetFlag_m.md ':include')

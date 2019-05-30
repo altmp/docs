@@ -1,7 +1,7 @@
 # getUserLanguageId (Category unk)
 
 ```js
-function getUserLanguageId(): int
+function getUserLanguageId(): number
 ```
 
 [filename](getUserLanguageId_m.md ':include')

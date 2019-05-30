@@ -1,7 +1,7 @@
 # isTimeEqualTo (Category network)
 
 ```js
-function isTimeEqualTo(timeA: int, timeB: int): boolean
+function isTimeEqualTo(timeA: number, timeB: number): boolean
 ```
 
 [filename](isTimeEqualTo_m.md ':include')

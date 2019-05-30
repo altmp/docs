@@ -1,7 +1,7 @@
 # setPedLegIkMode (Category ped)
 
 ```js
-function setPedLegIkMode(ped: number, mode: int): void
+function setPedLegIkMode(ped: number, mode: number): void
 ```
 
 [filename](setPedLegIkMode_m.md ':include')

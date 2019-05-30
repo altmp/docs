@@ -1,7 +1,7 @@
 # isBitSet (Category gameplay)
 
 ```js
-function isBitSet(address: int, offset: int): boolean
+function isBitSet(address: number, offset: number): boolean
 ```
 
 [filename](isBitSet_m.md ':include')

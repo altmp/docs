@@ -1,7 +1,7 @@
 # networkSessionSetMaxPlayers (Category network)
 
 ```js
-function networkSessionSetMaxPlayers(playerType: int, playerCount: int): void
+function networkSessionSetMaxPlayers(playerType: number, playerCount: number): void
 ```
 
 [filename](networkSessionSetMaxPlayers_m.md ':include')

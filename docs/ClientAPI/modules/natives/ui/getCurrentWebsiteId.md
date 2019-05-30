@@ -1,7 +1,7 @@
 # getCurrentWebsiteId (Category ui)
 
 ```js
-function getCurrentWebsiteId(): int
+function getCurrentWebsiteId(): number
 ```
 
 [filename](getCurrentWebsiteId_m.md ':include')

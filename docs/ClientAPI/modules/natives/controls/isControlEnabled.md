@@ -1,7 +1,7 @@
 # isControlEnabled (Category controls)
 
 ```js
-function isControlEnabled(inputGroup: int, control: int): boolean
+function isControlEnabled(inputGroup: number, control: number): boolean
 ```
 
 [filename](isControlEnabled_m.md ':include')

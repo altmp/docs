@@ -1,7 +1,7 @@
 # setTextColour (Category ui)
 
 ```js
-function setTextColour(red: int, green: int, blue: int, alpha: int): void
+function setTextColour(red: number, green: number, blue: number, alpha: number): void
 ```
 
 [filename](setTextColour_m.md ':include')

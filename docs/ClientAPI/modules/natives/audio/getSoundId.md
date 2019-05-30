@@ -1,7 +1,7 @@
 # getSoundId (Category audio)
 
 ```js
-function getSoundId(): int
+function getSoundId(): number
 ```
 
 [filename](getSoundId_m.md ':include')

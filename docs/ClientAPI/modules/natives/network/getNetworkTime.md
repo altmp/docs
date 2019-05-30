@@ -1,7 +1,7 @@
 # getNetworkTime (Category network)
 
 ```js
-function getNetworkTime(): int
+function getNetworkTime(): number
 ```
 
 [filename](getNetworkTime_m.md ':include')

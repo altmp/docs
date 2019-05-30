@@ -1,7 +1,7 @@
 # getTimeSinceLastDeath (Category player)
 
 ```js
-function getTimeSinceLastDeath(): int
+function getTimeSinceLastDeath(): number
 ```
 
 [filename](getTimeSinceLastDeath_m.md ':include')

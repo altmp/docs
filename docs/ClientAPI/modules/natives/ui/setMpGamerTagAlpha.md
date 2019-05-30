@@ -1,7 +1,7 @@
 # setMpGamerTagAlpha (Category ui)
 
 ```js
-function setMpGamerTagAlpha(gamerTagId: int, component: int, alpha: int): void
+function setMpGamerTagAlpha(gamerTagId: number, component: number, alpha: number): void
 ```
 
 [filename](setMpGamerTagAlpha_m.md ':include')

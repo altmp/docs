@@ -1,7 +1,7 @@
 # networkCanNetworkIdBeSeen (Category network)
 
 ```js
-function networkCanNetworkIdBeSeen(netId: int): boolean
+function networkCanNetworkIdBeSeen(netId: number): boolean
 ```
 
 [filename](networkCanNetworkIdBeSeen_m.md ':include')

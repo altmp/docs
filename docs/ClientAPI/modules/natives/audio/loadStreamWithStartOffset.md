@@ -1,7 +1,7 @@
 # loadStreamWithStartOffset (Category audio)
 
 ```js
-function loadStreamWithStartOffset(streamName: string, startOffset: int, soundSet: string): boolean
+function loadStreamWithStartOffset(streamName: string, startOffset: number, soundSet: string): boolean
 ```
 
 [filename](loadStreamWithStartOffset_m.md ':include')

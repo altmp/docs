@@ -1,7 +1,7 @@
 # doesExtraExist (Category vehicle)
 
 ```js
-function doesExtraExist(vehicle: number, extraId: int): boolean
+function doesExtraExist(vehicle: number, extraId: number): boolean
 ```
 
 [filename](doesExtraExist_m.md ':include')

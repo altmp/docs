@@ -1,7 +1,7 @@
 # getNumberOfEvents (Category script)
 
 ```js
-function getNumberOfEvents(eventGroup: int): int
+function getNumberOfEvents(eventGroup: number): number
 ```
 
 [filename](getNumberOfEvents_m.md ':include')

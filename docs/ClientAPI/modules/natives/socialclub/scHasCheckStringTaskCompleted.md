@@ -1,7 +1,7 @@
 # scHasCheckStringTaskCompleted (Category socialclub)
 
 ```js
-function scHasCheckStringTaskCompleted(taskHandle: int): boolean
+function scHasCheckStringTaskCompleted(taskHandle: number): boolean
 ```
 
 [filename](scHasCheckStringTaskCompleted_m.md ':include')

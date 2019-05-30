@@ -1,7 +1,7 @@
 # isDisabledControlJustPressed (Category controls)
 
 ```js
-function isDisabledControlJustPressed(inputGroup: int, control: int): boolean
+function isDisabledControlJustPressed(inputGroup: number, control: number): boolean
 ```
 
 [filename](isDisabledControlJustPressed_m.md ':include')

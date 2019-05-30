@@ -1,7 +1,7 @@
 # unlockMissionNewsStory (Category audio)
 
 ```js
-function unlockMissionNewsStory(newsStory: int): void
+function unlockMissionNewsStory(newsStory: number): void
 ```
 
 [filename](unlockMissionNewsStory_m.md ':include')

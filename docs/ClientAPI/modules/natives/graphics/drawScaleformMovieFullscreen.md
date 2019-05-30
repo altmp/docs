@@ -1,7 +1,7 @@
 # drawScaleformMovieFullscreen (Category graphics)
 
 ```js
-function drawScaleformMovieFullscreen(scaleform: int, red: int, green: int, blue: int, alpha: int, unk: int): void
+function drawScaleformMovieFullscreen(scaleform: number, red: number, green: number, blue: number, alpha: number, unk: number): void
 ```
 
 [filename](drawScaleformMovieFullscreen_m.md ':include')

@@ -1,7 +1,7 @@
 # getRandomIntInRange (Category gameplay)
 
 ```js
-function getRandomIntInRange(startRange: int, endRange: int): int
+function getRandomIntInRange(startRange: number, endRange: number): number
 ```
 
 [filename](getRandomIntInRange_m.md ':include')

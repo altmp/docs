@@ -1,7 +1,7 @@
 # getPedWaypointProgress (Category ai)
 
 ```js
-function getPedWaypointProgress(ped: number): int
+function getPedWaypointProgress(ped: number): number
 ```
 
 [filename](getPedWaypointProgress_m.md ':include')

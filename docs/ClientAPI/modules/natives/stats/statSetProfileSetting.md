@@ -1,7 +1,7 @@
 # statSetProfileSetting (Category stats)
 
 ```js
-function statSetProfileSetting(profileSetting: int, value: int): void
+function statSetProfileSetting(profileSetting: number, value: number): void
 ```
 
 [filename](statSetProfileSetting_m.md ':include')

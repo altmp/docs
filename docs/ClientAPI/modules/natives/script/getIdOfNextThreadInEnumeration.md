@@ -1,7 +1,7 @@
 # getIdOfNextThreadInEnumeration (Category script)
 
 ```js
-function getIdOfNextThreadInEnumeration(): int
+function getIdOfNextThreadInEnumeration(): number
 ```
 
 [filename](getIdOfNextThreadInEnumeration_m.md ':include')

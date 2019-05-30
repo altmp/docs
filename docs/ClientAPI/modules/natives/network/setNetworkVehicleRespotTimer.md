@@ -1,7 +1,7 @@
 # setNetworkVehicleRespotTimer (Category network)
 
 ```js
-function setNetworkVehicleRespotTimer(netId: int, time: int): void
+function setNetworkVehicleRespotTimer(netId: number, time: number): void
 ```
 
 [filename](setNetworkVehicleRespotTimer_m.md ':include')

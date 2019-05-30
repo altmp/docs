@@ -1,7 +1,7 @@
 # networkGetFriendCount (Category network)
 
 ```js
-function networkGetFriendCount(): int
+function networkGetFriendCount(): number
 ```
 
 [filename](networkGetFriendCount_m.md ':include')

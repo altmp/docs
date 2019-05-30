@@ -1,7 +1,7 @@
 # overridePopscheduleVehicleModel (Category zone)
 
 ```js
-function overridePopscheduleVehicleModel(scheduleId: int, vehicleHash: number): void
+function overridePopscheduleVehicleModel(scheduleId: number, vehicleHash: number): void
 ```
 
 [filename](overridePopscheduleVehicleModel_m.md ':include')

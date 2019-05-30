@@ -1,6 +1,6 @@
 ## MOBILE Natives
 
-* [`createMobilePhone(p3: int): void`](docs/ClientAPI/modules/natives/MOBILE/createMobilePhone.md)
+* [`createMobilePhone(p3: number): void`](docs/ClientAPI/modules/natives/MOBILE/createMobilePhone.md)
 * [`destroyMobilePhone(): void`](docs/ClientAPI/modules/natives/MOBILE/destroyMobilePhone.md)
 * [`setMobilePhoneScale(scale: number): void`](docs/ClientAPI/modules/natives/MOBILE/setMobilePhoneScale.md)
 * [`setMobilePhoneRotation(rotX: number, rotY: number, rotZ: number, p3: number): void`](docs/ClientAPI/modules/natives/MOBILE/setMobilePhoneRotation.md)
@@ -9,7 +9,7 @@
 * [`getMobilePhonePosition(position: vectorPtr): Array`](docs/ClientAPI/modules/natives/MOBILE/getMobilePhonePosition.md)
 * [`scriptIsMovingMobilePhoneOffscreen(toggle: boolean): void`](docs/ClientAPI/modules/natives/MOBILE/scriptIsMovingMobilePhoneOffscreen.md)
 * [`canPhoneBeSeenOnScreen(): boolean`](docs/ClientAPI/modules/natives/MOBILE/canPhoneBeSeenOnScreen.md)
-* [`moveFinger(direction: int): void`](docs/ClientAPI/modules/natives/MOBILE/moveFinger.md)
+* [`moveFinger(direction: number): void`](docs/ClientAPI/modules/natives/MOBILE/moveFinger.md)
 * [`setPhoneLean(Toggle: boolean): void`](docs/ClientAPI/modules/natives/MOBILE/setPhoneLean.md)
 * [`cellCamActivate(p0: boolean, p1: boolean): void`](docs/ClientAPI/modules/natives/MOBILE/cellCamActivate.md)
 * [`disablePhoneThisFrame(toggle: boolean): void`](docs/ClientAPI/modules/natives/MOBILE/disablePhoneThisFrame.md)

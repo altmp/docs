@@ -1,7 +1,7 @@
 # getCutsceneSectionPlaying (Category cutscene)
 
 ```js
-function getCutsceneSectionPlaying(): int
+function getCutsceneSectionPlaying(): number
 ```
 
 [filename](getCutsceneSectionPlaying_m.md ':include')

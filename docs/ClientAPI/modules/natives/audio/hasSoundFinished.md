@@ -1,7 +1,7 @@
 # hasSoundFinished (Category audio)
 
 ```js
-function hasSoundFinished(soundId: int): boolean
+function hasSoundFinished(soundId: number): boolean
 ```
 
 [filename](hasSoundFinished_m.md ':include')

@@ -1,7 +1,7 @@
 # isToggleModOn (Category vehicle)
 
 ```js
-function isToggleModOn(vehicle: number, modType: int): boolean
+function isToggleModOn(vehicle: number, modType: number): boolean
 ```
 
 [filename](isToggleModOn_m.md ':include')

@@ -1,7 +1,7 @@
 # networkGetNumConnectedPlayers (Category network)
 
 ```js
-function networkGetNumConnectedPlayers(): int
+function networkGetNumConnectedPlayers(): number
 ```
 
 [filename](networkGetNumConnectedPlayers_m.md ':include')

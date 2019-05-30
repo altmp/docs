@@ -1,7 +1,7 @@
 # getVehicleWindowTint (Category vehicle)
 
 ```js
-function getVehicleWindowTint(vehicle: number): int
+function getVehicleWindowTint(vehicle: number): number
 ```
 
 [filename](getVehicleWindowTint_m.md ':include')

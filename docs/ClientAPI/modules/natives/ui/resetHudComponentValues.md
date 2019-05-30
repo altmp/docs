@@ -1,7 +1,7 @@
 # resetHudComponentValues (Category ui)
 
 ```js
-function resetHudComponentValues(id: int): void
+function resetHudComponentValues(id: number): void
 ```
 
 [filename](resetHudComponentValues_m.md ':include')

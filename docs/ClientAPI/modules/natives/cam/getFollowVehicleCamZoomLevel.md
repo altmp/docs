@@ -1,7 +1,7 @@
 # getFollowVehicleCamZoomLevel (Category cam)
 
 ```js
-function getFollowVehicleCamZoomLevel(): int
+function getFollowVehicleCamZoomLevel(): number
 ```
 
 [filename](getFollowVehicleCamZoomLevel_m.md ':include')

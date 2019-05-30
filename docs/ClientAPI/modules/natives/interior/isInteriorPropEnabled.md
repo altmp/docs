@@ -1,7 +1,7 @@
 # isInteriorPropEnabled (Category interior)
 
 ```js
-function isInteriorPropEnabled(interiorID: int, propName: string): boolean
+function isInteriorPropEnabled(interiorID: number, propName: string): boolean
 ```
 
 [filename](isInteriorPropEnabled_m.md ':include')

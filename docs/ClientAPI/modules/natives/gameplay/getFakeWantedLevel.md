@@ -1,7 +1,7 @@
 # getFakeWantedLevel (Category gameplay)
 
 ```js
-function getFakeWantedLevel(): int
+function getFakeWantedLevel(): number
 ```
 
 [filename](getFakeWantedLevel_m.md ':include')

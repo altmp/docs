@@ -1,7 +1,7 @@
 # getDefaultScriptRendertargetRenderId (Category ui)
 
 ```js
-function getDefaultScriptRendertargetRenderId(): int
+function getDefaultScriptRendertargetRenderId(): number
 ```
 
 [filename](getDefaultScriptRendertargetRenderId_m.md ':include')

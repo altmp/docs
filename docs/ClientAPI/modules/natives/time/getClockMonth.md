@@ -1,7 +1,7 @@
 # getClockMonth (Category time)
 
 ```js
-function getClockMonth(): int
+function getClockMonth(): number
 ```
 
 [filename](getClockMonth_m.md ':include')

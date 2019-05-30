@@ -1,7 +1,7 @@
 # getPedAsGroupMember (Category ped)
 
 ```js
-function getPedAsGroupMember(groupID: int, memberNumber: int): number
+function getPedAsGroupMember(groupID: number, memberNumber: number): number
 ```
 
 [filename](getPedAsGroupMember_m.md ':include')

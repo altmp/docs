@@ -1,7 +1,7 @@
 # setSynchronizedSceneLooped (Category ped)
 
 ```js
-function setSynchronizedSceneLooped(sceneID: int, toggle: boolean): void
+function setSynchronizedSceneLooped(sceneID: number, toggle: boolean): void
 ```
 
 [filename](setSynchronizedSceneLooped_m.md ':include')

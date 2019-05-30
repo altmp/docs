@@ -1,7 +1,7 @@
 # releaseMovieMeshSet (Category graphics)
 
 ```js
-function releaseMovieMeshSet(movieMeshSet: int): void
+function releaseMovieMeshSet(movieMeshSet: number): void
 ```
 
 [filename](releaseMovieMeshSet_m.md ':include')

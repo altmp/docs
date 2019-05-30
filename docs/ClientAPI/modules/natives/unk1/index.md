@@ -9,7 +9,7 @@
 * [`_0xF854439EFBB3B583(): void`](docs/ClientAPI/modules/natives/UNK1/_0xF854439EFBB3B583.md)
 * [`_0xAF66DCEE6609B148(): void`](docs/ClientAPI/modules/natives/UNK1/_0xAF66DCEE6609B148.md)
 * [`_0x66972397E0757E7A(p0: number, p1: number, p2: number): void`](docs/ClientAPI/modules/natives/UNK1/_0x66972397E0757E7A.md)
-* [`startRecording(mode: int): void`](docs/ClientAPI/modules/natives/UNK1/startRecording.md)
+* [`startRecording(mode: number): void`](docs/ClientAPI/modules/natives/UNK1/startRecording.md)
 * [`stopRecordingAndSaveClip(): void`](docs/ClientAPI/modules/natives/UNK1/stopRecordingAndSaveClip.md)
 * [`stopRecordingAndDiscardClip(): void`](docs/ClientAPI/modules/natives/UNK1/stopRecordingAndDiscardClip.md)
 * [`_0x644546EC5287471B(): boolean`](docs/ClientAPI/modules/natives/UNK1/_0x644546EC5287471B.md)

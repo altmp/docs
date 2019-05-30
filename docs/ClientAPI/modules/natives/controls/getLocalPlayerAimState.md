@@ -1,7 +1,7 @@
 # getLocalPlayerAimState (Category controls)
 
 ```js
-function getLocalPlayerAimState(): int
+function getLocalPlayerAimState(): number
 ```
 
 [filename](getLocalPlayerAimState_m.md ':include')

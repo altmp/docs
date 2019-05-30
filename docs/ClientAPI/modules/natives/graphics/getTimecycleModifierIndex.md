@@ -1,7 +1,7 @@
 # getTimecycleModifierIndex (Category graphics)
 
 ```js
-function getTimecycleModifierIndex(): int
+function getTimecycleModifierIndex(): number
 ```
 
 [filename](getTimecycleModifierIndex_m.md ':include')

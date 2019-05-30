@@ -1,7 +1,7 @@
 # hideHudComponentThisFrame (Category ui)
 
 ```js
-function hideHudComponentThisFrame(id: int): void
+function hideHudComponentThisFrame(id: number): void
 ```
 
 [filename](hideHudComponentThisFrame_m.md ':include')

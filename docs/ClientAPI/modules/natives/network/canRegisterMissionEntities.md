@@ -1,7 +1,7 @@
 # canRegisterMissionEntities (Category network)
 
 ```js
-function canRegisterMissionEntities(ped_amt: int, vehicle_amt: int, object_amt: int, pickup_amt: int): boolean
+function canRegisterMissionEntities(ped_amt: number, vehicle_amt: number, object_amt: number, pickup_amt: number): boolean
 ```
 
 [filename](canRegisterMissionEntities_m.md ':include')

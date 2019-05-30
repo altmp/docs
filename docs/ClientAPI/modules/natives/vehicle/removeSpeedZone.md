@@ -1,7 +1,7 @@
 # removeSpeedZone (Category vehicle)
 
 ```js
-function removeSpeedZone(speedzone: int): boolean
+function removeSpeedZone(speedzone: number): boolean
 ```
 
 [filename](removeSpeedZone_m.md ':include')

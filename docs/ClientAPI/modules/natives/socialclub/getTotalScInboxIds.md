@@ -1,7 +1,7 @@
 # getTotalScInboxIds (Category socialclub)
 
 ```js
-function getTotalScInboxIds(): int
+function getTotalScInboxIds(): number
 ```
 
 [filename](getTotalScInboxIds_m.md ':include')

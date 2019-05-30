@@ -1,7 +1,7 @@
 # drawNotificationWithIcon (Category ui)
 
 ```js
-function drawNotificationWithIcon(type: int, image: int, text: string): int
+function drawNotificationWithIcon(type: number, image: number, text: string): number
 ```
 
 [filename](drawNotificationWithIcon_m.md ':include')

@@ -1,7 +1,7 @@
 # setMpGamerTagColour (Category ui)
 
 ```js
-function setMpGamerTagColour(gamerTagId: int, flag: int, color: int): void
+function setMpGamerTagColour(gamerTagId: number, flag: number, color: number): void
 ```
 
 [filename](setMpGamerTagColour_m.md ':include')

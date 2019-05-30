@@ -1,7 +1,7 @@
 # enableControlAction (Category controls)
 
 ```js
-function enableControlAction(inputGroup: int, control: int, enable: boolean): void
+function enableControlAction(inputGroup: number, control: number, enable: boolean): void
 ```
 
 [filename](enableControlAction_m.md ':include')

@@ -1,7 +1,7 @@
 # getNextBlipInfoId (Category ui)
 
 ```js
-function getNextBlipInfoId(blipSprite: int): number
+function getNextBlipInfoId(blipSprite: number): number
 ```
 
 [filename](getNextBlipInfoId_m.md ':include')

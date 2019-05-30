@@ -1,7 +1,7 @@
 # requestWeaponAsset (Category weapon)
 
 ```js
-function requestWeaponAsset(weaponHash: number, p1: int, p2: int): void
+function requestWeaponAsset(weaponHash: number, p1: number, p2: number): void
 ```
 
 [filename](requestWeaponAsset_m.md ':include')

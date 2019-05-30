@@ -1,7 +1,7 @@
 # networkGetMaxFriends (Category network)
 
 ```js
-function networkGetMaxFriends(): int
+function networkGetMaxFriends(): number
 ```
 
 [filename](networkGetMaxFriends_m.md ':include')

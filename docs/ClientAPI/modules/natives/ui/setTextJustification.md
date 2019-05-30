@@ -1,7 +1,7 @@
 # setTextJustification (Category ui)
 
 ```js
-function setTextJustification(justifyType: int): void
+function setTextJustification(justifyType: number): void
 ```
 
 [filename](setTextJustification_m.md ':include')

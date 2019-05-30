@@ -1,7 +1,7 @@
 # getCurrentNotification (Category ui)
 
 ```js
-function getCurrentNotification(): int
+function getCurrentNotification(): number
 ```
 
 [filename](getCurrentNotification_m.md ':include')

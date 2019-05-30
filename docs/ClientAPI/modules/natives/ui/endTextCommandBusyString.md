@@ -1,7 +1,7 @@
 # endTextCommandBusyString (Category ui)
 
 ```js
-function endTextCommandBusyString(busySpinnerType: int): void
+function endTextCommandBusyString(busySpinnerType: number): void
 ```
 
 [filename](endTextCommandBusyString_m.md ':include')

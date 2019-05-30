@@ -1,7 +1,7 @@
 # addScenarioBlockingArea (Category ped)
 
 ```js
-function addScenarioBlockingArea(x1: number, y1: number, z1: number, x2: number, y2: number, z2: number, p6: boolean, p7: boolean, p8: boolean, p9: boolean): int
+function addScenarioBlockingArea(x1: number, y1: number, z1: number, x2: number, y2: number, z2: number, p6: boolean, p7: boolean, p8: boolean, p9: boolean): number
 ```
 
 [filename](addScenarioBlockingArea_m.md ':include')

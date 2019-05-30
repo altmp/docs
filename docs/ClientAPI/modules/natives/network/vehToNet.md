@@ -1,7 +1,7 @@
 # vehToNet (Category network)
 
 ```js
-function vehToNet(vehicle: number): int
+function vehToNet(vehicle: number): number
 ```
 
 [filename](vehToNet_m.md ':include')

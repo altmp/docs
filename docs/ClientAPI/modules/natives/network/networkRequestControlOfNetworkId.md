@@ -1,7 +1,7 @@
 # networkRequestControlOfNetworkId (Category network)
 
 ```js
-function networkRequestControlOfNetworkId(netId: int): boolean
+function networkRequestControlOfNetworkId(netId: number): boolean
 ```
 
 [filename](networkRequestControlOfNetworkId_m.md ':include')

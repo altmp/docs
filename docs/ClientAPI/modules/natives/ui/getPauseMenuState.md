@@ -1,7 +1,7 @@
 # getPauseMenuState (Category ui)
 
 ```js
-function getPauseMenuState(): int
+function getPauseMenuState(): number
 ```
 
 [filename](getPauseMenuState_m.md ':include')

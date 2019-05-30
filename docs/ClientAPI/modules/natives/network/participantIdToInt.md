@@ -1,7 +1,7 @@
 # participantIdToInt (Category network)
 
 ```js
-function participantIdToInt(): int
+function participantIdToInt(): number
 ```
 
 [filename](participantIdToInt_m.md ':include')

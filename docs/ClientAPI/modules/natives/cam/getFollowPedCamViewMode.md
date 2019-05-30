@@ -1,7 +1,7 @@
 # getFollowPedCamViewMode (Category cam)
 
 ```js
-function getFollowPedCamViewMode(): int
+function getFollowPedCamViewMode(): number
 ```
 
 [filename](getFollowPedCamViewMode_m.md ':include')

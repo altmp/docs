@@ -1,7 +1,7 @@
 # setEntityIconColor (Category graphics)
 
 ```js
-function setEntityIconColor(entity: number, red: int, green: int, blue: int, alpha: int): void
+function setEntityIconColor(entity: number, red: number, green: number, blue: number, alpha: number): void
 ```
 
 [filename](setEntityIconColor_m.md ':include')

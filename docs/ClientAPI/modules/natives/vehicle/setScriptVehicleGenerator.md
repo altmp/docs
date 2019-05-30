@@ -1,7 +1,7 @@
 # setScriptVehicleGenerator (Category vehicle)
 
 ```js
-function setScriptVehicleGenerator(vehicleGenerator: int, enabled: boolean): void
+function setScriptVehicleGenerator(vehicleGenerator: number, enabled: boolean): void
 ```
 
 [filename](setScriptVehicleGenerator_m.md ':include')

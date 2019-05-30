@@ -1,7 +1,7 @@
 # getSynchronizedScenePhase (Category ped)
 
 ```js
-function getSynchronizedScenePhase(sceneID: int): number
+function getSynchronizedScenePhase(sceneID: number): number
 ```
 
 [filename](getSynchronizedScenePhase_m.md ':include')

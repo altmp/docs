@@ -1,7 +1,7 @@
 # loadInterior (Category interior)
 
 ```js
-function loadInterior(interiorID: int): void
+function loadInterior(interiorID: number): void
 ```
 
 [filename](loadInterior_m.md ':include')

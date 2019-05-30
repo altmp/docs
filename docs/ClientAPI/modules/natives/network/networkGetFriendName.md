@@ -1,7 +1,7 @@
 # networkGetFriendName (Category network)
 
 ```js
-function networkGetFriendName(friendIndex: int): string
+function networkGetFriendName(friendIndex: number): string
 ```
 
 [filename](networkGetFriendName_m.md ':include')

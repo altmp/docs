@@ -1,7 +1,7 @@
 # networkEarnFromHoldups (Category networkcash)
 
 ```js
-function networkEarnFromHoldups(amount: int): void
+function networkEarnFromHoldups(amount: number): void
 ```
 
 [filename](networkEarnFromHoldups_m.md ':include')

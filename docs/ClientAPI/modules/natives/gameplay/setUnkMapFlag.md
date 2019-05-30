@@ -1,7 +1,7 @@
 # setUnkMapFlag (Category gameplay)
 
 ```js
-function setUnkMapFlag(flag: int): void
+function setUnkMapFlag(flag: number): void
 ```
 
 [filename](setUnkMapFlag_m.md ':include')

@@ -1,7 +1,7 @@
 # getNumberOfPlayers (Category player)
 
 ```js
-function getNumberOfPlayers(): int
+function getNumberOfPlayers(): number
 ```
 
 [filename](getNumberOfPlayers_m.md ':include')

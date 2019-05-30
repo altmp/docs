@@ -1,7 +1,7 @@
 # networkEarnFromNotBadsport (Category networkcash)
 
 ```js
-function networkEarnFromNotBadsport(amount: int): void
+function networkEarnFromNotBadsport(amount: number): void
 ```
 
 [filename](networkEarnFromNotBadsport_m.md ':include')

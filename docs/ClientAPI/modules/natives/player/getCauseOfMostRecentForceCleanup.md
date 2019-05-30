@@ -1,7 +1,7 @@
 # getCauseOfMostRecentForceCleanup (Category player)
 
 ```js
-function getCauseOfMostRecentForceCleanup(): int
+function getCauseOfMostRecentForceCleanup(): number
 ```
 
 [filename](getCauseOfMostRecentForceCleanup_m.md ':include')

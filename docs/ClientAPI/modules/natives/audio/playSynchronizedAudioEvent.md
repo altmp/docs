@@ -1,7 +1,7 @@
 # playSynchronizedAudioEvent (Category audio)
 
 ```js
-function playSynchronizedAudioEvent(SceneID: int): boolean
+function playSynchronizedAudioEvent(SceneID: number): boolean
 ```
 
 [filename](playSynchronizedAudioEvent_m.md ':include')

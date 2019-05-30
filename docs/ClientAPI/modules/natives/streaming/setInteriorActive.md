@@ -1,7 +1,7 @@
 # setInteriorActive (Category streaming)
 
 ```js
-function setInteriorActive(interiorID: int, toggle: boolean): void
+function setInteriorActive(interiorID: number, toggle: boolean): void
 ```
 
 [filename](setInteriorActive_m.md ':include')

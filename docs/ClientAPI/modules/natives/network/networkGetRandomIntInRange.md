@@ -1,7 +1,7 @@
 # networkGetRandomIntInRange (Category network)
 
 ```js
-function networkGetRandomIntInRange(rangeStart: int, rangeEnd: int): int
+function networkGetRandomIntInRange(rangeStart: number, rangeEnd: number): number
 ```
 
 [filename](networkGetRandomIntInRange_m.md ':include')

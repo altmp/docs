@@ -1,7 +1,7 @@
 # getAudibleMusicTrackTextId (Category audio)
 
 ```js
-function getAudibleMusicTrackTextId(): int
+function getAudibleMusicTrackTextId(): number
 ```
 
 [filename](getAudibleMusicTrackTextId_m.md ':include')

@@ -1,7 +1,7 @@
 # scInboxMessagePush (Category socialclub)
 
 ```js
-function scInboxMessagePush(p0: int): boolean
+function scInboxMessagePush(p0: number): boolean
 ```
 
 [filename](scInboxMessagePush_m.md ':include')

@@ -1,7 +1,7 @@
 # networkDoesNetworkIdExist (Category network)
 
 ```js
-function networkDoesNetworkIdExist(netID: int): boolean
+function networkDoesNetworkIdExist(netID: number): boolean
 ```
 
 [filename](networkDoesNetworkIdExist_m.md ':include')

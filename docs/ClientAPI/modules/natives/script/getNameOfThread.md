@@ -1,7 +1,7 @@
 # getNameOfThread (Category script)
 
 ```js
-function getNameOfThread(threadId: int): string
+function getNameOfThread(threadId: number): string
 ```
 
 [filename](getNameOfThread_m.md ':include')

@@ -1,7 +1,7 @@
 # getDesObjectState (Category object)
 
 ```js
-function getDesObjectState(handle: int): number
+function getDesObjectState(handle: number): number
 ```
 
 [filename](getDesObjectState_m.md ':include')

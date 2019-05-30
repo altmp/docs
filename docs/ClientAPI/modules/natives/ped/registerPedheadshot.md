@@ -1,7 +1,7 @@
 # registerPedheadshot (Category ped)
 
 ```js
-function registerPedheadshot(ped: number): int
+function registerPedheadshot(ped: number): number
 ```
 
 [filename](registerPedheadshot_m.md ':include')

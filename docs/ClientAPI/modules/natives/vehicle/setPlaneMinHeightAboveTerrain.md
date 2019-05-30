@@ -1,7 +1,7 @@
 # setPlaneMinHeightAboveTerrain (Category vehicle)
 
 ```js
-function setPlaneMinHeightAboveTerrain(plane: number, height: int): void
+function setPlaneMinHeightAboveTerrain(plane: number, height: number): void
 ```
 
 [filename](setPlaneMinHeightAboveTerrain_m.md ':include')

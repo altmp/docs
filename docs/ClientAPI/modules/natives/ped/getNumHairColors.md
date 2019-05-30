@@ -1,7 +1,7 @@
 # getNumHairColors (Category ped)
 
 ```js
-function getNumHairColors(): int
+function getNumHairColors(): number
 ```
 
 [filename](getNumHairColors_m.md ':include')

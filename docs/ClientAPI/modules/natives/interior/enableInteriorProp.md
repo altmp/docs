@@ -1,7 +1,7 @@
 # enableInteriorProp (Category interior)
 
 ```js
-function enableInteriorProp(interiorID: int, propName: string): void
+function enableInteriorProp(interiorID: number, propName: string): void
 ```
 
 [filename](enableInteriorProp_m.md ':include')

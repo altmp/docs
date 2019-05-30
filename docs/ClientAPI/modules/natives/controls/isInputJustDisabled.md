@@ -1,7 +1,7 @@
 # isInputJustDisabled (Category controls)
 
 ```js
-function isInputJustDisabled(inputGroup: int): boolean
+function isInputJustDisabled(inputGroup: number): boolean
 ```
 
 [filename](isInputJustDisabled_m.md ':include')

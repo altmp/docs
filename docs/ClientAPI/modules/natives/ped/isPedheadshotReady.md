@@ -1,7 +1,7 @@
 # isPedheadshotReady (Category ped)
 
 ```js
-function isPedheadshotReady(handle: int): boolean
+function isPedheadshotReady(handle: number): boolean
 ```
 
 [filename](isPedheadshotReady_m.md ':include')

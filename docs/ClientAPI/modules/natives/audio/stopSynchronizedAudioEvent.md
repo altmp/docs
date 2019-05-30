@@ -1,7 +1,7 @@
 # stopSynchronizedAudioEvent (Category audio)
 
 ```js
-function stopSynchronizedAudioEvent(SceneID: int): boolean
+function stopSynchronizedAudioEvent(SceneID: number): boolean
 ```
 
 [filename](stopSynchronizedAudioEvent_m.md ':include')

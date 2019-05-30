@@ -1,7 +1,7 @@
 # setVehiclePopulationBudget (Category streaming)
 
 ```js
-function setVehiclePopulationBudget(budget: int): void
+function setVehiclePopulationBudget(budget: number): void
 ```
 
 [filename](setVehiclePopulationBudget_m.md ':include')

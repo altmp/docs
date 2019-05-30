@@ -1,7 +1,7 @@
 # getTupstatIntHash (Category stats)
 
 ```js
-function getTupstatIntHash(index: int, spStat: boolean, charStat: boolean, character: int): number
+function getTupstatIntHash(index: number, spStat: boolean, charStat: boolean, character: number): number
 ```
 
 [filename](getTupstatIntHash_m.md ':include')

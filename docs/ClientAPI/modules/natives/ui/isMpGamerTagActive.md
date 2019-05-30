@@ -1,7 +1,7 @@
 # isMpGamerTagActive (Category ui)
 
 ```js
-function isMpGamerTagActive(gamerTagId: int): boolean
+function isMpGamerTagActive(gamerTagId: number): boolean
 ```
 
 [filename](isMpGamerTagActive_m.md ':include')

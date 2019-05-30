@@ -1,7 +1,7 @@
 # stopSound (Category audio)
 
 ```js
-function stopSound(soundId: int): void
+function stopSound(soundId: number): void
 ```
 
 [filename](stopSound_m.md ':include')

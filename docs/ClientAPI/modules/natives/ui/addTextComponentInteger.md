@@ -1,7 +1,7 @@
 # addTextComponentInteger (Category ui)
 
 ```js
-function addTextComponentInteger(value: int): void
+function addTextComponentInteger(value: number): void
 ```
 
 [filename](addTextComponentInteger_m.md ':include')

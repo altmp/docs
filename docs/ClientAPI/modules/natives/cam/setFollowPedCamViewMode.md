@@ -1,7 +1,7 @@
 # setFollowPedCamViewMode (Category cam)
 
 ```js
-function setFollowPedCamViewMode(viewMode: int): void
+function setFollowPedCamViewMode(viewMode: number): void
 ```
 
 [filename](setFollowPedCamViewMode_m.md ':include')

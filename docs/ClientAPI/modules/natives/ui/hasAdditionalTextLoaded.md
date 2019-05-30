@@ -1,7 +1,7 @@
 # hasAdditionalTextLoaded (Category ui)
 
 ```js
-function hasAdditionalTextLoaded(slot: int): boolean
+function hasAdditionalTextLoaded(slot: number): boolean
 ```
 
 [filename](hasAdditionalTextLoaded_m.md ':include')

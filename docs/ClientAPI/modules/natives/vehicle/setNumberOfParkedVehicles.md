@@ -1,7 +1,7 @@
 # setNumberOfParkedVehicles (Category vehicle)
 
 ```js
-function setNumberOfParkedVehicles(value: int): number
+function setNumberOfParkedVehicles(value: number): number
 ```
 
 [filename](setNumberOfParkedVehicles_m.md ':include')

@@ -1,7 +1,7 @@
 # networkGetNumParticipantsHost (Category network)
 
 ```js
-function networkGetNumParticipantsHost(): int
+function networkGetNumParticipantsHost(): number
 ```
 
 [filename](networkGetNumParticipantsHost_m.md ':include')

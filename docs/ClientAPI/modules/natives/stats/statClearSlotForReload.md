@@ -1,7 +1,7 @@
 # statClearSlotForReload (Category stats)
 
 ```js
-function statClearSlotForReload(statSlot: int): number
+function statClearSlotForReload(statSlot: number): number
 ```
 
 [filename](statClearSlotForReload_m.md ':include')

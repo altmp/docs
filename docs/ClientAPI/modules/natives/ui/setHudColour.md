@@ -1,7 +1,7 @@
 # setHudColour (Category ui)
 
 ```js
-function setHudColour(hudColorIndex: int, r: int, g: int, b: int, a: int): void
+function setHudColour(hudColorIndex: number, r: number, g: number, b: number, a: number): void
 ```
 
 [filename](setHudColour_m.md ':include')

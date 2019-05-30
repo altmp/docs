@@ -1,7 +1,7 @@
 # isPedBlushColorValid (Category ped)
 
 ```js
-function isPedBlushColorValid(colorID: int): boolean
+function isPedBlushColorValid(colorID: number): boolean
 ```
 
 [filename](isPedBlushColorValid_m.md ':include')

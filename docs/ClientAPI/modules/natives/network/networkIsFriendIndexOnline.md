@@ -1,7 +1,7 @@
 # networkIsFriendIndexOnline (Category network)
 
 ```js
-function networkIsFriendIndexOnline(friendIndex: int): boolean
+function networkIsFriendIndexOnline(friendIndex: number): boolean
 ```
 
 [filename](networkIsFriendIndexOnline_m.md ':include')

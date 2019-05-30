@@ -1,7 +1,7 @@
 # getWantedLevelThreshold (Category player)
 
 ```js
-function getWantedLevelThreshold(wantedLevel: int): int
+function getWantedLevelThreshold(wantedLevel: number): number
 ```
 
 [filename](getWantedLevelThreshold_m.md ':include')

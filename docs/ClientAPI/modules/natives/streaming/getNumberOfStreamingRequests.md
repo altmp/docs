@@ -1,7 +1,7 @@
 # getNumberOfStreamingRequests (Category streaming)
 
 ```js
-function getNumberOfStreamingRequests(): int
+function getNumberOfStreamingRequests(): number
 ```
 
 [filename](getNumberOfStreamingRequests_m.md ':include')

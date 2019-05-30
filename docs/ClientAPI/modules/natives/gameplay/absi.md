@@ -1,7 +1,7 @@
 # absi (Category gameplay)
 
 ```js
-function absi(value: int): int
+function absi(value: number): number
 ```
 
 [filename](absi_m.md ':include')

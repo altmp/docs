@@ -1,7 +1,7 @@
 # waypointRecordingGetSpeedAtPoint (Category ai)
 
 ```js
-function waypointRecordingGetSpeedAtPoint(name: string, point: int): number
+function waypointRecordingGetSpeedAtPoint(name: string, point: number): number
 ```
 
 [filename](waypointRecordingGetSpeedAtPoint_m.md ':include')

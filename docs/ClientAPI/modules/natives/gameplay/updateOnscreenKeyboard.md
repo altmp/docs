@@ -1,7 +1,7 @@
 # updateOnscreenKeyboard (Category gameplay)
 
 ```js
-function updateOnscreenKeyboard(): int
+function updateOnscreenKeyboard(): number
 ```
 
 [filename](updateOnscreenKeyboard_m.md ':include')

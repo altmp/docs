@@ -1,7 +1,7 @@
 # networkGetRandomInt (Category network)
 
 ```js
-function networkGetRandomInt(): int
+function networkGetRandomInt(): number
 ```
 
 [filename](networkGetRandomInt_m.md ':include')

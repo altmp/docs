@@ -1,7 +1,7 @@
 # networkReceivePlayerJobshareCash (Category networkcash)
 
 ```js
-function networkReceivePlayerJobshareCash(value: int, networkHandle: intPtr): Array
+function networkReceivePlayerJobshareCash(value: number, networkHandle: intPtr): Array
 ```
 
 [filename](networkReceivePlayerJobshareCash_m.md ':include')

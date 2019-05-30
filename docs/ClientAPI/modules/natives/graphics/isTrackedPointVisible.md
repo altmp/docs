@@ -1,7 +1,7 @@
 # isTrackedPointVisible (Category graphics)
 
 ```js
-function isTrackedPointVisible(point: int): boolean
+function isTrackedPointVisible(point: number): boolean
 ```
 
 [filename](isTrackedPointVisible_m.md ':include')

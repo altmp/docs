@@ -1,7 +1,7 @@
 # setParticleFxLoopedFarClipDist (Category graphics)
 
 ```js
-function setParticleFxLoopedFarClipDist(ptfxHandle: int, dist: number): void
+function setParticleFxLoopedFarClipDist(ptfxHandle: number, dist: number): void
 ```
 
 [filename](setParticleFxLoopedFarClipDist_m.md ':include')

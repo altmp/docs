@@ -1,7 +1,7 @@
 # timerb (Category system)
 
 ```js
-function timerb(): int
+function timerb(): number
 ```
 
 [filename](timerb_m.md ':include')

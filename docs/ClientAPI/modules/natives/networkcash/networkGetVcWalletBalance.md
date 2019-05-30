@@ -1,7 +1,7 @@
 # networkGetVcWalletBalance (Category networkcash)
 
 ```js
-function networkGetVcWalletBalance(character: int): int
+function networkGetVcWalletBalance(character: number): number
 ```
 
 [filename](networkGetVcWalletBalance_m.md ':include')

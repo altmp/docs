@@ -1,7 +1,7 @@
 # getPlayerSwitchType (Category streaming)
 
 ```js
-function getPlayerSwitchType(): int
+function getPlayerSwitchType(): number
 ```
 
 [filename](getPlayerSwitchType_m.md ':include')

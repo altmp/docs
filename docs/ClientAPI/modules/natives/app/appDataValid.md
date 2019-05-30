@@ -1,7 +1,7 @@
 # appDataValid (Category app)
 
 ```js
-function appDataValid(): int
+function appDataValid(): number
 ```
 
 [filename](appDataValid_m.md ':include')

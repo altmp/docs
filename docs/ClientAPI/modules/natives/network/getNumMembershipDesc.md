@@ -1,7 +1,7 @@
 # getNumMembershipDesc (Category network)
 
 ```js
-function getNumMembershipDesc(): int
+function getNumMembershipDesc(): number
 ```
 
 [filename](getNumMembershipDesc_m.md ':include')

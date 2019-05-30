@@ -1,7 +1,7 @@
 # setPlayerClothLockCounter (Category player)
 
 ```js
-function setPlayerClothLockCounter(value: int): void
+function setPlayerClothLockCounter(value: number): void
 ```
 
 [filename](setPlayerClothLockCounter_m.md ':include')

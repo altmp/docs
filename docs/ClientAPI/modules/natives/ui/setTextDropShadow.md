@@ -1,7 +1,7 @@
 # setTextDropshadow (Category ui)
 
 ```js
-function setTextDropshadow(distance: int, r: int, g: int, b: int, a: int): void
+function setTextDropshadow(distance: number, r: number, g: number, b: number, a: number): void
 ```
 
 [filename](setTextDropshadow_m.md ':include')

@@ -1,7 +1,7 @@
 # networkAttachSynchronisedSceneToEntity (Category network)
 
 ```js
-function networkAttachSynchronisedSceneToEntity(netScene: int, entity: number, bone: int): void
+function networkAttachSynchronisedSceneToEntity(netScene: number, entity: number, bone: number): void
 ```
 
 [filename](networkAttachSynchronisedSceneToEntity_m.md ':include')

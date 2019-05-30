@@ -1,7 +1,7 @@
 # getNumPropsFromOutfit (Category dlc1)
 
 ```js
-function getNumPropsFromOutfit(character: int, p1: int, p2: int, p3: boolean, p4: int, componentId: int): int
+function getNumPropsFromOutfit(character: number, p1: number, p2: number, p3: boolean, p4: number, componentId: number): number
 ```
 
 [filename](getNumPropsFromOutfit_m.md ':include')

@@ -1,7 +1,7 @@
 # getAllocatedStackSize (Category gameplay)
 
 ```js
-function getAllocatedStackSize(): int
+function getAllocatedStackSize(): number
 ```
 
 [filename](getAllocatedStackSize_m.md ':include')

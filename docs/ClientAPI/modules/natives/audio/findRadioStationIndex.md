@@ -1,7 +1,7 @@
 # findRadioStationIndex (Category audio)
 
 ```js
-function findRadioStationIndex(station: int): int
+function findRadioStationIndex(station: number): number
 ```
 
 [filename](findRadioStationIndex_m.md ':include')

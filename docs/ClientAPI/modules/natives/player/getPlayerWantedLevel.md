@@ -1,7 +1,7 @@
 # getPlayerWantedLevel (Category player)
 
 ```js
-function getPlayerWantedLevel(player: number): int
+function getPlayerWantedLevel(player: number): number
 ```
 
 [filename](getPlayerWantedLevel_m.md ':include')

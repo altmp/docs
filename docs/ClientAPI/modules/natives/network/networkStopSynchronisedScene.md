@@ -1,7 +1,7 @@
 # networkStopSynchronisedScene (Category network)
 
 ```js
-function networkStopSynchronisedScene(netScene: int): void
+function networkStopSynchronisedScene(netScene: number): void
 ```
 
 [filename](networkStopSynchronisedScene_m.md ':include')

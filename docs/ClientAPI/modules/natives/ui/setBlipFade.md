@@ -1,7 +1,7 @@
 # setBlipFade (Category ui)
 
 ```js
-function setBlipFade(blip: number, opacity: int, duration: int): void
+function setBlipFade(blip: number, opacity: number, duration: number): void
 ```
 
 [filename](setBlipFade_m.md ':include')

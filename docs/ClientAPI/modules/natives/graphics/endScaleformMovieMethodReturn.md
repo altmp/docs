@@ -1,7 +1,7 @@
 # endScaleformMovieMethodReturn (Category graphics)
 
 ```js
-function endScaleformMovieMethodReturn(): int
+function endScaleformMovieMethodReturn(): number
 ```
 
 [filename](endScaleformMovieMethodReturn_m.md ':include')

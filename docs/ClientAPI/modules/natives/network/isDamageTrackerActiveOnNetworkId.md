@@ -1,7 +1,7 @@
 # isDamageTrackerActiveOnNetworkId (Category network)
 
 ```js
-function isDamageTrackerActiveOnNetworkId(netID: int): boolean
+function isDamageTrackerActiveOnNetworkId(netID: number): boolean
 ```
 
 [filename](isDamageTrackerActiveOnNetworkId_m.md ':include')

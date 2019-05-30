@@ -1,7 +1,7 @@
 # playVehicleDoorOpenSound (Category audio)
 
 ```js
-function playVehicleDoorOpenSound(vehicle: number, p1: int): void
+function playVehicleDoorOpenSound(vehicle: number, p1: number): void
 ```
 
 [filename](playVehicleDoorOpenSound_m.md ':include')

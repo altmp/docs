@@ -1,7 +1,7 @@
 # getGameTimer (Category gameplay)
 
 ```js
-function getGameTimer(): int
+function getGameTimer(): number
 ```
 
 [filename](getGameTimer_m.md ':include')

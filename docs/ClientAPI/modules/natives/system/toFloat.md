@@ -1,7 +1,7 @@
 # toFloat (Category system)
 
 ```js
-function toFloat(value: int): number
+function toFloat(value: number): number
 ```
 
 [filename](toFloat_m.md ':include')

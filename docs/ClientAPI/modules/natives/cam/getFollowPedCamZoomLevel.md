@@ -1,7 +1,7 @@
 # getFollowPedCamZoomLevel (Category cam)
 
 ```js
-function getFollowPedCamZoomLevel(): int
+function getFollowPedCamZoomLevel(): number
 ```
 
 [filename](getFollowPedCamZoomLevel_m.md ':include')

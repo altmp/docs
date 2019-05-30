@@ -1,7 +1,7 @@
 # setCheckpointIconRgba (Category graphics)
 
 ```js
-function setCheckpointIconRgba(checkpoint: int, red: int, green: int, blue: int, alpha: int): void
+function setCheckpointIconRgba(checkpoint: number, red: number, green: number, blue: number, alpha: number): void
 ```
 
 [filename](setCheckpointIconRgba_m.md ':include')

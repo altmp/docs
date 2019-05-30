@@ -1,7 +1,7 @@
 # getBlipInfoIdIterator (Category ui)
 
 ```js
-function getBlipInfoIdIterator(): int
+function getBlipInfoIdIterator(): number
 ```
 
 [filename](getBlipInfoIdIterator_m.md ':include')

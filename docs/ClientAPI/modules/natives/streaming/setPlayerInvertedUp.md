@@ -1,7 +1,7 @@
 # setPlayerInvertedUp (Category streaming)
 
 ```js
-function setPlayerInvertedUp(): int
+function setPlayerInvertedUp(): number
 ```
 
 [filename](setPlayerInvertedUp_m.md ':include')

@@ -1,7 +1,7 @@
 # isControlPressed (Category controls)
 
 ```js
-function isControlPressed(inputGroup: int, control: int): boolean
+function isControlPressed(inputGroup: number, control: number): boolean
 ```
 
 [filename](isControlPressed_m.md ':include')

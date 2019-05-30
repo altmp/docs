@@ -1,7 +1,7 @@
 # forceCleanupForThreadWithThisId (Category player)
 
 ```js
-function forceCleanupForThreadWithThisId(id: int, cleanupFlags: int): void
+function forceCleanupForThreadWithThisId(id: number, cleanupFlags: number): void
 ```
 
 [filename](forceCleanupForThreadWithThisId_m.md ':include')

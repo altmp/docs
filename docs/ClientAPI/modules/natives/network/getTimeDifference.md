@@ -1,7 +1,7 @@
 # getTimeDifference (Category network)
 
 ```js
-function getTimeDifference(timeA: int, timeB: int): int
+function getTimeDifference(timeA: number, timeB: number): number
 ```
 
 [filename](getTimeDifference_m.md ':include')

@@ -1,7 +1,7 @@
 # networkGetNumPresenceInvites (Category network)
 
 ```js
-function networkGetNumPresenceInvites(): int
+function networkGetNumPresenceInvites(): number
 ```
 
 [filename](networkGetNumPresenceInvites_m.md ':include')

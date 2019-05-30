@@ -1,7 +1,7 @@
 # networkSessionFriendMatchmaking (Category network)
 
 ```js
-function networkSessionFriendMatchmaking(p0: int, p1: int, maxPlayers: int, p3: boolean): boolean
+function networkSessionFriendMatchmaking(p0: number, p1: number, maxPlayers: number, p3: boolean): boolean
 ```
 
 [filename](networkSessionFriendMatchmaking_m.md ':include')

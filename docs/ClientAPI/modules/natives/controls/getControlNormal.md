@@ -1,7 +1,7 @@
 # getControlNormal (Category controls)
 
 ```js
-function getControlNormal(inputGroup: int, control: int): number
+function getControlNormal(inputGroup: number, control: number): number
 ```
 
 [filename](getControlNormal_m.md ':include')

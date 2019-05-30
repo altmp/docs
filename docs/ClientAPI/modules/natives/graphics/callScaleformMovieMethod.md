@@ -1,7 +1,7 @@
 # callScaleformMovieMethod (Category graphics)
 
 ```js
-function callScaleformMovieMethod(scaleform: int, method: string): void
+function callScaleformMovieMethod(scaleform: number, method: string): void
 ```
 
 [filename](callScaleformMovieMethod_m.md ':include')

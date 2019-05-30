@@ -1,7 +1,7 @@
 # getEventAtIndex (Category script)
 
 ```js
-function getEventAtIndex(eventGroup: int, eventIndex: int): int
+function getEventAtIndex(eventGroup: number, eventIndex: number): number
 ```
 
 [filename](getEventAtIndex_m.md ':include')
