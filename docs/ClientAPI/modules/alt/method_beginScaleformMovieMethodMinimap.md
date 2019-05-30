@@ -4,4 +4,4 @@
 function beginScaleformMovieMethodMinimap(methodName: string);
 ```
 
-{MANUAL_EDITED}
+[filename](method_beginScaleformMovieMethodMinimap_m.md ':include')

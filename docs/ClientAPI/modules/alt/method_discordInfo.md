@@ -4,4 +4,4 @@
 function discordInfo();
 ```
 
-{MANUAL_EDITED}
+[filename](method_discordInfo_m.md ':include')

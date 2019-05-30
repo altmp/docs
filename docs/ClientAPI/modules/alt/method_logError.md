@@ -4,4 +4,4 @@
 function logError(val: any);
 ```
 
-{MANUAL_EDITED}
+[filename](method_logError_m.md ':include')

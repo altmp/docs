@@ -4,4 +4,4 @@
 function toggleGameControls(state: boolean);
 ```
 
-{MANUAL_EDITED}
+[filename](method_toggleGameControls_m.md ':include')

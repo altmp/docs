@@ -1,0 +1,18 @@
+## TIME Natives
+
+* [`setClockTime(hour: int, minute: int, second: int): void`](docs/ClientAPI/modules/natives/TIME/setClockTime.md)
+* [`pauseClock(toggle: boolean): void`](docs/ClientAPI/modules/natives/TIME/pauseClock.md)
+* [`advanceClockTimeTo(hour: int, minute: int, second: int): void`](docs/ClientAPI/modules/natives/TIME/advanceClockTimeTo.md)
+* [`addToClockTime(hours: int, minutes: int, seconds: int): void`](docs/ClientAPI/modules/natives/TIME/addToClockTime.md)
+* [`getClockHours(): int`](docs/ClientAPI/modules/natives/TIME/getClockHours.md)
+* [`getClockMinutes(): int`](docs/ClientAPI/modules/natives/TIME/getClockMinutes.md)
+* [`getClockSeconds(): int`](docs/ClientAPI/modules/natives/TIME/getClockSeconds.md)
+* [`setClockDate(day: int, month: int, year: int): void`](docs/ClientAPI/modules/natives/TIME/setClockDate.md)
+* [`getClockDayOfWeek(): int`](docs/ClientAPI/modules/natives/TIME/getClockDayOfWeek.md)
+* [`getClockDayOfMonth(): int`](docs/ClientAPI/modules/natives/TIME/getClockDayOfMonth.md)
+* [`getClockMonth(): int`](docs/ClientAPI/modules/natives/TIME/getClockMonth.md)
+* [`getClockYear(): int`](docs/ClientAPI/modules/natives/TIME/getClockYear.md)
+* [`getMillisecondsPerGameMinute(): int`](docs/ClientAPI/modules/natives/TIME/getMillisecondsPerGameMinute.md)
+* [`getPosixTime(year: intPtr, month: intPtr, day: intPtr, hour: intPtr, minute: intPtr, second: intPtr): Array`](docs/ClientAPI/modules/natives/TIME/getPosixTime.md)
+* [`getUtcTime(year: intPtr, month: intPtr, day: intPtr, hour: intPtr, minute: intPtr, second: intPtr): Array`](docs/ClientAPI/modules/natives/TIME/getUtcTime.md)
+* [`getLocalTime(year: intPtr, month: intPtr, day: intPtr, hour: intPtr, minute: intPtr, second: intPtr): Array`](docs/ClientAPI/modules/natives/TIME/getLocalTime.md)

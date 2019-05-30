@@ -4,4 +4,4 @@
 function addGxtText(key: string, textValue: string);
 ```
 
-{MANUAL_EDITED}
+[filename](method_addGxtText_m.md ':include')

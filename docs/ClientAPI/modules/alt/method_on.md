@@ -4,4 +4,4 @@
 function on(evName: string, p1: Function);
 ```
 
-{MANUAL_EDITED}
+[filename](method_on_m.md ':include')

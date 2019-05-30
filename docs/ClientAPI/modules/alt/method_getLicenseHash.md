@@ -4,4 +4,4 @@
 function getLicenseHash();
 ```
 
-{MANUAL_EDITED}
+[filename](method_getLicenseHash_m.md ':include')

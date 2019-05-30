@@ -4,4 +4,4 @@
 function log(val: any);
 ```
 
-{MANUAL_EDITED}
+[filename](method_log_m.md ':include')

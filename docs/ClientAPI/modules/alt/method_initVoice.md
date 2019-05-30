@@ -4,4 +4,4 @@
 function initVoice();
 ```
 
-{MANUAL_EDITED}
+[filename](method_initVoice_m.md ':include')

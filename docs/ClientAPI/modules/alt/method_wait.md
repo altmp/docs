@@ -4,4 +4,4 @@
 function wait(waitTime: number);
 ```
 
-{MANUAL_EDITED}
+[filename](method_wait_m.md ':include')

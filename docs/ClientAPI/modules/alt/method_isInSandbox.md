@@ -4,4 +4,4 @@
 function isInSandbox();
 ```
 
-{MANUAL_EDITED}
+[filename](method_isInSandbox_m.md ':include')

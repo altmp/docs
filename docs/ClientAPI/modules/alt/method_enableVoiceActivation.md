@@ -4,4 +4,4 @@
 function enableVoiceActivation(activateOn: number, activationTime: number);
 ```
 
-{MANUAL_EDITED}
+[filename](method_enableVoiceActivation_m.md ':include')

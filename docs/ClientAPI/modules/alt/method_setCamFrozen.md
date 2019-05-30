@@ -4,4 +4,4 @@
 function setCamFrozen(state: boolean);
 ```
 
-{MANUAL_EDITED}
+[filename](method_setCamFrozen_m.md ':include')

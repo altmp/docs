@@ -4,4 +4,4 @@
 function removeIpl(iplName: string);
 ```
 
-{MANUAL_EDITED}
+[filename](method_removeIpl_m.md ':include')

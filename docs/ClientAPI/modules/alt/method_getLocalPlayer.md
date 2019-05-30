@@ -4,4 +4,4 @@
 function getLocalPlayer();
 ```
 
-{MANUAL_EDITED}
+[filename](method_getLocalPlayer_m.md ':include')

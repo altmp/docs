@@ -1,0 +1,7 @@
+# getTextScreenLineCount (Category ui)
+
+```js
+function getTextScreenLineCount(x: number, y: number): int
+```
+
+[filename](getTextScreenLineCount_m.md ':include')

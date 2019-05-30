@@ -4,4 +4,4 @@
 function getMsPerGameMinute();
 ```
 
-{MANUAL_EDITED}
+[filename](method_getMsPerGameMinute_m.md ':include')

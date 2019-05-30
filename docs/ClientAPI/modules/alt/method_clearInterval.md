@@ -4,4 +4,4 @@
 function clearInterval(p0: number);
 ```
 
-{MANUAL_EDITED}
+[filename](method_clearInterval_m.md ':include')

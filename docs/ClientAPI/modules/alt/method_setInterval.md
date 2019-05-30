@@ -4,4 +4,4 @@
 function setInterval(id: Function, id: number);
 ```
 
-{MANUAL_EDITED}
+[filename](method_setInterval_m.md ':include')

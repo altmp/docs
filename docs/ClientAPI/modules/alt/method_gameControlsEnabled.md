@@ -4,4 +4,4 @@
 function gameControlsEnabled();
 ```
 
-{MANUAL_EDITED}
+[filename](method_gameControlsEnabled_m.md ':include')

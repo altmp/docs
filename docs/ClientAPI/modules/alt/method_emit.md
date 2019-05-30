@@ -4,4 +4,4 @@
 function emit(name: string, args: any);
 ```
 
-{MANUAL_EDITED}
+[filename](method_emit_m.md ':include')

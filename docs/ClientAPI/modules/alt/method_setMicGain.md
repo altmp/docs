@@ -4,4 +4,4 @@
 function setMicGain(micGain: number);
 ```
 
-{MANUAL_EDITED}
+[filename](method_setMicGain_m.md ':include')

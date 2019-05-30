@@ -4,4 +4,4 @@
 function loadModel(modelHash: number);
 ```
 
-{MANUAL_EDITED}
+[filename](method_loadModel_m.md ':include')

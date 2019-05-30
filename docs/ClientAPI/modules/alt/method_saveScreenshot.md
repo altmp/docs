@@ -4,4 +4,4 @@
 function saveScreenshot(fileName: string);
 ```
 
-{MANUAL_EDITED}
+[filename](method_saveScreenshot_m.md ':include')

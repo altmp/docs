@@ -4,4 +4,4 @@
 function setTimeout(id: Function, id: number);
 ```
 
-{MANUAL_EDITED}
+[filename](method_setTimeout_m.md ':include')

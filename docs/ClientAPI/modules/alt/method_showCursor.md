@@ -4,4 +4,4 @@
 function showCursor(p0: boolean);
 ```
 
-{MANUAL_EDITED}
+[filename](method_showCursor_m.md ':include')

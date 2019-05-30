@@ -4,4 +4,4 @@
 function emitServer(name: string, args: any);
 ```
 
-{MANUAL_EDITED}
+[filename](method_emitServer_m.md ':include')

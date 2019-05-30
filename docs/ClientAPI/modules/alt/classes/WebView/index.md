@@ -10,9 +10,9 @@ new WebView(url: string, modelHash: number, targetTexture: string);
 
 | Property name | Type | Access | Inherited from | Description |
 | -------------- | ----------- | -------- | -------- | ----------- |
-| isVisible | boolean | set, get |  |  |
-| url | string | set, get |  |  |
-| type | number | get | BaseObject |  |
+| isVisible | Boolean | set, get |  |  |
+| url | String | set, get |  |  |
+| type | Integer | get | BaseObject |  |
 
 
 ## Methods

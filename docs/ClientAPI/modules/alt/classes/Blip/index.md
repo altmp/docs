@@ -6,37 +6,37 @@
 
 | Property name | Type | Access | Inherited from | Description |
 | -------------- | ----------- | -------- | -------- | ----------- |
-| alpha | number | set |  |  |
-| asMissionCreator | boolean | set |  |  |
-| bright | boolean | set |  |  |
-| category | number | set |  |  |
-| color | number | set |  |  |
-| crewIndicatorVisible | boolean | set |  |  |
-| flashInterval | number | set |  |  |
-| flashTimer | number | set |  |  |
-| flashes | boolean | set |  |  |
-| flashesAlternate | boolean | set |  |  |
-| friendIndicatorVisible | boolean | set |  |  |
-| friendly | boolean | set |  |  |
-| gxtName | string | set |  |  |
-| headingIndicatorVisible | boolean | set |  |  |
-| highDetail | boolean | set |  |  |
-| name | string | set |  |  |
-| number | number | set |  |  |
-| outlineIndicatorVisible | boolean | set |  |  |
+| alpha | Int32 | set |  |  |
+| asMissionCreator | Boolean | set |  |  |
+| bright | Boolean | set |  |  |
+| category | Int32 | set |  |  |
+| color | Int32 | set |  |  |
+| crewIndicatorVisible | Boolean | set |  |  |
+| flashInterval | Int32 | set |  |  |
+| flashTimer | Int32 | set |  |  |
+| flashes | Boolean | set |  |  |
+| flashesAlternate | Boolean | set |  |  |
+| friendIndicatorVisible | Boolean | set |  |  |
+| friendly | Boolean | set |  |  |
+| gxtName | String | set |  |  |
+| headingIndicatorVisible | Boolean | set |  |  |
+| highDetail | Boolean | set |  |  |
+| name | String | set |  |  |
+| number | Int32 | set |  |  |
+| outlineIndicatorVisible | Boolean | set |  |  |
 | position | Array | set, get |  |  |
-| priority | number | set |  |  |
-| pulse | boolean | set |  |  |
-| rotation | number | set |  |  |
-| route | boolean | set |  |  |
-| routeColor | number | set |  |  |
-| scale | number | set |  |  |
-| secondaryColor | number | set |  |  |
-| shortRange | boolean | set |  |  |
-| showCone | boolean | set |  |  |
-| shrinked | boolean | set |  |  |
-| sprite | number | set |  |  |
-| tickVisible | boolean | set |  |  |
+| priority | Int32 | set |  |  |
+| pulse | Boolean | set |  |  |
+| rotation | Number | set |  |  |
+| route | Boolean | set |  |  |
+| routeColor | Uint32 | set |  |  |
+| scale | Number | set |  |  |
+| secondaryColor | Uint32 | set |  |  |
+| shortRange | Boolean | set |  |  |
+| showCone | Boolean | set |  |  |
+| shrinked | Boolean | set |  |  |
+| sprite | Int32 | set |  |  |
+| tickVisible | Boolean | set |  |  |
 
 
 ## Methods

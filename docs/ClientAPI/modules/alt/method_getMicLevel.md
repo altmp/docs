@@ -4,4 +4,4 @@
 function getMicLevel();
 ```
 
-{MANUAL_EDITED}
+[filename](method_getMicLevel_m.md ':include')

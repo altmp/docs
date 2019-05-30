@@ -4,4 +4,4 @@
 function clearTimeout(p0: number);
 ```
 
-{MANUAL_EDITED}
+[filename](method_clearTimeout_m.md ':include')

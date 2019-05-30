@@ -4,4 +4,4 @@
 function enableVoiceInput();
 ```
 
-{MANUAL_EDITED}
+[filename](method_enableVoiceInput_m.md ':include')

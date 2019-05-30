@@ -4,4 +4,4 @@
 function getGxtText(key: string);
 ```
 
-{MANUAL_EDITED}
+[filename](method_getGxtText_m.md ':include')

@@ -1,0 +1,18 @@
+## FIRE Natives
+
+* [`startScriptFire(X: number, Y: number, Z: number, maxChildren: int, isGasFire: boolean): int`](docs/ClientAPI/modules/natives/FIRE/startScriptFire.md)
+* [`removeScriptFire(fireHandle: int): void`](docs/ClientAPI/modules/natives/FIRE/removeScriptFire.md)
+* [`startEntityFire(entity: number): number`](docs/ClientAPI/modules/natives/FIRE/startEntityFire.md)
+* [`stopEntityFire(entity: number): void`](docs/ClientAPI/modules/natives/FIRE/stopEntityFire.md)
+* [`isEntityOnFire(entity: number): boolean`](docs/ClientAPI/modules/natives/FIRE/isEntityOnFire.md)
+* [`getNumberOfFiresInRange(x: number, y: number, z: number, radius: number): int`](docs/ClientAPI/modules/natives/FIRE/getNumberOfFiresInRange.md)
+* [`stopFireInRange(x: number, y: number, z: number, radius: number): void`](docs/ClientAPI/modules/natives/FIRE/stopFireInRange.md)
+* [`getClosestFirePos(outPosition: vectorPtr, x: number, y: number, z: number): Array`](docs/ClientAPI/modules/natives/FIRE/getClosestFirePos.md)
+* [`addExplosion(x: number, y: number, z: number, explosionType: int, damageScale: number, isAudible: boolean, isInvisible: boolean, cameraShake: number): void`](docs/ClientAPI/modules/natives/FIRE/addExplosion.md)
+* [`addOwnedExplosion(ped: number, x: number, y: number, z: number, explosionType: int, damageScale: number, isAudible: boolean, isInvisible: boolean, cameraShake: number): void`](docs/ClientAPI/modules/natives/FIRE/addOwnedExplosion.md)
+* [`addExplosionWithUserVfx(x: number, y: number, z: number, explosionType: int, explosionFx: number, damageScale: number, isAudible: boolean, isInvisible: boolean, cameraShake: number): void`](docs/ClientAPI/modules/natives/FIRE/addExplosionWithUserVfx.md)
+* [`isExplosionInArea(explosionType: int, x1: number, y1: number, z1: number, x2: number, y2: number, z2: number): boolean`](docs/ClientAPI/modules/natives/FIRE/isExplosionInArea.md)
+* [`_0x6070104B699B2EF4(unk: int, PosX1: number, PosY1: number, PosZ1: number, PosX2: number, PosY2: number, PosZ2: number): int`](docs/ClientAPI/modules/natives/FIRE/_0x6070104B699B2EF4.md)
+* [`isExplosionInSphere(explosionType: int, x: number, y: number, z: number, radius: number): boolean`](docs/ClientAPI/modules/natives/FIRE/isExplosionInSphere.md)
+* [`isExplosionInAngledArea(explosionType: int, x1: number, y1: number, z1: number, x2: number, y2: number, z2: number, angle: number): boolean`](docs/ClientAPI/modules/natives/FIRE/isExplosionInAngledArea.md)
+* [`getPedInsideExplosionArea(explosionType: int, x1: number, y1: number, z1: number, x2: number, y2: number, z2: number, radius: number): number`](docs/ClientAPI/modules/natives/FIRE/getPedInsideExplosionArea.md)

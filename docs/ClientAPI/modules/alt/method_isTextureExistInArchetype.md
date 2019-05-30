@@ -4,4 +4,4 @@
 function isTextureExistInArchetype(modelHash: number, modelName: string);
 ```
 
-{MANUAL_EDITED}
+[filename](method_isTextureExistInArchetype_m.md ':include')

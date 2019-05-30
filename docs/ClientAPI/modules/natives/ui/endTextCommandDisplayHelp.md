@@ -1,0 +1,7 @@
+# endTextCommandDisplayHelp (Category ui)
+
+```js
+function endTextCommandDisplayHelp(p0: number, loop: boolean, beep: boolean, duration: int): void
+```
+
+[filename](endTextCommandDisplayHelp_m.md ':include')

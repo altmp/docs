@@ -4,4 +4,4 @@
 function logWarning(val: any);
 ```
 
-{MANUAL_EDITED}
+[filename](method_logWarning_m.md ':include')

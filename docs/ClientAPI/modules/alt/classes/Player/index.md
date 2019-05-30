@@ -6,15 +6,15 @@
 
 | Property name | Type | Access | Inherited from | Description |
 | -------------- | ----------- | -------- | -------- | ----------- |
-| name | string | get |  |  |
-| scriptID | number | get |  |  |
-| vehicle | Vehicle | get |  |  |
-| id | number | get | Entity |  |
-| model | number | get | Entity |  |
-| rot | object | get | Entity |  |
-| dimension | number | get | WorldObject |  |
-| pos | object | get | WorldObject |  |
-| type | number | get | BaseObject |  |
+| name | String | get |  |  |
+| scriptID | Integer | get |  |  |
+| vehicle | number | get |  |  |
+| id | Integer | get | Entity |  |
+| model | Integer | get | Entity |  |
+| rot | number | get | Entity |  |
+| dimension | Integer | get | WorldObject |  |
+| pos | number | get | WorldObject |  |
+| type | Integer | get | BaseObject |  |
 
 
 ## Methods

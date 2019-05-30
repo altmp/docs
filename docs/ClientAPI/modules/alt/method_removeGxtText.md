@@ -4,4 +4,4 @@
 function removeGxtText(key: string);
 ```
 
-{MANUAL_EDITED}
+[filename](method_removeGxtText_m.md ':include')
