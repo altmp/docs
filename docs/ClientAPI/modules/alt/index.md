@@ -14,7 +14,7 @@
 
 | Property name | Type | Access | Description |
 | -------------- | ----------- | -------- | ----------- |
-| cursorPos | number | set, get |  |
+| cursorPos | object | set, get |  |
 | players | Array | get |  |
 | vehicles | Array | get |  |
 

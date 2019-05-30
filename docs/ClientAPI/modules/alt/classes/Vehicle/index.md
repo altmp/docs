@@ -6,16 +6,16 @@
 
 | Property name | Type | Access | Inherited from | Description |
 | -------------- | ----------- | -------- | -------- | ----------- |
-| gear | Integer | get |  |  |
-| rpm | Number | get |  |  |
-| scriptID | Integer | get |  |  |
-| speed | Number | get |  |  |
-| id | Integer | get | Entity |  |
-| model | Integer | get | Entity |  |
-| rot | number | get | Entity |  |
-| dimension | Integer | get | WorldObject |  |
-| pos | number | get | WorldObject |  |
-| type | Integer | get | BaseObject |  |
+| gear | number | get |  |  |
+| rpm | number | get |  |  |
+| scriptID | number | get |  |  |
+| speed | number | get |  |  |
+| id | number | get | Entity |  |
+| model | number | get | Entity |  |
+| rot | object | get | Entity |  |
+| dimension | number | get | WorldObject |  |
+| pos | object | get | WorldObject |  |
+| type | number | get | BaseObject |  |
 
 
 ## Methods

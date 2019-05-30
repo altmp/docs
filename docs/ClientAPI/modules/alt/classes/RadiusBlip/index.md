@@ -10,37 +10,37 @@ new RadiusBlip(x: number, y: number, z: number, radius: number);
 
 | Property name | Type | Access | Inherited from | Description |
 | -------------- | ----------- | -------- | -------- | ----------- |
-| alpha | Int32 | set | Blip |  |
-| asMissionCreator | Boolean | set | Blip |  |
-| bright | Boolean | set | Blip |  |
-| category | Int32 | set | Blip |  |
-| color | Int32 | set | Blip |  |
-| crewIndicatorVisible | Boolean | set | Blip |  |
-| flashInterval | Int32 | set | Blip |  |
-| flashTimer | Int32 | set | Blip |  |
-| flashes | Boolean | set | Blip |  |
-| flashesAlternate | Boolean | set | Blip |  |
-| friendIndicatorVisible | Boolean | set | Blip |  |
-| friendly | Boolean | set | Blip |  |
-| gxtName | String | set | Blip |  |
-| headingIndicatorVisible | Boolean | set | Blip |  |
-| highDetail | Boolean | set | Blip |  |
-| name | String | set | Blip |  |
-| number | Int32 | set | Blip |  |
-| outlineIndicatorVisible | Boolean | set | Blip |  |
+| alpha | number | set | Blip |  |
+| asMissionCreator | boolean | set | Blip |  |
+| bright | boolean | set | Blip |  |
+| category | number | set | Blip |  |
+| color | number | set | Blip |  |
+| crewIndicatorVisible | boolean | set | Blip |  |
+| flashInterval | number | set | Blip |  |
+| flashTimer | number | set | Blip |  |
+| flashes | boolean | set | Blip |  |
+| flashesAlternate | boolean | set | Blip |  |
+| friendIndicatorVisible | boolean | set | Blip |  |
+| friendly | boolean | set | Blip |  |
+| gxtName | string | set | Blip |  |
+| headingIndicatorVisible | boolean | set | Blip |  |
+| highDetail | boolean | set | Blip |  |
+| name | string | set | Blip |  |
+| number | number | set | Blip |  |
+| outlineIndicatorVisible | boolean | set | Blip |  |
 | position | Array | set, get | Blip |  |
-| priority | Int32 | set | Blip |  |
-| pulse | Boolean | set | Blip |  |
-| rotation | Number | set | Blip |  |
-| route | Boolean | set | Blip |  |
-| routeColor | Uint32 | set | Blip |  |
-| scale | Number | set | Blip |  |
-| secondaryColor | Uint32 | set | Blip |  |
-| shortRange | Boolean | set | Blip |  |
-| showCone | Boolean | set | Blip |  |
-| shrinked | Boolean | set | Blip |  |
-| sprite | Int32 | set | Blip |  |
-| tickVisible | Boolean | set | Blip |  |
+| priority | number | set | Blip |  |
+| pulse | boolean | set | Blip |  |
+| rotation | number | set | Blip |  |
+| route | boolean | set | Blip |  |
+| routeColor | number | set | Blip |  |
+| scale | number | set | Blip |  |
+| secondaryColor | number | set | Blip |  |
+| shortRange | boolean | set | Blip |  |
+| showCone | boolean | set | Blip |  |
+| shrinked | boolean | set | Blip |  |
+| sprite | number | set | Blip |  |
+| tickVisible | boolean | set | Blip |  |
 
 
 ## Methods
