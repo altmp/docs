@@ -1,2 +1,0 @@
-## getPlayersByName
-TODO

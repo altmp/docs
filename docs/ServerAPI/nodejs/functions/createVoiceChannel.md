@@ -1,2 +1,0 @@
-## createVoiceChannel
-TODO

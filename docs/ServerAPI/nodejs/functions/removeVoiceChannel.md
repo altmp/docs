@@ -1,2 +1,0 @@
-## removeVoiceChannel
-TODO
