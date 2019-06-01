@@ -12,7 +12,7 @@
 | name  	   |  any string 			             | displayname of the server					    |
 | host 		   |  any IPv4 or IPv6 Address as string | binding address of the server					|
 | port 		   |  0 to 65535						 | Port of the server (Default 7788)                |
-| players 	   |  0 to xxx							 | amount of players that can join					|
+| players 	   |  0 to 4095							 | amount of players that can join					|
 | announce 	   |  true or false						 | true = server is shown in masterlist		        |
 | gamemode 	   |  any string						 | gamemodename shown in the masterlist             |
 | website 	   |  any string                         | url of website shown in the masterlist           |
