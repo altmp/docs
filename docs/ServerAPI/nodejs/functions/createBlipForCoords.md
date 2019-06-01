@@ -3,7 +3,7 @@
 **Description**: Creates a Blip at the given coordinate
 
 ```javascript
-createBlipForCoords(type, posX, posY, posZ, heading)
+alt.createBlipForCoords(type, posX, posY, posZ, heading)
 ```
 
 #### Parameters

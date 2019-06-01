@@ -1,9 +1,9 @@
-### playerDead
+### playerDeath
 
 **Description**: This event is called when a player dies.
 
 ```javascript
-alt.on('playerDead', (player, killer, weapon) => {
+alt.on('playerDeath', (player, killer, weapon) => {
 
 });
 ```
@@ -24,7 +24,7 @@ alt.on('playerDead', (player, killer, weapon) => {
 #### Example Usage
 
 ```javascript
-alt.on('playerDead', (player, killer, weapon) => {
+alt.on('playerDeath', (player, killer, weapon) => {
   alt.log(`${killer.name} has killed ${player.name}`);
 });
 ```
