@@ -30,7 +30,7 @@ function createCheckpoint(type: number, x: number, y: number, z: number, radius:
 ```
 * [createVehicle](docs/ServerAPI/nodejs/modules/alt/method_createVehicle.md)
 ```js
-function createVehicle(model: string, x: number, y: number, z: number, roll: number, pitch: number, yaw: number);
+var vehicle = new alt.Vehicle(model: string, posX: number, posY: number, posZ: number, roll: number, pitch: number, yaw: number);
 ```
 * [createVoiceChannel](docs/ServerAPI/nodejs/modules/alt/method_createVoiceChannel.md)
 ```js

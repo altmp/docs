@@ -7,3 +7,4 @@ This documentation has been automatically generated based on source code from br
 ## Modules
 * [alt](docs/ClientAPI/modules/alt/index.md)
 * [natives](docs/ClientAPI/modules/natives/index.md)
+* [events](docs/ClientAPI/modules/events/index.md)
