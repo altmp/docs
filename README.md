@@ -5,6 +5,6 @@
 
 alt:V is a free third-party multiplayer modification for Grand Theft Auto: V.
 It allows you to play with your friends on dedicated servers
-with custom gamemodes with an ultimate experience.
+with custom gamemodes for an ultimate experience.
 
 [https://v.alt-mp.com/](https://v.alt-mp.com/)
