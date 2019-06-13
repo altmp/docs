@@ -70,7 +70,7 @@ alt.on('playerEnteredVehicle', (vehicle, player, seat) => {
 ```
 
 ### playerLeftVehicle
-Called when a player enters a vehicle.
+Called when a player exits a vehicle.
 ```
 alt.on('playerLeftVehicle', (vehicle, player, seat) => {
     
@@ -102,7 +102,7 @@ alt.on('consoleCommand', (msg) => {
 ```
 
 ### syncedMetaChange
-When an entities meta values change; this gets called.
+Called when an entities synced meta value changes.
 ```
 alt.on('syncedMetaChange', (entity, key, value) => {
 
@@ -110,7 +110,7 @@ alt.on('syncedMetaChange', (entity, key, value) => {
 ```
 
 ### metaChange
-When an entities meta values change on the server.
+Called when an entities meta value changes.
 ```
 alt.on('metaChange', (entity, key, value) => {
 
