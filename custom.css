@@ -95,6 +95,11 @@ body:not([data-platform^="Mac"]) .sidebar:hover>*:not(.sidebar-nav) {
   color: #6b9c56;
 }
 
+.markdown-section h4 {
+  font-weight: 700;
+  color: #DA002B;
+}
+
 .markdown-section blockquote {
   background: #272727;
 }
