@@ -1,4 +1,5 @@
 # Welcome to alt&#58;V API Documentation
+#### This documentation is for the 'beta' branch of altV. Information here may not be accurate for the stable(or 'master') branch.
 
 ## alt:V Multiplayer
 ### Alternative GTA:V multiplayer mod
