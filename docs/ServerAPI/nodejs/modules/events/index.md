@@ -1,41 +1,17 @@
 ## Serverside Events
 ---
 
-### playerConnect
-Called when a player connects to the server.
-```
-alt.on('playerConnect', (player) => {
-	alt.log(`${player.name} has joined the server!`);
-});
-```
-
-### playerDisconnect
-Called when a player disconnects from the server.
-```
-alt.on('playerDisconnect', (player, reason) => {
-    alt.log(`${player.name} has disconnected.`);
-});
-```
-
-### playerDamage
-Called when a player takes damage.
-```
-alt.on('playerDamage', (target, attacker, damage, weapon) => {
-    alt.log(`${target.name} was attacked by ${attacker.name}`);
-});
-```
-
-### playerDeath
-Called when a player dies.
-```
-alt.on('playerDeath', (target, killer, weapon) => {
-    alt.log(`${target.name} was killed by ${killer.name}`);
+### consoleCommand
+Called when the server owners types a message into the console.
+```js
+alt.on('consoleCommand', (msg) => {
+    alt.log(msg);
 });
 ```
 
 ### entityEnterCheckpoint
-Called when a player enters a checkpoint.
-```
+Called when an entity enters a checkpoint.
+```js
 alt.on('entityEnterCheckpoint', (checkPoint, entity) => {
     if (entity.constructor.name === "Vehicle") {
         alt.log('A vehicle entered a checkpoint.');
@@ -48,8 +24,8 @@ alt.on('entityEnterCheckpoint', (checkPoint, entity) => {
 ```
 
 ### entityLeaveCheckpoint
-Called when a player leaves a checkpoint.
-```
+Called when an entity leaves a checkpoint.
+```js
 alt.on('entityLeaveCheckpoint', (checkPoint, entity) => {
     if (entity.constructor.name === "Vehicle") {
         alt.log('A vehicle left a checkpoint.');
@@ -61,9 +37,75 @@ alt.on('entityLeaveCheckpoint', (checkPoint, entity) => {
 });
 ```
 
+### entityEnterColshape
+Called when an entity enters a colshape.
+```js
+alt.on('entityEnterColshape', (colshape, entity) => {
+    if (entity.constructor.name == "Player")
+        alt.log(`Player ${entity.name} enter Colshape`);
+});
+```
+
+### entityLeaveColshape
+Called when an entity leave a colshape.
+```js
+alt.on('entityLeaveColshape', (colshape, entity) => {
+    if (entity.constructor.name == "Player")
+        alt.log(`Player ${entity.name} leave Colshape`);
+});
+```
+
+### metaChange
+Called when an entities meta value changes.
+```js
+alt.on('metaChange', (entity, key, value) => {
+
+});
+```
+
+### playerChangedVehicleSeat
+Called when a player changes their vehicle seat.
+```js
+alt.on('playerChangedVehicleSeat', (vehicle, player, oldseat, newseat) => {
+
+});
+```
+
+### playerConnect
+Called when a player connects to the server.
+```js
+alt.on('playerConnect', (player) => {
+	alt.log(`${player.name} has joined the server!`);
+});
+```
+
+### playerDamage
+Called when a player takes damage.
+```js
+alt.on('playerDamage', (target, attacker, damage, weapon) => {
+    alt.log(`${target.name} was attacked by ${attacker.name}`);
+});
+```
+
+### playerDeath
+Called when a player dies.
+```js
+alt.on('playerDeath', (target, killer, weapon) => {
+    alt.log(`${target.name} was killed by ${killer.name}`);
+});
+```
+
+### playerDisconnect
+Called when a player disconnects from the server.
+```js
+alt.on('playerDisconnect', (player, reason) => {
+    alt.log(`${player.name} has disconnected.`);
+});
+```
+
 ### playerEnteredVehicle
 Called when a player enters a vehicle.
-```
+```js
 alt.on('playerEnteredVehicle', (vehicle, player, seat) => {
 
 });
@@ -71,48 +113,24 @@ alt.on('playerEnteredVehicle', (vehicle, player, seat) => {
 
 ### playerLeftVehicle
 Called when a player exits a vehicle.
-```
+```js
 alt.on('playerLeftVehicle', (vehicle, player, seat) => {
     
 });
 ```
 
-### playerChangedVehicleSeat
-Called when a player changes their vehicle seat.
-```
-alt.on('playerChangedVehicleSeat', (vehicle, player, oldseat, newseat) => {
-
-});
-```
-
 ### removeEntity
 Called when an entity is removed / deleted.
-```
+```js
 alt.on('removeEntity', (target) => {
 
 });
 ```
 
-### consoleCommand
-Called when the server owners types a message into the console.
-```
-alt.on('consoleCommand', (msg) => {
-    alt.log(msg);
-});
-```
-
 ### syncedMetaChange
 Called when an entities synced meta value changes.
-```
+```js
 alt.on('syncedMetaChange', (entity, key, value) => {
-
-});
-```
-
-### metaChange
-Called when an entities meta value changes.
-```
-alt.on('metaChange', (entity, key, value) => {
 
 });
 ```
