@@ -1,6 +1,10 @@
-# Class "Blip"
+# Class "PointBlip"
 
-`WARNING!` This class is abstract! Object can't be created!
+## Constructor
+
+```js
+new PointBlip(type: number, x: number, y: number, z: number);
+```
 
 ### Properties
 

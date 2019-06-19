@@ -1,11 +1,16 @@
-# Class "Blip"
+# Class "ColshapeSphere"
 
-`WARNING!` This class is abstract! Object can't be created!
+## Constructor
+
+```js
+new ColshapeSphere(x: number, y: number, z: number, radius: number);
+```
 
 ### Properties
 
 | Property name | Type | Access | Inherited from | Description |
 | -------------- | ----------- | -------- | -------- | ----------- |
+| colshapeType | number | get | Colshape |  |
 | dimension | number | set, get | WorldObject |  |
 | pos | Value | set, get | WorldObject |  |
 | type | number | get | BaseObject |  |
@@ -13,6 +18,10 @@
 
 ## Methods
 
+* [isEntityIn](docs/ServerAPI/nodejs/modules/alt/classes/Colshape/method_isEntityIn.md)
+```js
+function isEntityIn(targetEntity: Object);
+```
 * [destroy](docs/ServerAPI/nodejs/modules/alt/classes/BaseObject/method_destroy.md)
 ```js
 function destroy();

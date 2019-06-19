@@ -1,6 +1,10 @@
 # Class "Vehicle"
 
-`WARNING!` This class is abstract! Object can't be created!
+## Constructor
+
+```js
+new Vehicle(model: string, x: number, y: number, z: number, rx: number, ry: number, rz: number);
+```
 
 ### Properties
 
@@ -16,7 +20,7 @@
 | dashboardColor | number | set, get |  |  |
 | daylightOn | boolean | get |  |  |
 | dirtLevel | number | set, get |  |  |
-| driver | object | get |  |  |
+| driver | Player | get |  |  |
 | engineHealth | number | set, get |  |  |
 | engineOn | boolean | set, get |  |  |
 | flamethrowerActive | boolean | get |  |  |
@@ -48,7 +52,7 @@
 | model | number | set, get | Entity |  |
 | rot | object | set, get | Entity |  |
 | dimension | number | set, get | WorldObject |  |
-| pos | object | set, get | WorldObject |  |
+| pos | Value | set, get | WorldObject |  |
 | type | number | get | BaseObject |  |
 
 
@@ -221,6 +225,10 @@ function getSyncedMeta(key: string);
 * [setSyncedMeta](docs/ServerAPI/nodejs/modules/alt/classes/Entity/method_setSyncedMeta.md)
 ```js
 function setSyncedMeta(key: string, p1: any);
+```
+* [destroy](docs/ServerAPI/nodejs/modules/alt/classes/BaseObject/method_destroy.md)
+```js
+function destroy();
 ```
 * [getMeta](docs/ServerAPI/nodejs/modules/alt/classes/BaseObject/method_getMeta.md)
 ```js

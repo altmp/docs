@@ -1,6 +1,10 @@
 # Class "VoiceChannel"
 
-`WARNING!` This class is abstract! Object can't be created!
+## Constructor
+
+```js
+new VoiceChannel(isSpatial: boolean, maxDistance: number);
+```
 
 ### Properties
 
@@ -34,6 +38,10 @@ function removePlayer(targetEntity: Object);
 * [unmutePlayer](docs/ServerAPI/nodejs/modules/alt/classes/VoiceChannel/method_unmutePlayer.md)
 ```js
 function unmutePlayer(targetEntity: Object);
+```
+* [destroy](docs/ServerAPI/nodejs/modules/alt/classes/BaseObject/method_destroy.md)
+```js
+function destroy();
 ```
 * [getMeta](docs/ServerAPI/nodejs/modules/alt/classes/BaseObject/method_getMeta.md)
 ```js

@@ -10,12 +10,12 @@
 | name | string | set, get |  |  |
 | ping | number | get |  |  |
 | seat | number | get |  |  |
-| vehicle | object | get |  |  |
+| vehicle | Vehicle | get |  |  |
 | id | number | get | Entity |  |
 | model | number | set, get | Entity |  |
 | rot | object | set, get | Entity |  |
 | dimension | number | set, get | WorldObject |  |
-| pos | object | set, get | WorldObject |  |
+| pos | Value | set, get | WorldObject |  |
 | type | number | get | BaseObject |  |
 
 
@@ -56,6 +56,10 @@ function getSyncedMeta(key: string);
 * [setSyncedMeta](docs/ServerAPI/nodejs/modules/alt/classes/Entity/method_setSyncedMeta.md)
 ```js
 function setSyncedMeta(key: string, p1: any);
+```
+* [destroy](docs/ServerAPI/nodejs/modules/alt/classes/BaseObject/method_destroy.md)
+```js
+function destroy();
 ```
 * [getMeta](docs/ServerAPI/nodejs/modules/alt/classes/BaseObject/method_getMeta.md)
 ```js

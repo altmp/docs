@@ -2,20 +2,18 @@
 
 ## Classes
 
+* [Vector3](docs/ServerAPI/nodejs/modules/alt/classes/Vector3/index.md)
 * [Player](docs/ServerAPI/nodejs/modules/alt/classes/Player/index.md)
 * [Vehicle](docs/ServerAPI/nodejs/modules/alt/classes/Vehicle/index.md)
 * [Blip](docs/ServerAPI/nodejs/modules/alt/classes/Blip/index.md)
+* [PointBlip](docs/ServerAPI/nodejs/modules/alt/classes/PointBlip/index.md)
 * [Checkpoint](docs/ServerAPI/nodejs/modules/alt/classes/Checkpoint/index.md)
 * [VoiceChannel](docs/ServerAPI/nodejs/modules/alt/classes/VoiceChannel/index.md)
-
-## Properties
-
-| Property name | Type | Access | Description |
-| -------------- | ----------- | -------- | ----------- |
-| currentResource | string | get |  |
-| players | Array | get |  |
-| rootDir | string | get |  |
-| vehicles | Array | get |  |
+* [ColshapeCylinder](docs/ServerAPI/nodejs/modules/alt/classes/ColshapeCylinder/index.md)
+* [ColshapeSphere](docs/ServerAPI/nodejs/modules/alt/classes/ColshapeSphere/index.md)
+* [ColshapeCircle](docs/ServerAPI/nodejs/modules/alt/classes/ColshapeCircle/index.md)
+* [ColshapeCuboid](docs/ServerAPI/nodejs/modules/alt/classes/ColshapeCuboid/index.md)
+* [ColshapeRectangle](docs/ServerAPI/nodejs/modules/alt/classes/ColshapeRectangle/index.md)
 
 
 ## Methods
