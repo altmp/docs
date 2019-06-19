@@ -11,6 +11,7 @@ new Vehicle(model: string, x: number, y: number, z: number, rx: number, ry: numb
 | Property name | Type | Access | Inherited from | Description |
 | -------------- | ----------- | -------- | -------- | ----------- |
 | activeRadioStation | number | set, get |  |  |
+| all | Array | get |  | Replace <span style="color:orange">alt.vehicles</span> since build 569 |
 | bodyAdditionalHealth | number | set, get |  |  |
 | bodyHealth | number | set, get |  |  |
 | customPrimaryColor | object | set, get |  |  |

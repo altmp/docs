@@ -6,6 +6,7 @@
 
 | Property name | Type | Access | Inherited from | Description |
 | -------------- | ----------- | -------- | -------- | ----------- |
+| all | Array | get |  | Replace <span style="color:orange">alt.players</span> since build 569 |
 | name | string | get |  |  |
 | scriptID | number | get |  |  |
 | vehicle | Vehicle | get |  |  |

@@ -6,6 +6,7 @@
 
 | Property name | Type | Access | Inherited from | Description |
 | -------------- | ----------- | -------- | -------- | ----------- |
+| all | Array | get |  | Replace <span style="color:orange">alt.vehicles</span> since build 569 |
 | gear | number | get |  |  |
 | rpm | number | get |  |  |
 | scriptID | number | get |  |  |
