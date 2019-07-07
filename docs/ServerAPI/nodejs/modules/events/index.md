@@ -66,7 +66,7 @@ alt.on('metaChange', (entity, key, value) => {
 ### playerChangedVehicleSeat
 Called when a player changes their vehicle seat.
 ```js
-alt.on('playerChangedVehicleSeat', (vehicle, player, oldseat, newseat) => {
+alt.on('playerChangedVehicleSeat', (player, vehicle, oldseat, newseat) => {
 
 });
 ```
@@ -106,7 +106,7 @@ alt.on('playerDisconnect', (player, reason) => {
 ### playerEnteredVehicle
 Called when a player enters a vehicle.
 ```js
-alt.on('playerEnteredVehicle', (vehicle, player, seat) => {
+alt.on('playerEnteredVehicle', (player, vehicle, seat) => {
 
 });
 ```
@@ -114,7 +114,7 @@ alt.on('playerEnteredVehicle', (vehicle, player, seat) => {
 ### playerLeftVehicle
 Called when a player exits a vehicle.
 ```js
-alt.on('playerLeftVehicle', (vehicle, player, seat) => {
+alt.on('playerLeftVehicle', (player, vehicle, seat) => {
     
 });
 ```
