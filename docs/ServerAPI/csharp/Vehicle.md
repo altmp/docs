@@ -2,37 +2,64 @@
 
 ### Properties
 
-| Property Name       | Type         | Description |
-| ------------------- | ------------ | ----------- |
-| CustomTires         | `bool`       |             |
-| DashboardColor      | `byte`       |             |
-| DirtLevel           | `byte`       |             |
-| Driver              | `IPlayer`    |             |
-| InteriorColor       | `byte`       |             |
-| IsPrimaryColorRgb   | `bool`       |             |
-| IsSecondaryColorRgb | `bool`       |             |
-| ModKit              | `byte`       |             |
-| NeonColor           | `Rgba`       |             |
-| NumberPlateIndex    | `uint`       |             |
-| NumberPlateText     | `string`     |             |
-| PearlColor          | `byte`       |             |
-| PrimaryColor        | `byte`       |             |
-| PrimaryColorRgb     | `Rgba`       |             |
-| SecondaryColor      | `byte`       |             |
-| SecondaryColorRgb   | `Rgba`       |             |
-| SpecialDarkness     | `byte`       |             |
-| TireSmokeColor      | `Rgba`       |             |
-| WheelColor          | `byte`       |             |
-| WheelType           | `byte`       |             |
-| WheelVariation      | `byte`       |             |
-| WindowTint          | `byte`       |             |
-| Type                | `EntityType` |             |
-| Dimension           | `ushort`     |             |
-| Exists              | `bool`       |             |
-| Id                  | `ushort`     |             |
-| NativePointer       | `IntPtr`     |             |
-| Position            | `Position`   |             |
-| Rotation            | `Rotation`   |             |
+| Property Name       | Type         | Access      | Description |
+| ------------------- | ------------ | ----------- | ----------- |
+| Position            | `Position`   | get, set    |             |
+| Rotation            | `Rotation`   | get, set    |             |
+| Type                | `EntityType` | get         |             |
+| Dimension           | `short`     | get, set    |             |
+| Exists              | `bool`       | get         |             |
+| Id                  | `ushort`     | get         |             |
+| BodyHealth          | `uint`       | get, set    |             |
+| BodyAdditionalHealth | `uint`      | get, set    |             |
+| HealthData          | `string`     | get, set    |             |
+| DamageData          | `string`     | get, set    |             |
+| EngineHealth        | `int`        | get, set    |             |
+| PetrolTankHealth    | `int`        | get, set    |             |
+| Model               | `uint`       | get         |             |
+| EngineOn            | `bool`       | get         |             |
+| ManualEngineControl | `bool`       | get, set    |             |
+| LockState           | `VehicleLockState` | get, set |          |
+| IsHandbrakeActive   | `bool`       | get, set    |             |
+| RadioStation        | `uint`       | get, set    |             |
+| SirenActive         | `bool`       | get, set    |             |
+| CustomTires         | `bool`       | get, set    |             |
+| DashboardColor      | `byte`       | get, set    |             |
+| HeadlightColor      | `byte`       | get, set    |             |
+| DirtLevel           | `byte`       | get, set    |             |
+| Driver              | `IPlayer`    | get         |             |
+| InteriorColor       | `byte`       | get, set    |             |
+| IsPrimaryColorRgb   | `bool`       | get         |             |
+| IsSecondaryColorRgb | `bool`       | get         |             |
+| ModKit              | `byte`       | get, set    |             |
+| ModKitsCount        | `byte`       | get         |             |
+| NeonColor           | `Rgba`       | get, set    |             |
+| IsNeonActive        | `bool`       | get         |             |
+| NumberPlateIndex    | `uint`       | get, set    |             |
+| NumberPlateText     | `string`     | get, set    |             |
+| PearlColor          | `byte`       | get, set    |             |
+| PrimaryColor        | `byte`       | get, set    |             |
+| PrimaryColorRgb     | `Rgba`       | get, set    |             |
+| SecondaryColor      | `byte`       | get, set    |             |
+| SecondaryColorRgb   | `Rgba`       | get, set    |             |
+| SpecialDarkness     | `byte`       | get, set    |             |
+| IsTireSmokeColorCustom | `bool`    | get         |             |
+| TireSmokeColor      | `Rgba`       | get, set    |             |
+| WheelColor          | `byte`       | get, set    |             |
+| WheelType           | `byte`       | get         |             |
+| WheelVariation      | `byte`       | get         |             |
+| WheelsCount         | `byte`       | get         |             |
+| WindowTint          | `byte`       | get, set    |             |
+| HasArmoredWindows   | `bool`       | get         |             |
+| RepairsCount        | `byte`       | get         |             |
+| IsDaylightOn        | `bool`       | get         |             |
+| IsNightlightOn      | `bool`       | get         |             |
+| RoofOpened          | `bool`       | get         |             |
+| IsFlamethrowerActive | `bool`      | get         |             |
+| State               | `string`     | get, set    |             |
+| AppearanceData      | `string`     | get, set    |             |
+| ScriptData          | `string`     | get, set    |             |
+| NativePointer       | `IntPtr`     | get         |             |
 
 ## Methods
 
