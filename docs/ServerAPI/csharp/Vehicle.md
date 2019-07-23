@@ -3,11 +3,11 @@
 ### Properties
 
 | Property Name       | Type         | Access      | Description |
-| ------------------- | ------------ | ----------- |             |
+| ------------------- | ------------ | ----------- | ----------- |
 | Position            | `Position`   | get, set    |             |
 | Rotation            | `Rotation`   | get, set    |             |
 | Type                | `EntityType` | get         |             |
-| Dimension           | `ushort`     | get, set    |             |
+| Dimension           | `short`     | get, set    |             |
 | Exists              | `bool`       | get         |             |
 | Id                  | `ushort`     | get         |             |
 | BodyHealth          | `uint`       | get, set    |             |
