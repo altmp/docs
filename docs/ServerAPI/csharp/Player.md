@@ -5,7 +5,7 @@
 | Property Name | Type         | Access		 | Description |
 | ------------- | ------------ | ----------- | ----------- |
 | Name          | `string`     | get         |             |
-| Model         | `IVehicle`   | get, set    |             |
+| Model         | `uint`       | get, set    |             |
 | Health        | `ushort`     | get, set    |             |
 | MaxHealth     | `ushort`     | get, set    |             |
 | Armor         | `ushort`     | get, set    |             |
@@ -35,7 +35,7 @@
 | IsJumping     | `bool`       | get         |             |
 | IsFlashlightActive | `bool`  | get         |             |
 | Type          | `EntityType` |             |             |
-| Dimension     | `ushort`     |             |             |
+| Dimension     | `short`      |             |             |
 | Exists        | `bool`       |             |             |
 | Id            | `ushort`     |             |             |
 | NativePointer | `IntPtr`     |             |             |
