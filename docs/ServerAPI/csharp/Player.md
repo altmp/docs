@@ -2,33 +2,46 @@
 
 ### Properties
 
-| Property Name | Type         | Description |
-| ------------- | ------------ | ----------- |
-| Vehicle       | `IVehicle`   |             |
-| AimPosition   | `Position`   |             |
-| Ammo          | `ushort`     |             |
-| Armor         | `ushort`     |             |
-| HeadRotation  | `Rotation`   |             |
-| Health        | `ushort`     |             |
-| IsAiming      | `bool`       |             |
-| IsConnected   | `bool`       |             |
-| IsDead        | `bool`       |             |
-| IsInRagdoll   | `bool`       |             |
-| IsInVehicle   | `bool`       |             |
-| IsJumping     | `bool`       |             |
-| IsReloading   | `bool`       |             |
-| IsShooting    | `bool`       |             |
-| MoveSpeed     | `float`      |             |
-| Name          | `string`     |             |
-| Seat          | `byte`       |             |
-| Weapon        | `uint`       |             |
-| Type          | `EntityType` |             |
-| Dimension     | `ushort`     |             |
-| Exists        | `bool`       |             |
-| Id            | `ushort`     |             |
-| NativePointer | `IntPtr`     |             |
-| Position      | `Position`   |             |
-| Rotation      | `Rotation`   |             |
+| Property Name | Type         | Access		 | Description |
+| ------------- | ------------ | ----------- | ----------- |
+| Name          | `string`     | get         |             |
+| Model         | `IVehicle`   | get, set    |             |
+| Health        | `ushort`     | get, set    |             |
+| MaxHealth     | `ushort`     | get, set    |             |
+| Armor         | `ushort`     | get, set    |             |
+| MaxArmor      | `ushort`     | get, set    |             |
+| IsDead        | `bool`       | get         |             |
+| SocialClubId  | `ulong`      | get         |             |
+| HardwareIdHash | `ulong`     | get         |             |
+| HardwareIdExHash | `ulong`   | get         |             |
+| AuthToken     | `string`     | get         |             |
+| IsConnected   | `bool`       | get         |             |
+| Ping 		    | `uint`       | get         |             |
+| Ip 		    | `string`     | get         |             |
+| IsInVehicle   | `bool`       | get         |             |
+| Vehicle       | `IVehicle`   | get         |             |
+| Seat          | `byte`       | get         |             |
+| AimPosition   | `Position`   | get         |             |
+| Weapon        | `uint`       | get         |             |
+| CurrentWeapon | `uint`       | get, set    |             |
+| Ammo          | `ushort`     | get         |             |
+| IsAiming      | `bool`       | get         |             |
+| EntityAimingAt | `IEntity`   | get         |             |
+| EntityAimOffset | `Position` | get         |             |
+| IsInRagdoll   | `bool`       | get         |             |
+| IsReloading   | `bool`       | get         |             |
+| IsShooting    | `bool`       | get         |             |
+| MoveSpeed     | `float`      | get         |             |
+| IsJumping     | `bool`       | get         |             |
+| IsFlashlightActive | `bool`  | get         |             |
+| Type          | `EntityType` |             |             |
+| Dimension     | `ushort`     |             |             |
+| Exists        | `bool`       |             |             |
+| Id            | `ushort`     |             |             |
+| NativePointer | `IntPtr`     |             |             |
+| Position      | `Position`   |             |             |
+| Rotation      | `Rotation`   |             |             |
+| HeadRotation  | `Rotation`   | get         |             |
 
 ## Methods
 
