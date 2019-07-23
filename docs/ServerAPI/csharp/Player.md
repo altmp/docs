@@ -175,6 +175,146 @@ None
 
 
 
+### GiveWeapon
+
+```csharp
+void GiveWeapon(uint weapon, int ammo, bool selectWeapon);
+```
+
+#### Parameters
+
+| Parameter Name | Type       | Description |
+| -------------- | ---------- | ----------- |
+| weapon         | `uint`	  |             |
+| ammo	         | `int`	  |             |
+| selectWeapon   | `bool`	  |             |
+
+#### Return
+
+None
+
+
+### RemoveWeapon
+
+```csharp
+void RemoveWeapon(uint weapon);
+```
+
+#### Parameters
+
+| Parameter Name | Type       | Description |
+| -------------- | ---------- | ----------- |
+| weapon         | `uint`	  |             |
+
+#### Return
+
+None
+
+
+### RemoveAllWeapons
+
+```csharp
+void RemoveAllWeapons();
+```
+
+#### Parameters
+
+None
+
+#### Return
+
+None
+
+
+### AddWeaponComponent
+
+```csharp
+void AddWeaponComponent(uint weapon, uint weaponComponent);
+```
+
+#### Parameters
+
+| Parameter Name | Type       | Description |
+| -------------- | ---------- | ----------- |
+| weapon         | `uint`	  |             |
+| weaponComponent | `uint`	  |             |
+
+#### Return
+
+None
+
+
+### RemoveWeaponComponent
+
+```csharp
+void RemoveWeaponComponent(uint weapon, uint weaponComponent);
+```
+
+#### Parameters
+
+| Parameter Name | Type       | Description |
+| -------------- | ---------- | ----------- |
+| weapon         | `uint`	  |             |
+| weaponComponent | `uint`	  |             |
+
+#### Return
+
+None
+
+
+### GetCurrentWeaponComponents
+
+```csharp
+void GetCurrentWeaponComponents(out uint[] weaponComponents);
+```
+
+#### Parameters
+
+| Parameter Name | Type       | Description |
+| -------------- | ---------- | ----------- |
+| weaponComponents | **out** `uint[]` |     |
+
+#### Return
+
+None
+
+
+### SetWeaponTintIndex
+
+```csharp
+void SetWeaponTintIndex(uint weapon, byte tintIndex);
+```
+
+#### Parameters
+
+| Parameter Name | Type       | Description |
+| -------------- | ---------- | ----------- |
+| weapon         | `uint`	  |             |
+| tintIndex		 | `byte`	  |             |
+
+#### Return
+
+None
+
+
+### GetCurrentWeaponTintIndex
+
+```csharp
+byte GetCurrentWeaponTintIndex();
+```
+
+#### Parameters
+
+None
+
+#### Return
+
+**Type**: `byte`
+
+**Description**:
+
+
+
 ### GetData
 
 ```csharp
