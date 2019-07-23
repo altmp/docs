@@ -63,24 +63,6 @@
 
 ## Methods
 
-### GetId
-
-```csharp
-static ushort GetId(IntPtr vehiclePointer)
-```
-
-#### Parameters
-
-| Parameter Name | Type   | Description |
-| -------------- | ------ | ----------- |
-| vehiclePointer | `IntPtr` |           |
-
-#### Return
-
-**Type**: `ushort`
-
-**Description**: -
-
 ### GetMod
 
 ```csharp
