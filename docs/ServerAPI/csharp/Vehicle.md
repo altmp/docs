@@ -386,3 +386,555 @@ void SetSyncedMetaData(string key, object value)
 #### Return
 
 None
+
+
+### GetDoorState
+
+```csharp
+byte GetDoorState(byte doorId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| doorId         | `byte` 	   |             |
+
+#### Return
+
+**Type**: `byte`
+
+**Description**:
+
+
+### SetDoorState
+
+```csharp
+void SetDoorState(byte doorId, byte state)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| doorId         | `byte`	   |             |
+| state	         | `byte`	   |             |
+
+#### Return
+
+None
+
+
+### IsWindowOpened
+
+```csharp
+bool IsWindowOpened(byte windowId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| windowId       | `byte`  	   |             |
+
+#### Return
+
+**Type**: `bool`
+
+**Description**:
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| doorId         | `byte`	   |             |
+| state	         | `byte`	   |             |
+
+#### Return
+
+None
+
+
+### SetWindowOpened
+
+```csharp
+void SetWindowOpened(byte windowId, bool state)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| windowId       | `byte`  	   |             |
+| state       	 | `bool`  	   |             |
+
+#### Return
+
+None
+
+
+### IsWheelBurst
+
+```csharp
+bool IsWheelBurst(byte wheelId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| wheelId        | `byte`  	   |             |
+
+#### Return
+
+**Type**: `bool`
+
+**Description**:
+
+
+### SetWheelBurst
+
+```csharp
+void SetWheelBurst(byte wheelId, bool state)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| wheelId        | `byte`  	   |             |
+| state    	     | `bool`  	   |             |
+
+#### Return
+
+None
+
+
+### DoesWheelHasTire
+
+```csharp
+bool DoesWheelHasTire(byte wheelId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| wheelId        | `byte`  	   |             |
+
+#### Return
+
+**Type**: `bool`
+
+**Description**:
+
+
+
+### SetWheelHasTire
+
+```csharp
+void SetWheelHasTire(byte wheelId, bool state)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| wheelId        | `byte`  	   |             |
+| state    	     | `bool`  	   |             |
+
+#### Return
+
+None
+
+
+### GetWheelHealth
+
+```csharp
+float GetWheelHealth(byte wheelId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| wheelId        | `byte`  	   |             |
+
+#### Return
+
+**Type**: `float`
+
+**Description**:
+
+
+### SetWheelHealth
+
+```csharp
+void SetWheelHealth(byte wheelId, float health)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| wheelId        | `byte`  	   |             |
+| health       	 | `float` 	   |             |
+
+#### Return
+
+None
+
+
+### GetPartDamageLevel
+
+```csharp
+byte GetPartDamageLevel(byte partId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| partId         | `byte`  	   |             |
+
+#### Return
+
+**Type**: `byte`
+
+**Description**:
+
+
+### SetPartDamageLevel
+
+```csharp
+void SetPartDamageLevel(byte partId, byte damage)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| partId         | `byte`  	   |             |
+| damage         | `byte`  	   |             |
+
+#### Return
+
+None
+
+
+### GetPartBulletHoles
+
+```csharp
+byte GetPartBulletHoles(byte partId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| partId         | `byte`  	   |             |
+
+#### Return
+
+**Type**: `byte`
+
+**Description**:
+
+
+### SetPartBulletHoles
+
+```csharp
+void SetPartBulletHoles(byte partId, byte shootsCount)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| partId         | `byte`  	   |             |
+| shootsCount    | `byte`  	   |             |
+
+#### Return
+
+None
+
+
+### IsLightDamaged
+
+```csharp
+bool IsLightDamaged(byte lightId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| lightId        | `byte`  	   |             |
+
+#### Return
+
+**Type**: `bool`
+
+**Description**:
+
+
+
+### SetLightDamaged
+
+```csharp
+void SetLightDamaged(byte lightId, bool isDamaged)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| lightId        | `byte`  	   |             |
+| isDamaged      | `bool`  	   |             |
+
+#### Return
+
+None
+
+
+
+### IsWindowDamaged
+
+```csharp
+bool IsWindowDamaged(byte windowId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| windowId       | `byte`  	   |             |
+
+#### Return
+
+**Type**: `bool`
+
+**Description**:
+
+
+
+### SetWindowDamaged
+
+```csharp
+void SetWindowDamaged(byte windowId, bool isDamaged)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| windowId       | `byte`  	   |             |
+| isDamaged      | `bool`  	   |             |
+
+#### Return
+
+None
+
+
+### IsSpecialLightDamaged
+
+```csharp
+bool IsSpecialLightDamaged(byte specialLightId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| specialLightId | `byte`  	   |             |
+
+#### Return
+
+**Type**: `bool`
+
+**Description**:
+
+
+### SetSpecialLightDamaged
+
+```csharp
+void SetSpecialLightDamaged(byte specialLightId, bool isDamaged)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| specialLightId | `byte`  	   |             |
+| isDamaged 	 | `bool`  	   |             |
+
+#### Return
+
+None
+
+
+### GetArmoredWindowHealth
+
+```csharp
+float GetArmoredWindowHealth(byte windowId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| windowId		 | `byte`  	   |             |
+
+#### Return
+
+**Type**: `float`
+
+**Description**:
+
+
+### SetArmoredWindowHealth
+
+```csharp
+void SetArmoredWindowHealth(byte windowId, float health)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| windowId		 | `byte`  	   |             |
+| health		 | `float`     |             |
+
+#### Return
+
+None
+
+
+### GetArmoredWindowShootCount
+
+```csharp
+byte GetArmoredWindowShootCount(byte windowId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| windowId		 | `byte`  	   |             |
+
+#### Return
+
+**Type**: `byte`
+
+**Description**:
+
+
+### SetArmoredWindowShootCount
+
+```csharp
+void SetArmoredWindowShootCount(byte windowId, byte count)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| windowId		 | `byte`  	   |             |
+| count			 | `byte`  	   |             |
+
+#### Return
+
+None
+
+
+
+
+### GetBumperDamageLevel
+
+```csharp
+byte GetBumperDamageLevel(byte bumperId)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| bumperId		 | `byte`  	   |             |
+
+#### Return
+
+**Type**: `byte`
+
+**Description**:
+
+
+### SetBumperDamageLevel
+
+```csharp
+void SetBumperDamageLevel(byte bumperId, byte damageLevel)
+```
+
+
+
+#### Parameters
+
+| Parameter Name | Type        | Description |
+| -------------- | ----------- | ----------- |
+| bumperId		 | `byte`  	   |             |
+| damageLevel	 | `byte`  	   |             |
+
+#### Return
+
+None

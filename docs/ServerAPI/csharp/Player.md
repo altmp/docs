@@ -2,33 +2,46 @@
 
 ### Properties
 
-| Property Name | Type         | Description |
-| ------------- | ------------ | ----------- |
-| Vehicle       | `IVehicle`   |             |
-| AimPosition   | `Position`   |             |
-| Ammo          | `ushort`     |             |
-| Armor         | `ushort`     |             |
-| HeadRotation  | `Rotation`   |             |
-| Health        | `ushort`     |             |
-| IsAiming      | `bool`       |             |
-| IsConnected   | `bool`       |             |
-| IsDead        | `bool`       |             |
-| IsInRagdoll   | `bool`       |             |
-| IsInVehicle   | `bool`       |             |
-| IsJumping     | `bool`       |             |
-| IsReloading   | `bool`       |             |
-| IsShooting    | `bool`       |             |
-| MoveSpeed     | `float`      |             |
-| Name          | `string`     |             |
-| Seat          | `byte`       |             |
-| Weapon        | `uint`       |             |
-| Type          | `EntityType` |             |
-| Dimension     | `ushort`     |             |
-| Exists        | `bool`       |             |
-| Id            | `ushort`     |             |
-| NativePointer | `IntPtr`     |             |
-| Position      | `Position`   |             |
-| Rotation      | `Rotation`   |             |
+| Property Name | Type         | Access		 | Description |
+| ------------- | ------------ | ----------- | ----------- |
+| Name          | `string`     | get         |             |
+| Model         | `uint`       | get, set    |             |
+| Health        | `ushort`     | get, set    |             |
+| MaxHealth     | `ushort`     | get, set    |             |
+| Armor         | `ushort`     | get, set    |             |
+| MaxArmor      | `ushort`     | get, set    |             |
+| IsDead        | `bool`       | get         |             |
+| SocialClubId  | `ulong`      | get         |             |
+| HardwareIdHash | `ulong`     | get         |             |
+| HardwareIdExHash | `ulong`   | get         |             |
+| AuthToken     | `string`     | get         |             |
+| IsConnected   | `bool`       | get         |             |
+| Ping 		    | `uint`       | get         |             |
+| Ip 		    | `string`     | get         |             |
+| IsInVehicle   | `bool`       | get         |             |
+| Vehicle       | `IVehicle`   | get         |             |
+| Seat          | `byte`       | get         |             |
+| AimPosition   | `Position`   | get         |             |
+| Weapon        | `uint`       | get         |             |
+| CurrentWeapon | `uint`       | get, set    |             |
+| Ammo          | `ushort`     | get         |             |
+| IsAiming      | `bool`       | get         |             |
+| EntityAimingAt | `IEntity`   | get         |             |
+| EntityAimOffset | `Position` | get         |             |
+| IsInRagdoll   | `bool`       | get         |             |
+| IsReloading   | `bool`       | get         |             |
+| IsShooting    | `bool`       | get         |             |
+| MoveSpeed     | `float`      | get         |             |
+| IsJumping     | `bool`       | get         |             |
+| IsFlashlightActive | `bool`  | get         |             |
+| Type          | `EntityType` |             |             |
+| Dimension     | `short`      |             |             |
+| Exists        | `bool`       |             |             |
+| Id            | `ushort`     |             |             |
+| NativePointer | `IntPtr`     |             |             |
+| Position      | `Position`   |             |             |
+| Rotation      | `Rotation`   |             |             |
+| HeadRotation  | `Rotation`   | get         |             |
 
 ## Methods
 
@@ -159,6 +172,146 @@ void Spawn(Positon position)
 #### Return
 
 None
+
+
+
+### GiveWeapon
+
+```csharp
+void GiveWeapon(uint weapon, int ammo, bool selectWeapon);
+```
+
+#### Parameters
+
+| Parameter Name | Type       | Description |
+| -------------- | ---------- | ----------- |
+| weapon         | `uint`	  |             |
+| ammo	         | `int`	  |             |
+| selectWeapon   | `bool`	  |             |
+
+#### Return
+
+None
+
+
+### RemoveWeapon
+
+```csharp
+void RemoveWeapon(uint weapon);
+```
+
+#### Parameters
+
+| Parameter Name | Type       | Description |
+| -------------- | ---------- | ----------- |
+| weapon         | `uint`	  |             |
+
+#### Return
+
+None
+
+
+### RemoveAllWeapons
+
+```csharp
+void RemoveAllWeapons();
+```
+
+#### Parameters
+
+None
+
+#### Return
+
+None
+
+
+### AddWeaponComponent
+
+```csharp
+void AddWeaponComponent(uint weapon, uint weaponComponent);
+```
+
+#### Parameters
+
+| Parameter Name | Type       | Description |
+| -------------- | ---------- | ----------- |
+| weapon         | `uint`	  |             |
+| weaponComponent | `uint`	  |             |
+
+#### Return
+
+None
+
+
+### RemoveWeaponComponent
+
+```csharp
+void RemoveWeaponComponent(uint weapon, uint weaponComponent);
+```
+
+#### Parameters
+
+| Parameter Name | Type       | Description |
+| -------------- | ---------- | ----------- |
+| weapon         | `uint`	  |             |
+| weaponComponent | `uint`	  |             |
+
+#### Return
+
+None
+
+
+### GetCurrentWeaponComponents
+
+```csharp
+void GetCurrentWeaponComponents(out uint[] weaponComponents);
+```
+
+#### Parameters
+
+| Parameter Name | Type       | Description |
+| -------------- | ---------- | ----------- |
+| weaponComponents | **out** `uint[]` |     |
+
+#### Return
+
+None
+
+
+### SetWeaponTintIndex
+
+```csharp
+void SetWeaponTintIndex(uint weapon, byte tintIndex);
+```
+
+#### Parameters
+
+| Parameter Name | Type       | Description |
+| -------------- | ---------- | ----------- |
+| weapon         | `uint`	  |             |
+| tintIndex		 | `byte`	  |             |
+
+#### Return
+
+None
+
+
+### GetCurrentWeaponTintIndex
+
+```csharp
+byte GetCurrentWeaponTintIndex();
+```
+
+#### Parameters
+
+None
+
+#### Return
+
+**Type**: `byte`
+
+**Description**:
 
 
 
