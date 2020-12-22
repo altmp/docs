@@ -14,9 +14,9 @@
 
 | Property name | Type | Access | Description |
 | -------------- | ----------- | -------- | ----------- |
-| cursorPos | object | set, get |  |
-| players | Array | get |  |
-| vehicles | Array | get |  |
+| cursorPos | object | set, get | <span style="color:red;">Removed in Build 569</span> |
+| players | Array | get | <span style="color:red;">Removed in Build 569</span> &#124; now alt.Player.all => [Player](docs/ClientAPI/modules/alt/classes/Player/index.md) |
+| vehicles | Array | get | <span style="color:red;">Removed in Build 569</span> &#124; now alt.Vehicle.all => [Vehicle](docs/ClientAPI/modules/alt/classes/Vehicle/index.md) |
 
 
 ## Methods
@@ -190,4 +190,12 @@ function toggleGameControls(state: boolean);
 function wait(waitTime: number);
 ```
 
+* [getCursorPos](docs/ClientAPI/modules/alt/method_getCursorPos.md)
+```js
+function getCursorPos();
+```
 
+* [setCursorPos](docs/ClientAPI/modules/alt/method_setCursorPos.md)
+```js
+function setCursorPos(cursorPos: object);
+```
